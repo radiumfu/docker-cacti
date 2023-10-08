@@ -32,6 +32,9 @@ The following ports are important and used by Cacti
 |------|:-------------:|
 |  80  | HTTP GUI Port |
 |  443 | HTTPS GUI Port|
+|  514 | syslog Port|
+|  161 | snmp Port, syslog plugin|
+|  69  | tftp Port, Router config plugin|
 
 It is recommended to allow at least one of the above ports for access to the monitoring system. This is translated by the -p hook. For example
 `docker run -p 80:80 -p 443:443`
@@ -200,6 +203,11 @@ REPLACE INTO `%DB_NAME%`.`settings` (`name`, `value`) VALUES('poller_type', '2')
 ```
 
 # Change Log
+#### 1.2.25 - 05/11/2021
+ * Update Cacti and Spine from 1.2.17 to 1.2.25
+ * Update RockyLinux from 9.0 to 9.3
+   * [changelog][CL1.2.25]
+
 #### 1.2.17 - 05/11/2021
  * Update Cacti and Spine from 1.2.16 to 1.2.17
    * [changelog][CL1.2.17]

@@ -161,6 +161,7 @@ chown -R apache.apache /cacti/log/
 chown -R apache.apache /cacti/scripts/
 chown -R apache.apache /cacti/rra/
 chown -R apache.apache /cacti/plugins/weathermap/output/
+chown -R apache.apache /cacti/plugins/weathermap/configs/
 touch /cacti/include/vendor/csrf/csrf-secret.php
 chmod 644 /cacti/include/vendor/csrf/csrf-secret.php
 chown apache.apache /cacti/include/vendor/csrf/csrf-secret.php

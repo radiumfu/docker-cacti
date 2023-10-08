@@ -160,6 +160,7 @@ chown -R apache.apache /cacti/cache/
 chown -R apache.apache /cacti/log/
 chown -R apache.apache /cacti/scripts/
 chown -R apache.apache /cacti/rra/
+chown -R apache.apache /cacti/plugins/weathermap/output/
 touch /cacti/include/vendor/csrf/csrf-secret.php
 chmod 644 /cacti/include/vendor/csrf/csrf-secret.php
 chown apache.apache /cacti/include/vendor/csrf/csrf-secret.php
@@ -205,3 +206,7 @@ php-fpm
 echo "$(date +%F_%R) [Note] Starting httpd service."
 rm -rf /run/httpd/httpd.pid
 httpd -DFOREGROUND
+
+# start tftp service
+echo "$(date +%F_%R) [Note] Starting tftp service."
+/usr/sbin/in.tftpd -s /var/lib/tftpboot

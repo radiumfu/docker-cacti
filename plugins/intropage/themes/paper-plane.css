@@ -1,0 +1,40 @@
+.flexchild {
+	background-color: #202020 !important;
+}
+
+.panel_data {
+	background-color: #202020;
+	color: white;
+	padding: 4px;
+}
+
+.panel_data td {
+	background-color: #202020;
+	color: snow;
+}
+
+.panel_data a, .panel_data a:visited {
+	color: #93CEFF;
+}
+
+.textArea {
+	background-color: snow;
+}
+
+.panel_header {
+	color: #bbf;
+}
+
+#generated {
+	color: white;
+}
+
+#megaobal, #obal {
+	padding: 3px;
+	color: lightgrey !important;
+}
+
+.intro_glyph {
+	color: lightgrey !important;
+	vertical-align: middle;
+}

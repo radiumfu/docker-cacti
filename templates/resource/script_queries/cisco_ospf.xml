@@ -1,0 +1,29 @@
+<query>
+	<name>Cisco OSPF statistics</name>
+	<oid_index>.1.3.6.1.2.1.14.2.1.1</oid_index>
+	<oid_index_parse>OID/REGEXP:.*\.([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})$</oid_index_parse>
+	<fields>
+                <ospfAreaId>
+                        <name>OSPF Area ID</name>
+                        <method>walk</method>
+                        <source>value</source>
+                        <direction>input</direction>
+                        <oid>.1.3.6.1.2.1.14.2.1.1</oid>
+                </ospfAreaId>
+                <ospfAreaBdrRtrCount>
+                        <name>OSPF AS Border routers</name>
+                        <method>walk</method>
+                        <source>value</source>
+                        <direction>output</direction>
+                        <oid>.1.3.6.1.2.1.14.2.1.6</oid>
+                </ospfAreaBdrRtrCount>
+                <ospfAreaLsaCount>
+                        <name>ospfAreaLsaCount</name>
+                        <method>walk</method>
+                        <source>value</source>
+                        <direction>output</direction>
+                        <oid>.1.3.6.1.2.1.14.2.1.7</oid>
+                </ospfAreaLsaCount>     
+	</fields>
+</query>
+

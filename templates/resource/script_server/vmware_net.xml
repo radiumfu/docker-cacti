@@ -1,0 +1,67 @@
+<interface>
+	<name>Get VMware ESX virtual machine NICs</name>
+	<script_path>|path_cacti|/scripts/ss_vmware_net.php</script_path>
+	<script_function>ss_vmware_esx_net</script_function>
+	<script_server>php</script_server>
+	<arg_prepend>|host_hostname| |host_id| |host_snmp_version|:|host_snmp_port|:|host_snmp_timeout|:|host_ping_retries|:|host_max_oids|:|host_snmp_community|:|host_snmp_username|:|host_snmp_password|:|host_snmp_auth_protocol|:|host_snmp_priv_passphrase|:|host_snmp_priv_protocol|:|host_snmp_context|</arg_prepend>
+	<arg_index>index</arg_index>
+	<arg_query>query</arg_query>
+	<arg_get>get</arg_get>
+	<output_delimeter>!</output_delimeter>
+	<index_order>netReference:ifAddr:netIndex</index_order>
+	<index_order_type>numeric</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+
+	<fields>
+		<netIndex>
+			<name>Index</name>
+			<direction>input</direction>
+			<query_name>index</query_name>
+		</netIndex>
+                <netReference>
+                        <name>NIC reference</name>
+                        <direction>input</direction>
+                        <query_name>netreference</query_name>
+                </netReference>
+                <netName>
+                        <name>NIC</name>
+                        <direction>input</direction>
+                        <query_name>netname</query_name>
+                </netName>
+                <ifAddr>
+                        <name>HW Address</name>
+                        <direction>input</direction>
+                        <query_name>ifaddr</query_name>
+                </ifAddr>
+		<vmDisplayName>
+			<name>VM Name</name>
+			<direction>input</direction>
+			<query_name>displayname</query_name>
+		</vmDisplayName>
+		<netvmID>
+			<name>VM ID</name>
+			<direction>input</direction>
+			<query_name>vmid</query_name>
+		</netvmID>
+		<pktsTx>
+			<name>Packets sent</name>
+			<direction>output</direction>
+			<query_name>pktstx</query_name>
+		</pktsTx>
+		<kbTx>
+			<name>Kilobytes sent</name>
+			<direction>output</direction>
+			<query_name>kbtx</query_name>
+		</kbTx>
+		<pktsRx>
+			<name>Packets received</name>
+			<direction>output</direction>
+			<query_name>pktsrx</query_name>
+		</pktsRx>
+		<kbRx>
+			<name>Kilobytes received</name>
+			<direction>output</direction>
+			<query_name>kbrx</query_name>
+		</kbRx>
+	</fields>
+</interface>

@@ -1,0 +1,50 @@
+.flexchild {
+	background-color: var(--background) !important;
+}
+
+.panel_data {
+	padding: 0px 4px;
+}
+
+.panel_data > div {
+	background-color: var(--background) !important;
+}
+
+.header_link {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.bb-axis-x text, .bb-axis-y text, .bb-axis-y2 text, .bb-legend-item text {
+	fill: #7e818f;
+}
+
+.bb .bb-axis path, .bb .bb-axis line {
+	stroke: #7e818f;
+}
+
+.bb-chart-arc text {
+	fill: white;
+}
+
+.bb-chart-arc path {
+	stroke: #7e818f;
+}
+
+circle {
+	stroke: #7e818f;
+	stroke-width: 1px;
+	fill: transparent !important;
+}
+
+.txt_med {
+	font-size: var(--fs-semilarge);
+}
+
+.txt_big {
+	font-size: var(--fs-large);
+}
+
+.txt_huge {
+	font-size: var(--fs-king);
+}

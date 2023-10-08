@@ -1,0 +1,111 @@
+<interface>
+	<name>Cisco Airespace - each entry represents an 802.11 interface in an Airespace AP</name>
+	<description>Get Cisco AIRESPACE-WIRELESS-MIB::BsnAPIfEntry table</description>
+	<oid_index>.1.3.6.1.4.1.14179.2.2.2.1.1</oid_index>	
+	<oid_index_parse>OID/REGEXP:^.{28}(.*)</oid_index_parse>	
+	<index_order>Index:bsnAPIfSlotId</index_order>
+	<index_order_type>alphabetic</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+
+	<fields>
+		<Index>
+			<name>Index</name>
+			<source>index</source>
+			<direction>input</direction>
+		</Index>	
+		<bsnAPIfSlotId>
+			<name>SlotId</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.2.1.1</oid>
+		</bsnAPIfSlotId>
+<!--		
+		<bsnAPIfOperStatus>
+			<name>OperStatus</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.2.1.12</oid>
+		</bsnAPIfOperStatus>	
+		<bsnAPName>
+			<name>APName</name>
+			<method>walk</method>
+			<source>VALUE/REGEXP:.*\.([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})\.[0-9]{1,3}$</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.1.1.3</oid>
+		</bsnAPName> 
+-->			
+		<bsnAPIfType>
+			<name>Type</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.2.1.2</oid>
+		</bsnAPIfType>
+		<bsnAPIfPhyChannelNumber>
+			<name>Channel Number</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.2.1.4</oid>
+		</bsnAPIfPhyChannelNumber>		
+		<bsnAPIfPhyTxPowerControl>
+			<name>TxPower Control</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.2.1.5</oid>
+		</bsnAPIfPhyTxPowerControl>	
+		
+		<bsnAPIfPhyTxPowerLevel>
+			<name>TxPower Level</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.2.1.6</oid>
+		</bsnAPIfPhyTxPowerLevel>
+		<bsnApIfNoOfUsers>
+			<name>NoOfUsers</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.2.1.15</oid>
+		</bsnApIfNoOfUsers>				
+		<bsnAPIfLoadRxUtilization>
+			<name>Rx Utilization</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.13.1.1</oid>
+		</bsnAPIfLoadRxUtilization>					
+		<bsnAPIfLoadTxUtilization>
+			<name>Tx Utilization</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.13.1.2</oid>
+		</bsnAPIfLoadTxUtilization>				
+		<bsnAPIfLoadChannelUtilization>
+			<name>Channel Utilization</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.13.1.3</oid>
+		</bsnAPIfLoadChannelUtilization>		
+		<bsnAPIfLoadNumOfClients>
+			<name>NumOfClients</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.13.1.4</oid>
+		</bsnAPIfLoadNumOfClients>	
+		<bsnAPIfPoorSNRClients>
+			<name>Poor SNR Clients</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.2.13.1.24</oid>
+		</bsnAPIfPoorSNRClients>			
+	</fields>
+</interface>

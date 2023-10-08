@@ -1,0 +1,457 @@
+<interface>
+	<name>Get WLC Radios</name>
+	<script_path>|path_cacti|/scripts/Cisco_WLC_Radios.php</script_path>
+	<script_function>ss_host_radios</script_function>
+	<script_server>php</script_server>
+	<arg_prepend>|host_hostname| |host_id| |host_snmp_version|:|host_snmp_port|:|host_snmp_timeout|:|host_ping_retries|:|host_max_oids|:|host_snmp_community|:|host_snmp_username|:|host_snmp_password|:|host_snmp_auth_protocol|:|host_snmp_priv_passphrase|:|host_snmp_priv_protocol|:|host_snmp_context|</arg_prepend>
+	<arg_index>index</arg_index>
+	<arg_query>query</arg_query>
+	<arg_get>get</arg_get>
+	<output_delimeter>!</output_delimeter>
+	<index_order>bsnAPRadioParrentName:bsnAPRadioIndex</index_order>
+	<index_order_type>alphabetic</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+
+	<fields>
+		<bsnAPRadioIndex>
+			<name>Index</name>
+			<direction>input</direction>
+			<query_name>index</query_name>
+		</bsnAPRadioIndex>
+		<bsnAPRadioParentName>
+			<name>Name</name>
+			<direction>input</direction>
+			<query_name>parentname</query_name>
+		</bsnAPRadioParentName>
+		<bsnAPRadioParentMac>
+			<name>MAC</name>
+			<direction>input</direction>
+			<query_name>parentmac</query_name>
+		</bsnAPRadioParentMac>
+		<bsnAPRadioParentEthMac>
+			<name>Ethernet MAC</name>
+			<direction>input</direction>
+			<query_name>parentethmac</query_name>
+		</bsnAPRadioParentEthMac>
+		<bsnAPRadioParentModel>
+			<name>Model</name>
+			<direction>input</direction>
+			<query_name>parentmodel</query_name>
+		</bsnAPRadioParentModel>
+		<bsnAPRadioParentSerial>
+			<name>Serial No</name>
+			<direction>input</direction>
+			<query_name>parentserial</query_name>
+		</bsnAPRadioParentSerial>
+		<bsnAPRadioIfSlotId>
+			<name>Slot ID</name>
+			<direction>input</direction>
+			<query_name>ifslotid</query_name>
+		</bsnAPRadioIfSlotId>
+		<bsnAPRadioIfPhyChannelNumber>
+			<name>Channel</name>
+			<direction>input</direction>
+			<query_name>ifphychannelnumber</query_name>
+		</bsnAPRadioIfPhyChannelNumber>
+		<bsnAPRadioRxUtilization>
+			<name>RX Utilization</name>
+			<direction>output</direction>
+			<query_name>rxutilization</query_name>
+		</bsnAPRadioRxUtilization>
+		<bsnAPRadioTxUtilization>
+			<name>TX Utilization</name>
+			<direction>output</direction>
+			<query_name>txutilization</query_name>
+		</bsnAPRadioTxUtilization>
+		<bsnAPRadioUtilization>
+			<name>Utilization</name>
+			<direction>output</direction>
+			<query_name>utilization</query_name>
+		</bsnAPRadioUtilization>
+		<bsnAPRadioPoorSNRClients>
+			<name>Poor SNR Clients</name>
+			<direction>output</direction>
+			<query_name>poorsnrclients</query_name>
+		</bsnAPRadioPoorSNRClients>
+		<bsnAPRadioClients>
+			<name>Clients</name>
+			<direction>output</direction>
+			<query_name>clients</query_name>
+		</bsnAPRadioClients>
+		<bsnAPIfNoOfUsers>
+			<name>Users</name>
+			<direction>output</direction>
+			<query_name>users</query_name>
+		</bsnAPIfNoOfUsers>
+		<bsnAPIfDot11TransmittedFragmentCount>
+			<name>Transmitted Fragments</name>
+			<direction>output</direction>
+			<query_name>ifdot11transmittedfragmentcount</query_name>
+		</bsnAPIfDot11TransmittedFragmentCount>
+		<bsnAPIfDot11MulticastTransmittedFrameCount>
+			<name>TX Multicast Frames</name>
+			<direction>output</direction>
+			<query_name>ifdot11mcasttransmittedframecount</query_name>
+		</bsnAPIfDot11MulticastTransmittedFrameCount>
+		<bsnAPIfDot11MulticastReceivedFrameCount>
+			<name>RX Multicast Frames</name>
+			<direction>output</direction>
+			<query_name>ifdot11mcastreceivedframecount</query_name>
+		</bsnAPIfDot11MulticastReceivedFrameCount>
+		<bsnAPIfDot11RetryCount>
+			<name>TX Retried Frames</name>
+			<direction>output</direction>
+			<query_name>ifdot11retrycount</query_name>
+		</bsnAPIfDot11RetryCount>
+		<bsnAPIfDot11TransmittedFrameCount>
+			<name>TX Frames</name>
+			<direction>output</direction>
+			<query_name>ifdot11transmittedframecount</query_name>
+		</bsnAPIfDot11TransmittedFrameCount>
+		<bsnAPIfDot11MultipleRetryCount>
+			<name>TX Multiretried Frames</name>
+			<direction>output</direction>
+			<query_name>ifdot11multipleretrycount</query_name>
+		</bsnAPIfDot11MultipleRetryCount>
+		<bsnAPIfDBNoise1>
+			<name>Noise Ch #1</name>
+			<direction>output</direction>
+			<query_name>noise-.1</query_name>
+		</bsnAPIfDBNoise1>
+		<bsnAPIfDBNoise2>
+			<name>Noise Ch #2</name>
+			<direction>output</direction>
+			<query_name>noise-.2</query_name>
+		</bsnAPIfDBNoise2>
+		<bsnAPIfDBNoise3>
+			<name>Noise Ch #3</name>
+			<direction>output</direction>
+			<query_name>noise-.3</query_name>
+		</bsnAPIfDBNoise3>
+		<bsnAPIfDBNoise4>
+			<name>Noise Ch #4</name>
+			<direction>output</direction>
+			<query_name>noise-.4</query_name>
+		</bsnAPIfDBNoise4>
+		<bsnAPIfDBNoise5>
+			<name>Noise Ch #5</name>
+			<direction>output</direction>
+			<query_name>noise-.5</query_name>
+		</bsnAPIfDBNoise5>
+		<bsnAPIfDBNoise6>
+			<name>Noise Ch #6</name>
+			<direction>output</direction>
+			<query_name>noise-.6</query_name>
+		</bsnAPIfDBNoise6>
+		<bsnAPIfDBNoise7>
+			<name>Noise Ch #7</name>
+			<direction>output</direction>
+			<query_name>noise-.7</query_name>
+		</bsnAPIfDBNoise7>
+		<bsnAPIfDBNoise8>
+			<name>Noise Ch #8</name>
+			<direction>output</direction>
+			<query_name>noise-.8</query_name>
+		</bsnAPIfDBNoise8>
+		<bsnAPIfDBNoise9>
+			<name>Noise Ch #9</name>
+			<direction>output</direction>
+			<query_name>noise-.9</query_name>
+		</bsnAPIfDBNoise9>
+		<bsnAPIfDBNoise10>
+			<name>Noise Ch #10</name>
+			<direction>output</direction>
+			<query_name>noise-.10</query_name>
+		</bsnAPIfDBNoise10>
+		<bsnAPIfDBNoise11>
+			<name>Noise Ch #11</name>
+			<direction>output</direction>
+			<query_name>noise-.11</query_name>
+		</bsnAPIfDBNoise11>
+		<bsnAPIfDBNoise12>
+			<name>Noise Ch #12</name>
+			<direction>output</direction>
+			<query_name>noise-.12</query_name>
+		</bsnAPIfDBNoise12>
+		<bsnAPIfDBNoise13>
+			<name>Noise Ch #13</name>
+			<direction>output</direction>
+			<query_name>noise-.13</query_name>
+		</bsnAPIfDBNoise13>
+		<bsnAPIfDBNoise36>
+			<name>Noise Ch #36</name>
+			<direction>output</direction>
+			<query_name>noise-.36</query_name>
+		</bsnAPIfDBNoise36>
+		<bsnAPIfDBNoise40>
+			<name>Noise Ch #40</name>
+			<direction>output</direction>
+			<query_name>noise-.40</query_name>
+		</bsnAPIfDBNoise40>
+		<bsnAPIfDBNoise44>
+			<name>Noise Ch #44</name>
+			<direction>output</direction>
+			<query_name>noise-.44</query_name>
+		</bsnAPIfDBNoise44>
+		<bsnAPIfDBNoise48>
+			<name>Noise Ch #48</name>
+			<direction>output</direction>
+			<query_name>noise-.48</query_name>
+		</bsnAPIfDBNoise48>
+		<bsnAPIfDBNoise52>
+			<name>Noise Ch #52</name>
+			<direction>output</direction>
+			<query_name>noise-.52</query_name>
+		</bsnAPIfDBNoise52>
+		<bsnAPIfDBNoise56>
+			<name>Noise Ch #56</name>
+			<direction>output</direction>
+			<query_name>noise-.56</query_name>
+		</bsnAPIfDBNoise56>
+		<bsnAPIfDBNoise60>
+			<name>Noise Ch #60</name>
+			<direction>output</direction>
+			<query_name>noise-.60</query_name>
+		</bsnAPIfDBNoise60>
+		<bsnAPIfDBNoise64>
+			<name>Noise Ch #64</name>
+			<direction>output</direction>
+			<query_name>noise-.64</query_name>
+		</bsnAPIfDBNoise64>
+		<bsnAPIfDBNoise100>
+			<name>Noise Ch #100</name>
+			<direction>output</direction>
+			<query_name>noise-.100</query_name>
+		</bsnAPIfDBNoise100>
+		<bsnAPIfDBNoise104>
+			<name>Noise Ch #104</name>
+			<direction>output</direction>
+			<query_name>noise-.104</query_name>
+		</bsnAPIfDBNoise104>
+		<bsnAPIfDBNoise108>
+			<name>Noise Ch #108</name>
+			<direction>output</direction>
+			<query_name>noise-.108</query_name>
+		</bsnAPIfDBNoise108>
+		<bsnAPIfDBNoise112>
+			<name>Noise Ch #112</name>
+			<direction>output</direction>
+			<query_name>noise-.112</query_name>
+		</bsnAPIfDBNoise112>
+		<bsnAPIfDBNoise116>
+			<name>Noise Ch #116</name>
+			<direction>output</direction>
+			<query_name>noise-.116</query_name>
+		</bsnAPIfDBNoise116>
+		<bsnAPIfDBNoise132>
+			<name>Noise Ch #132</name>
+			<direction>output</direction>
+			<query_name>noise-.132</query_name>
+		</bsnAPIfDBNoise132>
+		<bsnAPIfDBNoise136>
+			<name>Noise Ch #136</name>
+			<direction>output</direction>
+			<query_name>noise-.136</query_name>
+		</bsnAPIfDBNoise136>
+		<bsnAPIfDBNoise140>
+			<name>Noise Ch #140</name>
+			<direction>output</direction>
+			<query_name>noise-.140</query_name>
+		</bsnAPIfDBNoise140>
+		<bsnAPIfDBInterference1>
+			<name>Interference Ch #1</name>
+			<direction>output</direction>
+			<query_name>interference-.1</query_name>
+		</bsnAPIfDBInterference1>
+		<bsnAPIfDBInterference2>
+			<name>Interference Ch #2</name>
+			<direction>output</direction>
+			<query_name>interference-.2</query_name>
+		</bsnAPIfDBInterference2>
+		<bsnAPIfDBInterference3>
+			<name>Interference Ch #3</name>
+			<direction>output</direction>
+			<query_name>interference-.3</query_name>
+		</bsnAPIfDBInterference3>
+		<bsnAPIfDBInterference4>
+			<name>Interference Ch #4</name>
+			<direction>output</direction>
+			<query_name>interference-.4</query_name>
+		</bsnAPIfDBInterference4>
+		<bsnAPIfDBInterference5>
+			<name>Interference Ch #5</name>
+			<direction>output</direction>
+			<query_name>interference-.5</query_name>
+		</bsnAPIfDBInterference5>
+		<bsnAPIfDBInterference6>
+			<name>Interference Ch #6</name>
+			<direction>output</direction>
+			<query_name>interference-.6</query_name>
+		</bsnAPIfDBInterference6>
+		<bsnAPIfDBInterference7>
+			<name>Interference Ch #7</name>
+			<direction>output</direction>
+			<query_name>interference-.7</query_name>
+		</bsnAPIfDBInterference7>
+		<bsnAPIfDBInterference8>
+			<name>Interference Ch #8</name>
+			<direction>output</direction>
+			<query_name>interference-.8</query_name>
+		</bsnAPIfDBInterference8>
+		<bsnAPIfDBInterference9>
+			<name>Interference Ch #9</name>
+			<direction>output</direction>
+			<query_name>interference-.9</query_name>
+		</bsnAPIfDBInterference9>
+		<bsnAPIfDBInterference10>
+			<name>Interference Ch #10</name>
+			<direction>output</direction>
+			<query_name>interference-.10</query_name>
+		</bsnAPIfDBInterference10>
+		<bsnAPIfDBInterference11>
+			<name>Interference Ch #11</name>
+			<direction>output</direction>
+			<query_name>interference-.11</query_name>
+		</bsnAPIfDBInterference11>
+		<bsnAPIfDBInterference12>
+			<name>Interference Ch #12</name>
+			<direction>output</direction>
+			<query_name>interference-.12</query_name>
+		</bsnAPIfDBInterference12>
+		<bsnAPIfDBInterference13>
+			<name>Interference Ch #13</name>
+			<direction>output</direction>
+			<query_name>interference-.13</query_name>
+		</bsnAPIfDBInterference13>
+		<bsnAPIfDBInterference36>
+			<name>Interference Ch #36</name>
+			<direction>output</direction>
+			<query_name>interference-.36</query_name>
+		</bsnAPIfDBInterference36>
+		<bsnAPIfDBInterference40>
+			<name>Interference Ch #40</name>
+			<direction>output</direction>
+			<query_name>interference-.40</query_name>
+		</bsnAPIfDBInterference40>
+		<bsnAPIfDBInterference44>
+			<name>Interference Ch #44</name>
+			<direction>output</direction>
+			<query_name>interference-.44</query_name>
+		</bsnAPIfDBInterference44>
+		<bsnAPIfDBInterference48>
+			<name>Interference Ch #48</name>
+			<direction>output</direction>
+			<query_name>interference-.48</query_name>
+		</bsnAPIfDBInterference48>
+		<bsnAPIfDBInterference52>
+			<name>Interference Ch #52</name>
+			<direction>output</direction>
+			<query_name>interference-.52</query_name>
+		</bsnAPIfDBInterference52>
+		<bsnAPIfDBInterference56>
+			<name>Interference Ch #56</name>
+			<direction>output</direction>
+			<query_name>interference-.56</query_name>
+		</bsnAPIfDBInterference56>
+		<bsnAPIfDBInterference60>
+			<name>Interference Ch #60</name>
+			<direction>output</direction>
+			<query_name>interference-.60</query_name>
+		</bsnAPIfDBInterference60>
+		<bsnAPIfDBInterference64>
+			<name>Interference Ch #64</name>
+			<direction>output</direction>
+			<query_name>interference-.64</query_name>
+		</bsnAPIfDBInterference64>
+		<bsnAPIfDBInterference100>
+			<name>Interference Ch #100</name>
+			<direction>output</direction>
+			<query_name>interference-.100</query_name>
+		</bsnAPIfDBInterference100>
+		<bsnAPIfDBInterference104>
+			<name>Interference Ch #104</name>
+			<direction>output</direction>
+			<query_name>interference-.104</query_name>
+		</bsnAPIfDBInterference104>
+		<bsnAPIfDBInterference108>
+			<name>Interference Ch #108</name>
+			<direction>output</direction>
+			<query_name>interference-.108</query_name>
+		</bsnAPIfDBInterference108>
+		<bsnAPIfDBInterference112>
+			<name>Interference Ch #112</name>
+			<direction>output</direction>
+			<query_name>interference-.112</query_name>
+		</bsnAPIfDBInterference112>
+		<bsnAPIfDBInterference116>
+			<name>Interference Ch #116</name>
+			<direction>output</direction>
+			<query_name>interference-.116</query_name>
+		</bsnAPIfDBInterference116>
+		<bsnAPIfDBInterference132>
+			<name>Interference Ch #132</name>
+			<direction>output</direction>
+			<query_name>interference-.132</query_name>
+		</bsnAPIfDBInterference132>
+		<bsnAPIfDBInterference136>
+			<name>Interference Ch #136</name>
+			<direction>output</direction>
+			<query_name>interference-.136</query_name>
+		</bsnAPIfDBInterference136>
+		<bsnAPIfDBInterference140>
+			<name>Interference Ch #140</name>
+			<direction>output</direction>
+			<query_name>interference-.140</query_name>
+		</bsnAPIfDBInterference140>
+		<bsnAPIfStationCountOnSNR1>
+			<name>Stations with SNR &lt; 5</name>
+			<direction>output</direction>
+			<query_name>snr-.1</query_name>
+		</bsnAPIfStationCountOnSNR1>
+		<bsnAPIfStationCountOnSNR2>
+			<name>Stations with SNR 5 - 10</name>
+			<direction>output</direction>
+			<query_name>snr-.2</query_name>
+		</bsnAPIfStationCountOnSNR2>
+		<bsnAPIfStationCountOnSNR3>
+			<name>Stations with SNR 10 - 15</name>
+			<direction>output</direction>
+			<query_name>snr-.3</query_name>
+		</bsnAPIfStationCountOnSNR3>
+		<bsnAPIfStationCountOnSNR4>
+			<name>Stations with SNR 15 - 20</name>
+			<direction>output</direction>
+			<query_name>snr-.4</query_name>
+		</bsnAPIfStationCountOnSNR4>
+		<bsnAPIfStationCountOnSNR5>
+			<name>Stations with SNR 20 - 25</name>
+			<direction>output</direction>
+			<query_name>snr-.5</query_name>
+		</bsnAPIfStationCountOnSNR5>
+		<bsnAPIfStationCountOnSNR6>
+			<name>Stations with SNR 25 - 30</name>
+			<direction>output</direction>
+			<query_name>snr-.6</query_name>
+		</bsnAPIfStationCountOnSNR6>
+		<bsnAPIfStationCountOnSNR7>
+			<name>Stations with SNR 30 - 35</name>
+			<direction>output</direction>
+			<query_name>snr-.7</query_name>
+		</bsnAPIfStationCountOnSNR7>
+		<bsnAPIfStationCountOnSNR8>
+			<name>Stations with SNR 35 - 40</name>
+			<direction>output</direction>
+			<query_name>snr-.8</query_name>
+		</bsnAPIfStationCountOnSNR8>
+		<bsnAPIfStationCountOnSNR9>
+			<name>Stations with SNR 40 - 45</name>
+			<direction>output</direction>
+			<query_name>snr-.9</query_name>
+		</bsnAPIfStationCountOnSNR9>
+		<bsnAPIfStationCountOnSNR10>
+			<name>Stations with SNR &gt; 45</name>
+			<direction>output</direction>
+			<query_name>snr-.10</query_name>
+		</bsnAPIfStationCountOnSNR10>
+	</fields>
+</interface>

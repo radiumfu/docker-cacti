@@ -1,0 +1,853 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR The Cacti Group
+# This file is distributed under the same license as the Cacti package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2020-12-12 22:15-0500\nPO-Revision-Date: 2022-12-30 06:32+0000\nLast-Translator: Coool (github.com/Coool) <coool@mail.lv>\nLanguage-Team: Latvian <http://translate.cacti.net/projects/cacti/gexport/lv/>\nLanguage: lv-LV\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n % 10 == 0 || n % 100 >= 11 && n % 100 <= 19) ? 0 : ((n % 10 == 1 && n % 100 != 11) ? 1 : 2);\nX-Generator: Weblate 4.8.1\n"
+
+#: functions.php:312
+msgid "Success"
+msgstr "Izpildīts"
+
+#: functions.php:313
+msgid "Syntax or usage error"
+msgstr "Sintakses vai lietošanas kļūda"
+
+#: functions.php:314
+msgid "Protocol incompatibility"
+msgstr "Protokola nesaderība"
+
+#: functions.php:315
+msgid "Errors selecting input/output files, dirs"
+msgstr "Kļūdas izvēloties ievades/izvades failus, mapes"
+
+#: functions.php:316
+msgid "Requested action not supported: an attempt was made to manipulate 64-bit files on a platform that cannot support them; or an option was specified that is supported by the client and not by the server."
+msgstr "Pieprasītā darbība netiek atbalstīta: tika mēģināts manipulēt 64 bitu failus platformā, kura tos neatbalsta; vai tika norādīta opcija, kuru atbalsta klients, bet ne serveris."
+
+#: functions.php:317
+msgid "Error starting client-server protocol"
+msgstr "Kļūda, startējot klienta-servera protokolu"
+
+#: functions.php:318
+msgid "Daemon unable to append to log-file"
+msgstr "Dēmons nevar papildināt žurnālfailu"
+
+#: functions.php:319
+msgid "Error in socket I/O"
+msgstr "Kļūda Ievade/Izvade ligzdā"
+
+#: functions.php:320
+msgid "Error in file I/O"
+msgstr "Kļūda Ievade/Izvade failā"
+
+#: functions.php:321
+msgid "Error in rsync protocol data stream"
+msgstr "Kļūda rsync protokola datu straumē"
+
+#: functions.php:322
+msgid "Errors with program diagnostics"
+msgstr "Programmas diagnostikas kļūdas"
+
+#: functions.php:323
+msgid "Error in IPC code"
+msgstr "Kļūda IPC kodā"
+
+#: functions.php:324
+msgid "Received SIGUSR1 or SIGINT"
+msgstr "Saņemts SIGUSR1 vai SIGINT"
+
+#: functions.php:325
+msgid "Some error returned by waitpid()"
+msgstr "Dažas kļūdas no waitpid()"
+
+#: functions.php:326
+msgid "Error allocating core memory buffers"
+msgstr "Piešķirot pamatatmiņas buferi, radās kļūda"
+
+#: functions.php:327
+msgid "Partial transfer due to error"
+msgstr "Daļēja pārsūtīšana dēļ kļūdas"
+
+#: functions.php:328
+msgid "Partial transfer due to vanished source files"
+msgstr "Daļēja pārsūtīšana dēļ pazudušiem avota failiem"
+
+#: functions.php:329
+msgid "The --max-delete limit stopped deletions"
+msgstr "--max-delete parametra ierobežojums apturēja dzēšanu"
+
+#: functions.php:330
+msgid "Timeout in data send/receive"
+msgstr "Datu nosūtīšanas/saņemšanas noildze"
+
+#: functions.php:331
+msgid "Timeout waiting for daemon connection"
+msgstr "Noildze, gaidot dēmona savienojumu"
+
+#: functions.php:334 functions.php:405
+msgid "Unknown error "
+msgstr "Nezināma kļūda"
+
+#: functions.php:377
+msgid "Operation was successful"
+msgstr "Operācija bija veiksmīga"
+
+#: functions.php:378
+msgid "General error in file copy"
+msgstr "Vispārēja kļūda faila kopēšanā"
+
+#: functions.php:379
+msgid "Destination is not directory, but it should be"
+msgstr "Galamērķis nav mape, bet tam vajadzētu būt"
+
+#: functions.php:380
+msgid "Maximum symlink level exceeded"
+msgstr "Pārsniegts maksimālais simbolsaites līmenis"
+
+#: functions.php:381
+msgid "Connecting to host failed."
+msgstr "Neizdevās izveidot savienojumu ar resursdatoru."
+
+#: functions.php:382
+msgid "Connection broken"
+msgstr "Savienojums bojāts"
+
+#: functions.php:383
+msgid "File does not exist"
+msgstr "Fails neeksistē"
+
+#: functions.php:384
+msgid "No permission to access file."
+msgstr "Nav atļaujas piekļūt failam."
+
+#: functions.php:385
+msgid "General error in sftp protocol"
+msgstr "Vispārēja kļūda SFTP protokolā"
+
+#: functions.php:386
+msgid "File transfer protocol mismatch"
+msgstr "Faila pārsūtīšanas protokola neatbilstība"
+
+#: functions.php:387
+msgid "No file matches a given criteria"
+msgstr "Neviens fails neatbilst norādītajiem kritērijiem"
+
+#: functions.php:388
+msgid "Host not allowed to connect"
+msgstr "Resursdatoram nav atļauts izveidot savienojumu"
+
+#: functions.php:389
+msgid "General error in ssh protocol"
+msgstr "Vispārēja kļūda SSH protokolā"
+
+#: functions.php:390
+msgid "Key exchange failed"
+msgstr "Atslēgu apmaiņa neizdevās"
+
+#: functions.php:391
+msgid "Reserved"
+msgstr "Rezervēts"
+
+#: functions.php:392
+msgid "MAC error"
+msgstr "MAC kļūda"
+
+#: functions.php:393
+msgid "Compression error"
+msgstr "Kompresijas kļūda"
+
+#: functions.php:394
+msgid "Service not available"
+msgstr "Pakalpojums nav pieejams"
+
+#: functions.php:395
+msgid "Protocol version not supported"
+msgstr "Protokola versija netiek atbalstīta"
+
+#: functions.php:396
+msgid "Host key not verifiable"
+msgstr "Resursdatora atslēga nav verificējama"
+
+#: functions.php:397
+msgid "Connection failed"
+msgstr "Savienojums neizdevās"
+
+#: functions.php:398
+msgid "Disconnected by application"
+msgstr "Atvienots pateicoties programmai"
+
+#: functions.php:399
+msgid "Too many connections"
+msgstr "Pārāk daudz savienojumu"
+
+#: functions.php:400
+msgid "Authentication cancelled by user"
+msgstr "Autentifikāciju atcēla lietotājs"
+
+#: functions.php:401
+msgid "No more authentication methods available"
+msgstr "Autentifikācijas metodes vairs nav pieejamas"
+
+#: functions.php:402
+msgid "Invalid user name"
+msgstr "Nederīgs lietotājvārds"
+
+#: functions.php:1518 functions.php:1681
+msgid "Non Query Based"
+msgstr "Nebalstīts uz vaicājumiem"
+
+#: functions.php:1765
+msgid "Graph Templates"
+msgstr "Grafiku veidnes"
+
+#: functions.php:1794
+msgid "Data Queries"
+msgstr "Datu vaicājumi"
+
+#: gexport.php:30
+msgid "Delete"
+msgstr "Dzēst"
+
+#: gexport.php:31
+msgid "Enable"
+msgstr "Iespējot"
+
+#: gexport.php:32
+msgid "Disable"
+msgstr "Atspējot"
+
+#: gexport.php:33
+msgid "Export Now"
+msgstr "Eksportēt tūlīt"
+
+#: gexport.php:37 setup.php:354
+msgid "Periodic"
+msgstr "Periodiski"
+
+#: gexport.php:38 setup.php:356
+msgid "Daily"
+msgstr "Katru dienu"
+
+#: gexport.php:39 setup.php:355
+msgid "Hourly"
+msgstr "Katru stundu"
+
+#: gexport.php:257
+msgid "Click 'Continue' to delete the following Graph Export Definition."
+msgid_plural "Click 'Continue' to delete following Graph Export Definitions."
+msgstr[0] "Noklikšķiniet 'Turpināt', lai dzēstu norādīto grafika eksportēšanas definīciju."
+msgstr[1] "Noklikšķiniet 'Turpināt', lai dzēstu norādīto grafika eksportēšanas definīciju."
+msgstr[2] "Noklikšķiniet 'Turpināt', lai dzēstu norādītās grafika eksportēšanas definīcijas."
+
+#: gexport.php:262 gexport.php:271 gexport.php:280 gexport.php:289
+msgid "Cancel"
+msgstr "Atcelt"
+
+#: gexport.php:266
+msgid "Click 'Continue' to disable the following Graph Export Definition."
+msgid_plural "Click 'Continue' to disable following Graph Export Definitions."
+msgstr[0] "Noklikšķiniet 'Turpināt', lai atspējotu norādīto grafika eksportēšanas definīciju."
+msgstr[1] "Noklikšķiniet 'Turpināt', lai atspējotu norādīto grafika eksportēšanas definīciju."
+msgstr[2] "Noklikšķiniet 'Turpināt', lai atspējotu norādītās grafika eksportēšanas definīcijas."
+
+#: gexport.php:271 gexport.php:280 gexport.php:289
+msgid "Continue"
+msgstr "Turpināt"
+
+#: gexport.php:271
+msgid "Disable Graph Export Definition(s)"
+msgstr "Atspējot grafika eksportēšanas definīciju(-as)"
+
+#: gexport.php:275
+msgid "Click 'Continue' to enable the following Graph Export Definition."
+msgid_plural "Click 'Continue' to enable following Graph Export Definitions."
+msgstr[0] "Noklikšķiniet 'Turpināt', lai iespējotu norādīto grafika eksportēšanas definīciju."
+msgstr[1] "Noklikšķiniet 'Turpināt', lai iespējotu norādīto grafika eksportēšanas definīciju."
+msgstr[2] "Noklikšķiniet 'Turpināt', lai iespējotu norādītās grafika eksportēšanas definīcijas."
+
+#: gexport.php:280
+msgid "Enable Graph Export Definition(s)"
+msgstr "Iespējot grafika eksportēšanas definīciju(-as)"
+
+#: gexport.php:284
+msgid "Click 'Continue' to run the following Graph Export Definition now."
+msgid_plural "Click 'Continue' to run following Graph Export Definitions now."
+msgstr[0] "Noklikšķiniet 'Turpināt', lai palaistu norādīto grafika eksportēšanas definīciju tūlīt."
+msgstr[1] "Noklikšķiniet 'Turpināt', lai palaistu norādīto grafika eksportēšanas definīciju tūlīt."
+msgstr[2] "Noklikšķiniet 'Turpināt', lai palaistu norādītās grafika eksportēšanas definīcijas tūlīt."
+
+#: gexport.php:289
+msgid "Run Graph Export Definition(s) Now"
+msgstr "Palaist grafika eksportēšanas definīciju(-as) tūlīt"
+
+#: gexport.php:292
+msgid "You must select at least one Graph Export Definition."
+msgstr "Jums ir jāizvēlas vismaz viena grafika eksportēšanas definīcija."
+
+#: gexport.php:293
+msgid "Return"
+msgstr "Atgriezties"
+
+#: gexport.php:349
+#, php-format
+msgid "Graph Export Definition [edit: %s]"
+msgstr "Grafika eksportēšanas definīcija [labot: %s]"
+
+#: gexport.php:351
+msgid "Graph Export Definition [new]"
+msgstr "Grafika eksportēšanas definīcija [jauna]"
+
+#: gexport.php:377
+msgid "Select Tree(s)"
+msgstr "Atlasīt koku(s)"
+
+#: gexport.php:379
+msgid "Trees Selected"
+msgstr "Atlasītie koki"
+
+#: gexport.php:382
+msgid "All Trees Selected"
+msgstr "Atlasīti visi koki"
+
+#: gexport.php:388 gexport.php:434
+msgid "All"
+msgstr "Visi"
+
+#: gexport.php:389 gexport.php:435
+msgid "None"
+msgstr "Neviens"
+
+#: gexport.php:419 gexport.php:465 gexport.php:567
+msgid "Search"
+msgstr "Meklēt"
+
+#: gexport.php:423
+msgid "Select Site(s)"
+msgstr "Atlasīt vietni(-es)"
+
+#: gexport.php:425
+msgid "Sites Selected"
+msgstr "Atlasītās vietnes"
+
+#: gexport.php:428
+msgid "All Sites Selected"
+msgstr "Atlasītas visas vietnes"
+
+#: gexport.php:559
+msgid "Graph Export Definitions"
+msgstr "Grafika eksportēšanas definīcijas"
+
+#: gexport.php:573
+msgid "Exports"
+msgstr "Eksportēt"
+
+#: gexport.php:577
+msgid "Default"
+msgstr "Noklusējuma"
+
+#: gexport.php:588
+msgid "Refresh"
+msgstr "Atsvaidzināt"
+
+#: gexport.php:594 gexport.php:909 gexport.php:914 gexport.php:915
+msgid "Never"
+msgstr "Nekad"
+
+#: gexport.php:595 gexport.php:596 gexport.php:597 gexport.php:598
+#, php-format
+msgid "%d Seconds"
+msgstr "%d sekundes"
+
+#: gexport.php:599
+#, php-format
+msgid "%d Minute"
+msgstr "%d minūte"
+
+#: gexport.php:600 gexport.php:601
+#, php-format
+msgid "%d Minutes"
+msgstr "%d minūtes"
+
+#: gexport.php:611
+msgctxt "filter: use"
+msgid "Go"
+msgstr "Palaist"
+
+#: gexport.php:612
+msgctxt "filter: reset"
+msgid "Clear"
+msgstr "Notīrīt"
+
+#: gexport.php:749 setup.php:281
+msgid "Export Name"
+msgstr "Eksportēšanas nosaukums"
+
+#: gexport.php:752 setup.php:282
+msgid "The name of this Graph Export Definition."
+msgstr "Šī grafika eksportēšanas definīcijas nosaukums."
+
+#: gexport.php:755
+msgid "ID"
+msgstr "ID"
+
+#: gexport.php:758
+msgid "The internal ID of the Graph Export Definition."
+msgstr "Grafika eksportēšanas definīcijas iekšējais ID."
+
+#: gexport.php:761
+msgid "Schedule"
+msgstr "Izpildes saraksts"
+
+#: gexport.php:764
+msgid "The frequency that Graphs will be exported."
+msgstr "Grafiku eksportēšanas biežums."
+
+#: gexport.php:767
+msgid "Next Start"
+msgstr "Nākamā reize"
+
+#: gexport.php:770
+msgid "The next time the Graph Export should run."
+msgstr "Nākamā reize, kad veikt grafika eksportēšanu."
+
+#: gexport.php:773 setup.php:290
+msgid "Enabled"
+msgstr "Iespējots"
+
+#: gexport.php:775
+msgid "If enabled, this Graph Export definition will run as required."
+msgstr "Ja iespējots, šī grafika eksportēšanas definīcija darbosies atbilstoši prasībām."
+
+#: gexport.php:778
+msgid "Status"
+msgstr "Statuss"
+
+#: gexport.php:780
+msgid "The current Graph Export Status."
+msgstr "Pašreizējais grafika eksportēšanas statuss."
+
+#: gexport.php:783
+msgid "Exporting (Sites/Trees)"
+msgstr "Eksportē (Vietnes/Kokus)"
+
+#: gexport.php:786
+msgid "What is being Exported."
+msgstr "Kas tiek eksportēts."
+
+#: gexport.php:789 setup.php:414
+msgid "Effective User"
+msgstr "Efektīvs lietotājs"
+
+#: gexport.php:792
+msgid "The user that this export will impersonate."
+msgstr "Lietotājs, par kuru uzdosies šī eksportēšana."
+
+#: gexport.php:795
+msgid "Last Runtime"
+msgstr "Pēdējā izpildes reize"
+
+#: gexport.php:798
+msgid "The last runtime for the Graph Export."
+msgstr "Pēdējā grafika eksportēšanas izpildes reize."
+
+#: gexport.php:801
+msgid "Graphs"
+msgstr "Grafiki"
+
+#: gexport.php:804
+msgid "The number of Graphs Exported on the last run."
+msgstr "Eksportēto grafiku skaits pēdējā izpildes reizē."
+
+#: gexport.php:807
+msgid "Last Started"
+msgstr "Pēdējo reizi izpildīta"
+
+#: gexport.php:810
+msgid "The last time that this Graph Export was started."
+msgstr "Pēdējā reize, kad tika veikta šī grafika eksportēšana."
+
+#: gexport.php:813
+msgid "Last Errored"
+msgstr "Pēdējo reizi deva kļūdu"
+
+#: gexport.php:816
+msgid "The last time that this Graph Export experienced an error."
+msgstr "Pēdējā reize, kad šī grafikas eksportēšanā laikā radās kļūda."
+
+#: gexport.php:820
+msgid "Export Definitions"
+msgstr "Eksportēšanas definīcijas"
+
+#: gexport.php:859 gexport.php:899 gexport.php:912 gexport.php:913
+#: setup.php:419
+msgid "N/A"
+msgstr "Nav pieejams"
+
+#: gexport.php:861
+msgid "No"
+msgstr "Nē"
+
+#: gexport.php:861
+msgid "Yes"
+msgstr "Jā"
+
+#: gexport.php:865
+msgid "Idle"
+msgstr "Dīkstāvē"
+
+#: gexport.php:868
+msgid "Running"
+msgstr "Procesā"
+
+#: gexport.php:871
+msgid "Error"
+msgstr "Kļūda"
+
+#: gexport.php:877
+msgid "All Sites"
+msgstr "Visas vietnes"
+
+#: gexport.php:888
+msgid "All Trees"
+msgstr "Visi koki"
+
+#: gexport.php:902
+msgid "Sec"
+msgstr "Sek"
+
+#: gexport.php:922
+msgid "No Graph Export Definitions"
+msgstr "Nav grafika eksportēšanas definīciju"
+
+#: setup.php:31
+msgid "Export Cacti Graphs Settings"
+msgstr "Eksportēt Cacti grafiku iestatījumus"
+
+#: setup.php:265
+msgid "Graph Exports"
+msgstr "Grafika eksportēšana"
+
+#: setup.php:265
+msgid "Utilities"
+msgstr "Rīki"
+
+#: setup.php:268
+msgid "General Administration"
+msgstr "Pamatadministrācija"
+
+#: setup.php:276
+msgid "General"
+msgstr "Pamata"
+
+#: setup.php:291
+msgid "Check this Checkbox if you wish this Graph Export Definition to be enabled."
+msgstr "Atķeksējiet, ja vēlaties iespējot šī grafika eksportēšanas definīciju."
+
+#: setup.php:297
+msgid "Export Method"
+msgstr "Eksportēšanas veids"
+
+#: setup.php:298
+msgid "Choose which export method to use."
+msgstr "Izvēlieties, kuru eksportēšanas veidu izmantot."
+
+#: setup.php:303
+msgid "Local"
+msgstr "Vietējais"
+
+#: setup.php:304
+msgid "FTP"
+msgstr "FTP"
+
+#: setup.php:305
+msgid "SFTP"
+msgstr "SFTP"
+
+#: setup.php:306
+msgid "FTP NC"
+msgstr "FTP NC"
+
+#: setup.php:307
+msgid "SCP"
+msgstr "SCP"
+
+#: setup.php:308
+msgid "RSYNC"
+msgstr "RSYNC"
+
+#: setup.php:312
+msgid "Export Command Arguments"
+msgstr "Eksportēt komandu argumentus"
+
+#: setup.php:313
+msgid "Arguments to use with non-local export methods. rsync should use "
+msgstr "Argumenti, ko izmantot ar nelokālām eksporta metodēm. Vajadzētu izmantot rsync "
+
+#: setup.php:325
+msgid "Theme"
+msgstr "Motīvs"
+
+#: setup.php:326
+msgid "Please select one of the available Themes to skin your Cacti Graph Exports with."
+msgstr "Lūdzu, izvēlieties vienu no pieejamajiem motīviem, kuru Cacti izmantos eksportējot grafikus."
+
+#: setup.php:333
+msgid "Presentation Method"
+msgstr "Prezentācijas veids"
+
+#: setup.php:334
+msgid "Choose which presentation would you want for the html generated pages. If you choose classical presentation; the Graphs will be in a only-one-html page. If you choose tree presentation, the Graph Tree architecture will be kept in the static html pages"
+msgstr "Izvēlieties, kuru prezentāciju izmantot html ģenerētajām lapām. Ja izvēlaties klasisko prezentāciju - grafiki būs vienā html lapā. Ja izvēlaties koka prezentāciju - grafiku koka struktūra tiks saglabāta statiskajās html lapās"
+
+#: setup.php:339 setup.php:442
+msgid "Site"
+msgstr "Vietne"
+
+#: setup.php:340 setup.php:423
+msgid "Tree"
+msgstr "Koks"
+
+#: setup.php:344
+msgid "Export Timing"
+msgstr "Eksportēšanas ilgums"
+
+#: setup.php:348
+msgid "Timing Method"
+msgstr "Laika noteikšanas veids"
+
+#: setup.php:349
+msgid "Choose when to Export Graphs."
+msgstr "Izvēlieties, kad eksportēt grafikus."
+
+#: setup.php:360
+msgid "Periodic Export Cycle"
+msgstr "Periodiskais eksportēšanas cikls"
+
+#: setup.php:361
+msgid "How often do you wish Cacti to Export Graphs.  This is the unit of Polling Cycles you wish to export Graphs."
+msgstr "Cik bieži vēlaties, Cacti eksportētu grafikus.  Šī ir apjautāšanas ciklu vienība, kad vēlaties eksportēt grafikus."
+
+#: setup.php:365
+msgid "Every Polling Cycle"
+msgstr "Katrā aptaujas ciklā"
+
+#: setup.php:366 setup.php:367 setup.php:368 setup.php:369 setup.php:370
+#: setup.php:371 setup.php:372 setup.php:373 setup.php:374 setup.php:375
+#: setup.php:376
+#, php-format
+msgid "Every %d Polling Cycles"
+msgstr "Katrā %d aptaujas ciklā"
+
+#: setup.php:380
+msgid "Hourly at specified minutes"
+msgstr "Reizi stundā noteiktā minūtē"
+
+#: setup.php:381
+msgid "If you want Cacti to export static images on an hourly basis, put the minutes of the hour when to do that. Cacti assumes that you run the data gathering script every 5 minutes, so it will round your value to the one closest to its runtime. For instance, 43 would equal 40 minutes past the hour."
+msgstr "Ja vēlaties Cacti eksportēt statiskus attēlus katru stundu, norādiet stundu minūtes, kad to veikt. Cacti uzskata, ka datu ievākšanas skripts tiek palaists ik pēc 5 minūtēm, tāpēc tas noapaļos jūsu vērtību pēc iespējas vistuvāk izpildes reizei. Piemēram, 43 nozīmētu 40 minūtes pēc veselas stundas."
+
+#: setup.php:390
+msgid "Daily at specified time"
+msgstr "Katru dienu noteiktā laikā"
+
+#: setup.php:391
+msgid "If you want Cacti to export static images on an daily basis, put here the time when to do that. Cacti assumes that you run the data gathering script every 5 minutes, so it will round your value to the one closest to its runtime. For instance, 21:23 would equal 20 minutes after 9 PM."
+msgstr "Ja vēlaties Cacti eksportēt statiskus attēlus katru dienu, norādiet laiku, kad to veikt. Cacti uzskata, ka datu ievākšanas skripts tiek palaists ik pēc 5 minūtēm, tāpēc tas noapaļos jūsu vērtību pēc iespējas vistuvāk izpildes reizei. Piemēram, pulksten 21:23 būs 20 minūtes pēc 21:00."
+
+#: setup.php:400
+msgid "Use x Threads"
+msgstr "Izmantot x pavedienus"
+
+#: setup.php:401
+msgid "How many background threads do you wish Cacti to use when exporting graphs.  Default is 0 to run all export in poller thread, 1 or more to spawn separate background threads"
+msgstr "Cik fona pavedienus vēlaties atļaut Cacti izmantot, eksportējot grafikus.  Noklusējuma vērtība ir 0, lai palaistu visu eksportēšanu aptaujāšanas pavedienā, 1 un vairāk, lai izveidotu atsevišķus fona pavedienus"
+
+#: setup.php:409
+msgid "Graph Selection & Settings"
+msgstr "Grafika atlase un iestatījumi"
+
+#: setup.php:415
+msgid "The user name to utilize for establishing permissions to Cacti Graphs.  This user name will be used to determine which Graphs/Trees can be exported.  N/A means don't assume any security is in place."
+msgstr "Lietotājvārds, kam ir atļauja veidot atļaujas Cacti grafikos.  Šis lietotājvārds tiks izmantots, lai lemtu, kurus grafikus/kokus var eksportēt.  N/A nozīmē, ka nav ieviesta nekāda drošība."
+
+#: setup.php:424
+msgid "The Tree(s) to export."
+msgstr "Eksportēt koku(s)."
+
+#: setup.php:431
+msgid "Expand Devices/Sites"
+msgstr "Izvērst Ierīces/Vietnes"
+
+#: setup.php:432
+msgid "This setting determines if Tree Devices and Site Templates and Devices will be expanded or not.  If set to expanded, each host will have a sub-folder containing either Graph Templates or Data Query items."
+msgstr "Šis iestatījums nosaka, vai koka ierīces un vietņu veidnes un ierīces tiks izvērstas vai nē.  Ja iestatīts uz izvērsts, katram resursdatoram būs apakšmape, kura saturēs vai nu grafika veidnes, vai nu datu vaicājuma vienumus."
+
+#: setup.php:437
+msgid "Off"
+msgstr "Izslēgts"
+
+#: setup.php:438
+msgid "On"
+msgstr "Ieslēgts"
+
+#: setup.php:443
+msgid "The Site for Cacti Graphs to be Exported from."
+msgstr "Vietne, no kuras eksportēt Cacti grafikus."
+
+#: setup.php:450
+msgid "Graph Thumbnail Width"
+msgstr "Grafika sīktēla platums"
+
+#: setup.php:451
+msgid "The default width of Thumbnail Graphs in pixels."
+msgstr "Grafiku sīktēla noklusējuma platums pikseļos."
+
+#: setup.php:459
+msgid "Graph Thumbnail Height"
+msgstr "Grafika sīktēla augstums"
+
+#: setup.php:460
+msgid "The height of Thumbnail Graphs in pixels."
+msgstr "Grafiku sīktēla noklusējuma augstums pikseļos."
+
+#: setup.php:468
+msgid "Default View Thumbnails"
+msgstr "Noklusējuma skats - Sīktēli"
+
+#: setup.php:469
+msgid "Check this if you want the default Graph View to be in Thumbnail mode."
+msgstr "Atķeksējiet, ja vēlaties, lai noklusējuma grafika skats būtu sīktēlu."
+
+#: setup.php:474
+msgid "Default Graph Columns"
+msgstr "Noklusējuma grafika kolonnas"
+
+#: setup.php:475
+msgid "The number of columns to use by default when displaying Graphs."
+msgstr "Kolonnu skaits, ko izmantot attēlojot grafikus."
+
+#: setup.php:483
+msgid "Graphs Per Page"
+msgstr "Grafiki lapā"
+
+#: setup.php:484
+msgid "Choose the number of Graphs Per Page to display."
+msgstr "Izvēlieties attēlojamo grafiku skaitu lapā."
+
+#: setup.php:491
+msgid "Maximum Graphs to Export"
+msgstr "Maksimālais eksportējamo grafiku skaits"
+
+#: setup.php:492
+msgid "After this number is reached, an error will be generated, but exporting will continue.  Set to 0 for no limit."
+msgstr "Pārsniedzot šo skaitli, tiks ģenerēta kļūda, taču eksportēšana turpināsies.  Iestatiet uz 0, ja vēlaties bez ierobežojumiem."
+
+#: setup.php:500
+msgid "Export Location Information"
+msgstr "Eksportēt atrašanās vietas informāciju"
+
+#: setup.php:505
+msgid "Export Thumbnails"
+msgstr "Eksportēt sīktēlus"
+
+#: setup.php:506
+msgid "Check this if you want the export thumbnails mode."
+msgstr "Atķeksējiet, ja vēlaties eksportēt sīktēlus."
+
+#: setup.php:511
+msgid "Clear Directory"
+msgstr "Tīrīt mapi"
+
+#: setup.php:512
+msgid "Check this Checkbox if you wish this Graph Export to clear the final directory before populating."
+msgstr "Atķeksējiet, ja vēlaties, lai šī grafika eksportēšana dzēstu saturu pēdējā izvēlētajā mapē pirms aizpildīšanas."
+
+#: setup.php:517
+msgid "Export Directory"
+msgstr "Eksportēšanas mape"
+
+#: setup.php:518
+msgid "This is the directory, either on the local system or on the remote system, that will contain the exported data."
+msgstr "Lokālas sistēmas vai attālajā sistēmas mape, kurā tiks eksportēti dati."
+
+#: setup.php:524
+msgid "Local Scratch Directory"
+msgstr "Lokālā pagaidu mape"
+
+#: setup.php:525
+msgid "This is the directory that Cacti will temporarily store output prior to sending to the remote site via the transfer method.  The contents of this directory will be deleted after the data is transferred."
+msgstr "Mape, kurā Cacti īslaicīgi saglabās izvadi pirms nosūtīšanas uz attālo vietni, izmantojot izvēlēto pārsūtīšanas veidu.  Pēc datu pārsūtīšanas šīs mapes saturs tiks dzēsts."
+
+#: setup.php:532
+msgid "Remote Options"
+msgstr "Attālās iespējas"
+
+#: setup.php:537
+msgid "Sanitize remote directory"
+msgstr "Sagatavot attālo mapi"
+
+#: setup.php:538
+msgid "Check this if you want to delete any existing files in the FTP remote directory. This option is in use only when using the PHP built-in ftp functions."
+msgstr "Atķeksējiet, ja vēlaties dzēst visus esošos failus FTP attālajā mapē. Šī iespēja tiek izmantota tikai tad, ja tiek izmantotas PHP iebūvētās ftp funkcijas."
+
+#: setup.php:543
+msgid "Remote Host"
+msgstr "Attālais resursdators"
+
+#: setup.php:544
+msgid "Denotes the host to send Exported Graphs to."
+msgstr "Nozīmē resursdators, kuram nosūtīt eksportētos grafikus."
+
+#: setup.php:551
+msgid "Remote Port"
+msgstr "Attālais ports"
+
+#: setup.php:552
+msgid "Communication port to use for the export method if non-standard (leave empty for defaults)."
+msgstr "Sakaru ports, ko izmantot eksportēšanas veidam, ja tas nav standarta (atstājiet tukšu noklusējuma iestatījumiem)."
+
+#: setup.php:560
+msgid "Use passive mode"
+msgstr "Lietot pasīvo režīmu"
+
+#: setup.php:561
+msgid "Check this if you want to connect in passive mode to the FTP server."
+msgstr "Atķeksējiet, ja vēlaties veidot FTP savienojumu ar serveri pasīvā režīmā."
+
+#: setup.php:566
+msgid "User"
+msgstr "Lietotājs"
+
+#: setup.php:567
+msgid "Account to logon on the remote server (leave empty for defaults)."
+msgstr "Konts, lai pieteiktos attālajā serverī (atstājiet tukšu, ja vēlaties izmantot noklusējuma iestatījumus)."
+
+#: setup.php:574
+msgid "Password"
+msgstr "Parole"
+
+#: setup.php:575
+msgid "Password for the remote ftp account (leave empty for blank)."
+msgstr "Attālā FTP konta parole (atstājiet tukšu, ja bez paroles)."
+
+#: setup.php:582
+msgid "Private Key Path"
+msgstr "Privātā atslēgas ceļš"
+
+#: setup.php:583
+msgid "For SCP and RSYNC, enter the Private Key path if required."
+msgstr "Izmantojot SCP vai RSYNC, ja nepieciešams ievadiet privātās atslēgas ceļu."
+
+#: setup.php:594
+msgid "Exported Cacti Graph Pages"
+msgstr "Eksportētas Cacti grafika lapas"
+
+#: setup.php:600
+msgid "(Edit)"
+msgstr "(Rediģēt)"
+
+#: setup.php:606
+msgid "Actions"
+msgstr "Darbības"

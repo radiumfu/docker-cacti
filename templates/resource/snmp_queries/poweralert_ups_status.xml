@@ -1,0 +1,59 @@
+<query>
+	<name>TrippLite PowerAlert - Get UPSes</name>
+	<description>Queries a PowerAlert agent for managed UPSes and stats</description>
+	<script_path>|path_cacti|/scripts/ss_poweralert_ups_status.php</script_path>
+	<script_function>ss_poweralert_ups_status</script_function>
+	<script_server>php</script_server>
+	<arg_prepend>|host_hostname|:2:tlremote:|host_snmp_username|:|host_snmp_password|:|host_snmp_auth_protocol|:|host_snmp_priv_passphrase|:|host_snmp_priv_protocol|:|host_snmp_context|:3664:|host_snmp_timeout|</arg_prepend>
+	<arg_index>index</arg_index>
+	<arg_query>query</arg_query>
+	<arg_get>get</arg_get>
+	<output_delimeter>:</output_delimeter>
+	<index_order>upsDevice</index_order>
+	<index_order_type>numeric</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+
+	<fields>
+		<upsDevice>
+			<name>UPS ID</name>
+			<direction>input</direction>
+			<query_name>upsDevice</query_name>
+		</upsDevice>
+		<upsName>
+			<name>UPS Name</name>
+			<direction>input</direction>
+			<query_name>upsName</query_name>
+		</upsName>
+
+		<inputVoltage>
+			<name>Input Voltage</name>
+			<direction>output</direction>
+			<query_name>inputVoltage</query_name>
+		</inputVoltage>
+		<inputFrequency>
+			<name>Input Frequency</name>
+			<direction>output</direction>
+			<query_name>inputFrequency</query_name>
+		</inputFrequency>
+		<batteryVoltage>
+			<name>Battery Voltage</name>
+			<direction>output</direction>
+			<query_name>batteryVoltage</query_name>
+		</batteryVoltage>
+		<batteryTemperature>
+			<name>Battery Temperature</name>
+			<direction>output</direction>
+			<query_name>batteryTemperature</query_name>
+		</batteryTemperature>
+		<batteryCharge>
+			<name>Percent Battery Charge</name>
+			<direction>output</direction>
+			<query_name>batteryCharge</query_name>
+		</batteryCharge>
+		<outputLoad>
+			<name>Percent Output Load</name>
+			<direction>output</direction>
+			<query_name>outputLoad</query_name>
+		</outputLoad>
+	</fields>
+</query>

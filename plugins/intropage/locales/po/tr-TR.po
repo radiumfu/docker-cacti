@@ -1,0 +1,2423 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2021-03-10 19:25-0500\n"
+"PO-Revision-Date: 2022-02-15 15:58-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: display.php:39
+#, fuzzy
+msgid "Intropage - Permission Denied"
+msgstr "Intropage - izin reddedildi"
+
+#: display.php:157
+#, fuzzy
+msgid "You can disable rows above in <b>Configure > Settings > General > Hide Cacti Dashboard</b> and use the whole page for Intropage "
+msgstr "Yukarıdaki satırları <b>Ayarlar -> Genel -></b> Kaktüsler <b>Gösterge Tablosunu Gizle</b> bölümünden devre dışı bırakabilir ve tüm sayfayı Intropage için <br/><br/>"
+
+#: display.php:172 include/functions.php:1301
+msgid "Default"
+msgstr "Varsayılan"
+
+#: display.php:209
+#, fuzzy
+msgid "Disable panel move/enable copy text from panel"
+msgstr "Panelde metni kopyala panelini taşıma / etkinleştirmeyi devre dışı bırakma"
+
+#: display.php:217
+#, fuzzy
+msgid "Panels ..."
+msgstr "Paneller..."
+
+#: display.php:253 display.php:261
+#, fuzzy, php-format
+msgid "%s (no permission)"
+msgstr "Bunun için yetkiniz yok"
+
+#: display.php:272
+#, fuzzy
+msgid "Actions ..."
+msgstr "Eylemler"
+
+#: display.php:275
+#, fuzzy
+msgid "Add New Dashboard"
+msgstr "Gösterge Tablosuna Ekle"
+
+#: display.php:279
+#, fuzzy
+msgid "Remove current dashboard"
+msgstr "Gösterge Tablosundan Kaldır"
+
+#: display.php:283
+#, fuzzy
+msgid "Refresh Now"
+msgstr "Şimdi yenile"
+
+#: display.php:286 display.php:288
+#, fuzzy
+msgid "Autorefresh Disabled"
+msgstr "Otomatik Yenileme Devre Dışı"
+
+#: display.php:292
+#, fuzzy
+msgid "Autorefresh ly Poller"
+msgstr "Autorefresh 1 Saat"
+
+#: display.php:294
+#, fuzzy
+msgid "Autorefresh by Poller"
+msgstr "Otomatik Yenileme Devre Dışı"
+
+#: display.php:298 display.php:300
+#, fuzzy
+msgid "Autorefresh 1 Minute"
+msgstr "Autorefresh 1 Dakika"
+
+#: display.php:304 display.php:306
+#, fuzzy
+msgid "Autorefresh 5 Minutes"
+msgstr "Autorefresh 5 Dakika"
+
+#: display.php:310 display.php:312
+#, fuzzy
+msgid "Autorefresh 1 Hour"
+msgstr "Autorefresh 1 Saat"
+
+#: display.php:316 display.php:319
+#, fuzzy
+msgid "Sort by Severity"
+msgstr "Panel Önceliğine Göre Sırala"
+
+#: display.php:317 display.php:320
+#, fuzzy
+msgid "Sort by User Preference"
+msgstr "Kullanıcı Tercihine Göre Sırala"
+
+#: display.php:326
+#, fuzzy
+msgid "Set Intropage as Default Login Page"
+msgstr "Intropage'i varsayılan sayfa olarak ayarla"
+
+#: display.php:328
+#, fuzzy
+msgid "Set graph as Default Login Page"
+msgstr "Grafiği varsayılan sayfa olarak ayarla"
+
+#: display.php:334
+#, fuzzy
+msgid "Display Intropage in Console"
+msgstr "Intropage'i varsayılan sayfa olarak ayarla"
+
+#: display.php:336
+#, fuzzy
+msgid "Display Intropage in Tab as Default Page"
+msgstr "Intropage'i varsayılan sayfa olarak ayarla"
+
+#: display.php:354
+#, fuzzy
+msgid "Welcome to Intropage!"
+msgstr "Intropage panelleri"
+
+#: display.php:358
+#, fuzzy
+msgid "You can Add Dashboard Panels in two ways:"
+msgstr "Pano Panellerini iki şekilde ekleyebilirsiniz:"
+
+#: display.php:360
+#, fuzzy
+msgid "Select prepared Dashboard Panels from the menu to the right."
+msgstr "Sağdaki menüden hazırlanan Pano Panellerini seçin."
+
+#: display.php:361
+#, fuzzy
+msgid "Add any Cacti Graph by Clicking the 'Eye Icon' which is next to each Cacti Graph. Graph with actual timespan will be added to current dashboard"
+msgstr "Her Kaktüs Grafiğinin yanında bulunan 'Göz Simgesine' tıklayarak herhangi bir Kaktüs Grafiği ekleyin. Gerçek zaman aralığına sahip grafik, mevcut gösterge tablosuna eklenecek"
+
+#: display.php:634
+#, fuzzy
+msgid "Disable panel move/Enable copy text from panel"
+msgstr "Panel taşımasını devre dışı bırak / Metni kopyala"
+
+#: display.php:639
+#, fuzzy
+msgid "Enable panel move/Disable copy text from panel"
+msgstr "Panel hareketini etkinleştir / Metni kopyala panelden devre dışı bırak"
+
+#: display.php:689
+#, fuzzy
+msgid "Error reading new data"
+msgstr "Yeni veri okunurken hata oluştu"
+
+#: display.php:722
+msgid "Close"
+msgstr "Kapat"
+
+#: display.php:733
+#, fuzzy
+msgid "Panel Details"
+msgstr "Detayları göster"
+
+#: include/functions.php:211
+#, fuzzy
+msgid "Dashboard has been removed"
+msgstr "Kontrol paneli kaldırıldı"
+
+#: include/functions.php:233
+#, fuzzy
+msgid "New Dashboard"
+msgstr "Gösterge Tablosuna Ekle"
+
+#: include/functions.php:235
+#, fuzzy
+msgid "Dashboard has been added"
+msgstr "Kontrol paneli eklendi"
+
+#: include/functions.php:266
+#, fuzzy
+msgid "Cannot add zoomed or custom timespaned graph, changing timespan to Last half hour"
+msgstr "Yakınlaştırılmış veya özel zaman aralıklı grafik eklenemiyor, zaman aralığı Son yarım saat olarak değiştiriliyor"
+
+#: include/functions.php:432
+#, fuzzy
+msgid "The Panel includes a render function but it does not exist."
+msgstr "Panel, bir oluşturma işlevi içerir, ancak mevcut değildir."
+
+#: include/functions.php:435
+#, fuzzy
+msgid "The Panel does not have a render function."
+msgstr "Panelin bir oluşturma işlevi yoktur."
+
+#: include/functions.php:441
+msgid "Not Found"
+msgstr "Bulunamadı"
+
+#: include/functions.php:468
+#, fuzzy
+msgid "Panel not found"
+msgstr "Panel bulunamadı"
+
+#: include/functions.php:501
+#, fuzzy
+msgid "Details Function does not exist."
+msgstr "Ayrıntılar İşlev mevcut değil."
+
+#: include/functions.php:508
+#, fuzzy
+msgid "Panel Not Found"
+msgstr "Panel Bulunamadı"
+
+#: include/functions.php:576 include/functions.php:594
+#, fuzzy, php-format
+msgid " [ Updates in %s ]"
+msgstr " [ %s güncellemeleri ]"
+
+#: include/functions.php:618
+#, php-format
+msgid "%s Sec"
+msgstr "%s Sn"
+
+#: include/functions.php:618
+#, fuzzy, php-format
+msgid "%s Seconds"
+msgstr "%s Saniye"
+
+#: include/functions.php:625
+#, php-format
+msgid "%s Min"
+msgstr "Dak"
+
+#: include/functions.php:625
+#, fuzzy, php-format
+msgid "%s Minutes"
+msgstr "Her %d Dakika"
+
+#: include/functions.php:632
+#, php-format
+msgid "%s Hours"
+msgstr "%s saat"
+
+#: include/functions.php:632
+#, php-format
+msgid "%s Hrs"
+msgstr "%s Saat"
+
+#: include/functions.php:636
+#, php-format
+msgid "%s Days"
+msgstr "%s Gün"
+
+#: include/functions.php:682
+#, fuzzy
+msgid "No Data Present.  Either Force Update, or wait for next Cacti Polling cycle."
+msgstr "Veri Yok. Ya Güncellemeyi Zorla ya da bir sonraki Kaktüs Yoklama döngüsünü bekleyin."
+
+#: include/functions.php:684
+#, fuzzy
+msgid "No Data Present.  This Panel does not allow for Forced Updates.  You will have to wait until the Cacti's Poller to perform the check."
+msgstr "Veri Yok. Bu Panel, Zorunlu Güncellemelere izin vermez. Kontrolü gerçekleştirmek için Cacti's Poller'a kadar beklemeniz gerekecek."
+
+#: include/functions.php:824
+#, fuzzy
+msgid "Favourite graph"
+msgstr "Favori grafik"
+
+#: include/functions.php:1086
+#, fuzzy
+msgid "Disable panel"
+msgstr "Paneli devre dışı bırak"
+
+#: include/functions.php:1089
+#, fuzzy
+msgid "Reload Panel"
+msgstr "Paneli yeniden yükle"
+
+#: include/functions.php:1092
+msgid "Show Details"
+msgstr "Detayları göster"
+
+#: include/functions.php:1099
+#, fuzzy
+msgid "Loading data ..."
+msgstr "Veri yükleniyor ..."
+
+#: include/functions.php:1110
+#, fuzzy
+msgid "No Data Found.  Either wait for next check, <br/>or use the Force Reload if available."
+msgstr "Veri bulunamadı. Ya bir sonraki kontrolü bekleyin,<br/> veya varsa Yeniden Yüklemeyi Zorla'yı kullanın."
+
+#: include/functions.php:1154
+#, fuzzy
+msgid "Cannot add to Dashboard. Custom timespan."
+msgstr "Gösterge Tablosuna eklenemiyor. Özel zaman aralığı."
+
+#: include/functions.php:1164
+#, fuzzy
+msgid "Remove from Dashboard"
+msgstr "Gösterge Tablosundan Kaldır"
+
+#: include/functions.php:1166
+#, fuzzy
+msgid "Add to Dashboard"
+msgstr "Gösterge Tablosuna Ekle"
+
+#: include/functions.php:1214
+#, fuzzy
+msgid "Dashboard Names"
+msgstr "Pano Adları"
+
+#: include/functions.php:1223
+#, fuzzy, php-format
+msgid "Dashboard %s"
+msgstr "Gösterge Tablosuna Ekle"
+
+#: include/functions.php:1236 include/variables.php:62
+#, php-format
+msgid "%d Minute"
+msgstr "% d dakika"
+
+#: include/functions.php:1237 include/functions.php:1238
+#: include/functions.php:1239 include/functions.php:1240
+#: include/functions.php:1241 include/functions.php:1242
+#: include/functions.php:1243 include/variables.php:63 include/variables.php:64
+#: include/variables.php:65 include/variables.php:66 include/variables.php:67
+#: include/variables.php:68
+#, php-format
+msgid "%d Minutes"
+msgstr "%d Dakika"
+
+#: include/functions.php:1244 include/variables.php:69
+#, php-format
+msgid "%d Hour"
+msgstr "%d Saat"
+
+#: include/functions.php:1245 include/functions.php:1246
+#: include/functions.php:1247 include/functions.php:1248
+#, php-format
+msgid "%d Hours"
+msgstr "%d Saat"
+
+#: include/functions.php:1249
+#, php-format
+msgid "%d Day"
+msgstr "%d Gün"
+
+#: include/functions.php:1266
+#, fuzzy
+msgid "Panel Refresh Intervals"
+msgstr "Detayları göster"
+
+#: include/functions.php:1281
+#, fuzzy
+msgid "Global Refresh (Identical for All Users)"
+msgstr "Global Yenileme (Tüm Kullanıcılar İçin Aynı)"
+
+#: include/functions.php:1283
+#, fuzzy
+msgid "User Refresh (Applicable to Your Account Only)"
+msgstr "Kullanıcı Yenileme (Yalnızca Hesabınız İçin Geçerlidir)"
+
+#: include/settings.php:30 include/settings.php:88
+#, fuzzy
+msgid "Intropage"
+msgstr "Intropage panelleri"
+
+#: include/settings.php:35 setup.php:75
+msgid "Normal User"
+msgstr "Normal Kullanıcı"
+
+#: include/settings.php:142
+#, fuzzy
+msgid "System Level Panels"
+msgstr "Sistem Seviyesi Panelleri"
+
+#: include/settings.php:143
+#, fuzzy
+msgid "Panels that are appropriate for administrative or power users to access and not typically applicable for general users.  Panels are generally about overall system utilization."
+msgstr "Yönetici veya yetkili kullanıcıların erişmesi için uygun olan ve genellikle genel kullanıcılar için geçerli olmayan paneller. Paneller genellikle genel sistem kullanımı ile ilgilidir."
+
+#: include/settings.php:146
+#, fuzzy
+msgid "User Level Panels"
+msgstr "Kullanıcı Seviyesi Panelleri"
+
+#: include/settings.php:147
+#, fuzzy
+msgid "Panels that are appropriate for general users to access.  Permissions are limited to what the current user can view."
+msgstr "Genel kullanıcıların erişimine uygun paneller. İzinler, mevcut kullanıcının görüntüleyebilecekleri ile sınırlıdır."
+
+#: include/settings.php:189
+#, fuzzy
+msgid "You can Allow/Disallow Panels for User"
+msgstr "Kullanıcı için Panellere İzin Verebilir/İzin Vermeyebilirsiniz"
+
+#: include/variables.php:28
+msgid "Display Settings"
+msgstr "Görüntü Ayarları"
+
+#: include/variables.php:32
+#, fuzzy
+msgid "Important things will be at the top"
+msgstr "Önemli şeyler zirvede olacak"
+
+#: include/variables.php:33
+#, fuzzy
+msgid "If checked Intropage displays important (errors, warnings) information first"
+msgstr "İşaretlenmişse, Intropage önce önemli (hatalar, uyarılar) bilgileri görüntüler."
+
+#: include/variables.php:38
+#, fuzzy
+msgid "Automatically Uninstall Panels"
+msgstr "Panelleri Otomatik Olarak Kaldır"
+
+#: include/variables.php:39
+#, fuzzy
+msgid "If a Panel is installed and requried plugin is removed, automatically uninstall the panel too"
+msgstr "Bir Panel kurulur ve gerekli eklenti kaldırılırsa, paneli de otomatik olarak kaldırın"
+
+#: include/variables.php:44
+#, fuzzy
+msgid "Automatic refresh page"
+msgstr "Otomatik yenileme sayfası"
+
+#: include/variables.php:45
+#, fuzzy
+msgid "How often"
+msgstr "Ne sıklıkla"
+
+#: include/variables.php:48
+#, fuzzy
+msgid "Automatically by poller"
+msgstr "Anketör tarafından otomatik olarak"
+
+#: include/variables.php:49 include/variables.php:85
+msgid "Never"
+msgstr "Asla"
+
+#: include/variables.php:50
+msgid "Every Minute"
+msgstr "Dakikada Bir"
+
+#: include/variables.php:51 include/variables.php:120
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Her %d Dakika"
+
+#: include/variables.php:52 include/variables.php:86 include/variables.php:121
+msgid "Every Hour"
+msgstr "Her Saat"
+
+#: include/variables.php:57
+#, fuzzy
+msgid "Poller Timeout"
+msgstr "Poller bilgisi"
+
+#: include/variables.php:58
+#, fuzzy
+msgid "The amount of time, in minutes, that the Intropage background poller can run before being interrupted and killed by Cacti."
+msgstr "Intropage arka plan yoklayıcısının Kaktüsler tarafından kesintiye uğramadan ve öldürülmeden önce çalışabileceği dakika cinsinden süre."
+
+#: include/variables.php:73
+#, fuzzy
+msgid "Analyze log -  number of lines"
+msgstr "Analiz günlüğü - satır sayısı"
+
+#: include/variables.php:74
+#, fuzzy
+msgid "How many lines of log will be analysed. Lines = in panel, 2x lines = in detail. Big number may causes slow page load"
+msgstr "Kaç satır kütüğü analiz edilecektir. Büyük sayı yavaş sayfa yüklenmesine neden olabilir"
+
+#: include/variables.php:81
+#, fuzzy
+msgid "How often analyze DB"
+msgstr "DB ne sıklıkla analiz edilir"
+
+#: include/variables.php:82
+#, fuzzy
+msgid "Poller runs this task. It could cause long poller run."
+msgstr "Poller bu görevi çalıştırır. Poller uzun süre çalışmasına neden olabilir."
+
+#: include/variables.php:87 include/variables.php:122
+msgid "Every Day"
+msgstr "Her Gün"
+
+#: include/variables.php:88
+msgid "Every Week"
+msgstr "Her Hafta"
+
+#: include/variables.php:89
+msgid "Every Month"
+msgstr "Her Ay"
+
+#: include/variables.php:94
+#, fuzzy
+msgid "Analyze DB - Level of db check"
+msgstr "Analiz et DB - db kontrol seviyesi"
+
+#: include/variables.php:95
+#, fuzzy
+msgid "Quick - No Check rows for inforccert links<br/>Fast - check only not properly closed tables<br/>Changed - check tables changed from last check<br/>Medium - with rows scan<br/>Extended - full rows and keys<br/><strong>Medium and extended may causes slow page load!</strong>"
+msgstr "Çabuk - Hayır Bilgi için linkleri kontrol et <br/> Hızlı - yalnızca düzgün şekilde kapanmamış masaları kontrol edin <br/> Değiştirildi - kontrol tabloları son kontrolden değiştirildi <br/> Orta - satır taraması ile <br/> Genişletilmiş - tam satırlar ve anahtarlar <br/> <strong>Orta ve uzatılmış sayfa yavaş yüklenmesine neden olabilir!</strong>"
+
+#: include/variables.php:98
+msgid "Quick"
+msgstr "Hızlı"
+
+#: include/variables.php:99
+msgid "Fast"
+msgstr "Hızlı"
+
+#: include/variables.php:100
+msgid "Changed"
+msgstr "Değiştirildi"
+
+#: include/variables.php:101
+msgid "Medium"
+msgstr "Orta"
+
+#: include/variables.php:102
+msgid "Extended"
+msgstr "Genişletilmiş"
+
+#: include/variables.php:108
+#, fuzzy
+msgid "NTP (time) check - IP or DNS name of NTP server"
+msgstr "NTP (zaman) kontrolü - NTP sunucusunun IP veya DNS adı"
+
+#: include/variables.php:109
+#, fuzzy
+msgid "Insert IP or DNS name of NTP server"
+msgstr "NTP sunucusunun IP veya DNS adını girin"
+
+#: include/variables.php:116
+#, fuzzy
+msgid "How often check NTP"
+msgstr "NTP'yi ne sıklıkta kontrol edin"
+
+#: include/variables.php:117
+#, fuzzy
+msgid "<strong>Poller runs this task. It could cause long poller run.</strong>"
+msgstr "<strong>Poller bu görevi çalıştırır. Poller uzun süre çalışmasına neden olabilir.</strong>"
+
+#: include/variables.php:128
+#, fuzzy
+msgid "Admin information panel about maintenance tasks, down Devices, .."
+msgstr "Bakım görevleri, cihazların aşılması hakkında yönetici bilgi paneli."
+
+#: include/variables.php:129
+#, fuzzy
+msgid "If isn't empty, panel will be displayed on the top. You can use html tags (b, i, ...)."
+msgstr "Boş değilse, panel üstte görüntülenecektir. Html etiketlerini kullanabilirsiniz (b, i, ...)."
+
+#: include/variables.php:138
+#, fuzzy
+msgid "Maint plugin - how many days before display alert"
+msgstr "Maint eklentisi - ekran uyarısından kaç gün önce"
+
+#: include/variables.php:139
+#, fuzzy
+msgid "How many days?</strong>"
+msgstr "Kaç gün?"
+
+#: include/variables.php:142
+#, fuzzy
+msgid "When maintenance starts"
+msgstr "Bakım başladığında"
+
+#: include/variables.php:143
+#, fuzzy, php-format
+msgid "%d Day Before"
+msgstr "% d Gün Önce"
+
+#: include/variables.php:144 include/variables.php:145
+#, fuzzy, php-format
+msgid "%d Days Before"
+msgstr "% d Gün Önce"
+
+#: include/variables.php:150
+msgid "Alarm Settings"
+msgstr "Alarm ayarlari "
+
+#: include/variables.php:154
+#, fuzzy
+msgid "Alarm DB check aborted clients"
+msgstr "Alarm DB kontrolü iptal edilen istemciler"
+
+#: include/variables.php:155 include/variables.php:166
+#: include/variables.php:177 include/variables.php:188
+#: include/variables.php:199 include/variables.php:210
+#: include/variables.php:221 include/variables.php:232
+#: include/variables.php:243 include/variables.php:254
+#: include/variables.php:265 include/variables.php:276
+#: include/variables.php:288 include/variables.php:299
+#: include/variables.php:310 include/variables.php:321
+#, fuzzy
+msgid "<strong>How to be notified?</strong>"
+msgstr "<strong>Nasıl haberdar olunur?</strong>"
+
+#: include/variables.php:158 include/variables.php:169
+#: include/variables.php:180 include/variables.php:191
+#: include/variables.php:202 include/variables.php:213
+#: include/variables.php:224 include/variables.php:235
+#: include/variables.php:246 include/variables.php:257
+#: include/variables.php:268 include/variables.php:279
+#, fuzzy
+msgid "Red alarm"
+msgstr "kırmızı alarm"
+
+#: include/variables.php:159 include/variables.php:170
+#: include/variables.php:181 include/variables.php:192
+#: include/variables.php:203 include/variables.php:214
+#: include/variables.php:225 include/variables.php:236
+#: include/variables.php:247 include/variables.php:258
+#: include/variables.php:269 include/variables.php:280
+#, fuzzy
+msgid "Yellow alarm"
+msgstr "Sarı alarm"
+
+#: include/variables.php:160 include/variables.php:171
+#: include/variables.php:182 include/variables.php:193
+#: include/variables.php:204 include/variables.php:215
+#: include/variables.php:226 include/variables.php:237
+#: include/variables.php:248 include/variables.php:259
+#: include/variables.php:270 include/variables.php:281
+#, fuzzy
+msgid "Green alarm"
+msgstr "Yeşil alarm"
+
+#: include/variables.php:165
+#, fuzzy
+msgid "Alarm Host with the same description"
+msgstr "Aynı açıklamaya sahip cihazlar: %s"
+
+#: include/variables.php:176
+#, fuzzy
+msgid "Alarm orphaned data source"
+msgstr "Orphaned Veri Kaynakları: %s"
+
+#: include/variables.php:187
+#, fuzzy
+msgid "Alarm non-empty poller output"
+msgstr "Alarm boş olmayan poller çıkışı"
+
+#: include/variables.php:198
+#, fuzzy
+msgid "Alarm Bad indexes data source"
+msgstr "Alarm Kötü dizinler veri kaynağı"
+
+#: include/variables.php:209
+#, fuzzy
+msgid "Alarm Thershold logonly action"
+msgstr "Alarm Eşiği yalnızca oturum açma eylemi"
+
+#: include/variables.php:220
+#, fuzzy
+msgid "Alarm Device with the same IP/port"
+msgstr "Aynı IP ve bağlantı noktasına sahip cihazlar: %s"
+
+#: include/variables.php:231
+#, fuzzy
+msgid "Alarm Device in more Trees"
+msgstr "Birden fazla ağaçtaki cihazlar: %s"
+
+#: include/variables.php:242
+#, fuzzy
+msgid "Alarm Device without Tree"
+msgstr "Birden fazla ağaçtaki cihazlar: %s"
+
+#: include/variables.php:253
+#, fuzzy
+msgid "Alarm Device with default public/private community"
+msgstr "Varsayılan genel / özel topluluğu olan toplantı sahipleri: %s"
+
+#: include/variables.php:264
+#, fuzzy
+msgid "Alarm Device without monitoring"
+msgstr "Aynı IP ve bağlantı noktasına sahip cihazlar: %s"
+
+#: include/variables.php:275
+#, fuzzy
+msgid "Alarm Device without Graph"
+msgstr "Aynı IP ve bağlantı noktasına sahip cihazlar: %s"
+
+#: include/variables.php:287
+#, fuzzy
+msgid "Alarm red/yellow polling time"
+msgstr "Panelin en kötü 5 oy kullanma zamanına izin ver"
+
+#: include/variables.php:291
+#, fuzzy
+msgid "10s/5s red/yellow"
+msgstr "10s/5s kırmızı/sarı"
+
+#: include/variables.php:292 include/variables.php:303
+#, fuzzy
+msgid "20s/10s red/yellow"
+msgstr "20s/10s kırmızı/sarı"
+
+#: include/variables.php:293
+#, fuzzy
+msgid "40s/20s red/yellow"
+msgstr "40s/20s kırmızı/sarı"
+
+#: include/variables.php:298
+#, fuzzy
+msgid "Alarm red/yellow failed/all ratio"
+msgstr "Alarm kırmızı/sarı başarısız/tüm oranı"
+
+#: include/variables.php:302
+#, fuzzy
+msgid "0.1/0.2 red/yellow"
+msgstr "0.1/0.2 kırmızı/sarı"
+
+#: include/variables.php:304
+#, fuzzy
+msgid "more red/yellow"
+msgstr "daha fazla kırmızı/sarı"
+
+#: include/variables.php:309
+#, fuzzy
+msgid "Alarm red/yellow ping"
+msgstr "Alarm kırmızı/sarı ping"
+
+#: include/variables.php:313
+#, fuzzy
+msgid "20/10ms red/yellow"
+msgstr "20/10ms kırmızı/sarı"
+
+#: include/variables.php:314
+#, fuzzy
+msgid "50/20ms red/yellow"
+msgstr "50/20ms kırmızı/sarı"
+
+#: include/variables.php:315
+#, fuzzy
+msgid "100/200+ms red/yellow"
+msgstr "100/200+ms kırmızı/sarı"
+
+#: include/variables.php:320
+#, fuzzy
+msgid "Alarm red/yellow worst availability"
+msgstr "En iyi 5 en kötü durum"
+
+#: include/variables.php:324 include/variables.php:325
+#: include/variables.php:326
+#, fuzzy
+msgid "red/yellow"
+msgstr "kırmızı Sarı"
+
+#: panellib/analyze.php:30
+#, fuzzy
+msgid "Analysis Panels"
+msgstr "Panelleri etkinleştirme / devre dışı bırakma"
+
+#: panellib/analyze.php:31
+#, fuzzy
+msgid "Panels that analyze the current behavior of Cacti and it's plugins."
+msgstr "Kaktüslerin mevcut davranışını ve eklentilerini analiz eden paneller."
+
+#: panellib/analyze.php:36
+#, fuzzy
+msgid "Analyze Logins"
+msgstr "Panel Analayse Girişlerine izin ver"
+
+#: panellib/analyze.php:37
+#, fuzzy
+msgid "Analyze the last several Cacti logins for trends and errors."
+msgstr "Eğilimler ve hatalar için son birkaç Cacti oturumunu analiz edin."
+
+#: panellib/analyze.php:51
+#, fuzzy
+msgid "Analyze Logs"
+msgstr "Kaktüs günlüğünü analiz et"
+
+#: panellib/analyze.php:52
+#, fuzzy
+msgid "Look for common errors in Cacti's log file that should be a cause for concern."
+msgstr "Cacti'nin günlük dosyasında endişe kaynağı olması gereken yaygın hataları arayın."
+
+#: panellib/analyze.php:66
+#, fuzzy
+msgid "Database Checks"
+msgstr "Veri tabanı kontrolü"
+
+#: panellib/analyze.php:67
+#, fuzzy
+msgid "Analyze MySQL/MariaDB database for common errors.  Note that this process may take a long time on very large systems."
+msgstr "Sık karşılaşılan hatalar için MySQL/MariaDB veritabanını analiz edin. Bu işlemin çok büyük sistemlerde uzun sürebileceğini unutmayın."
+
+#: panellib/analyze.php:81
+#, fuzzy
+msgid "Trend Details"
+msgstr "Detayları göster"
+
+#: panellib/analyze.php:82
+#, fuzzy
+msgid "Few trends (down hosts, trigged tholds,...)"
+msgstr "Birkaç eğilim (düşük ana bilgisayarlar, tetiklenen değerler,...)"
+
+#: panellib/analyze.php:96
+#, fuzzy
+msgid "Analyze Cacti Objects"
+msgstr "Kaktüs günlüğünü analiz et"
+
+#: panellib/analyze.php:97
+#, fuzzy
+msgid "Analyze Trees, Graphs, Hosts, ..."
+msgstr "Ağaçları, Grafikleri, Ana Bilgisayarları, ..."
+
+#: panellib/analyze.php:131
+#, fuzzy
+msgid "Total Failed Logins:"
+msgstr "Giriş Başarısız"
+
+#: panellib/analyze.php:133
+#, fuzzy
+msgid "Active Users in Last Hour:"
+msgstr "Son Saatte Aktif Kullanıcılar:"
+
+#: panellib/analyze.php:152
+#, fuzzy
+msgid "Last 5 Logins:"
+msgstr "Son 10 giriş"
+
+#: panellib/analyze.php:165 panellib/analyze.php:960 panellib/misc.php:287
+msgid "Date"
+msgstr "Tarih"
+
+#: panellib/analyze.php:166
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: panellib/analyze.php:167 panellib/analyze.php:961
+msgid "IP Address"
+msgstr "IP Adresi"
+
+#: panellib/analyze.php:168 panellib/misc.php:246
+msgid "Status"
+msgstr "Durum"
+
+#: panellib/analyze.php:173 panellib/analyze.php:972 panellib/misc.php:302
+#: panellib/system.php:486 panellib/top5.php:313 panellib/top5.php:564
+msgid "Failed"
+msgstr "Başarısız"
+
+#: panellib/analyze.php:175 panellib/analyze.php:974
+#, fuzzy
+msgid "Success - Login"
+msgstr "Başarı - Giriş"
+
+#: panellib/analyze.php:177 panellib/analyze.php:976
+#, fuzzy
+msgid "Success - Token"
+msgstr "Başarı - Simge"
+
+#: panellib/analyze.php:211 panellib/analyze.php:873
+#, fuzzy
+msgid "Log file not accessible or empty"
+msgstr "Günlük dosyasına erişilemiyor veya boş"
+
+#: panellib/analyze.php:231
+#, fuzzy
+msgid "Errors: "
+msgstr "Hatalar"
+
+#: panellib/analyze.php:236
+#, fuzzy
+msgid "Warnings: "
+msgstr "Uyarı"
+
+#: panellib/analyze.php:243
+#, fuzzy
+msgid "Log Size: Larger than 2GB"
+msgstr "dosya 2GB'tan büyük"
+
+#: panellib/analyze.php:247 panellib/analyze.php:907
+#, fuzzy
+msgid "Log Size: OK"
+msgstr "Günlük büyüklüğü tamam"
+
+#: panellib/analyze.php:251 panellib/analyze.php:911
+#, fuzzy
+msgid "Log Size: Quite Large"
+msgstr "Günlük büyüklüğü oldukça büyük"
+
+#: panellib/analyze.php:254
+#, fuzzy
+msgid "Log Size: "
+msgstr "Günlük boyutu"
+
+#: panellib/analyze.php:260
+#, fuzzy, php-format
+msgid "Errors and Warnings from last %s lines)"
+msgstr "(Son %s satırındaki hatalar ve uyarılar)"
+
+#: panellib/analyze.php:301
+#, fuzzy, php-format
+msgid "Table %s status %s"
+msgstr "Tablo %s durumu %s"
+
+#: panellib/analyze.php:309
+#, fuzzy
+msgid "DB Problem"
+msgstr "DB sorunu"
+
+#: panellib/analyze.php:317
+#, fuzzy
+msgid "DB OK"
+msgstr "DB Tamam"
+
+#: panellib/analyze.php:335
+#, fuzzy, php-format
+msgid "Connection errors: %s - try to restart SQL service, check SQL log, ..."
+msgstr "Bağlantı hataları - SQL servisini yeniden başlatmayı deneyin."
+
+#: panellib/analyze.php:353
+#, fuzzy, php-format
+msgid "Aborted clients/connects: %s - check logs."
+msgstr "Durdurulan istemciler/bağlantılar: %s - günlükleri kontrol edin."
+
+#: panellib/analyze.php:362
+#, fuzzy, php-format
+msgid "Connection errors: %s"
+msgstr "Bağlantı hataları: %s"
+
+#: panellib/analyze.php:364
+#, fuzzy, php-format
+msgid "Damaged tables: %s"
+msgstr "Hasarlı tablolar: %s"
+
+#: panellib/analyze.php:365
+#, fuzzy, php-format
+msgid "Memory tables: %s"
+msgstr "Bellek tabloları: %s"
+
+#: panellib/analyze.php:366
+#, fuzzy, php-format
+msgid "All tables: %s"
+msgstr "Tüm tablolar: %s"
+
+#: panellib/analyze.php:378
+#, fuzzy
+msgid "Scheduled db check disabled"
+msgstr "Zamanlanmış db denetimi devre dışı bırakıldı"
+
+#: panellib/analyze.php:380
+msgid "hour"
+msgstr "saat"
+
+#: panellib/analyze.php:382
+msgid "day"
+msgstr "gün"
+
+#: panellib/analyze.php:384
+msgid "week"
+msgstr "hafta"
+
+#: panellib/analyze.php:386
+msgid "month"
+msgstr "ay"
+
+#: panellib/analyze.php:470
+#, fuzzy
+msgid "Tholds triggered"
+msgstr "Tholds tetiklendi"
+
+#: panellib/analyze.php:488
+#, fuzzy
+msgid "Hosts down"
+msgstr "Ana bilgisayar"
+
+#: panellib/analyze.php:497 panellib/poller.php:235 panellib/system.php:166
+#: panellib/top5.php:156 panellib/top5.php:217 panellib/top5.php:278
+#: panellib/top5.php:342 panellib/top5.php:412 panellib/top5.php:470
+#: panellib/top5.php:534 panellib/top5.php:591
+#, fuzzy
+msgid "Waiting for data"
+msgstr "Veri bekliyorum"
+
+#: panellib/analyze.php:529 panellib/analyze.php:556 panellib/analyze.php:595
+#: panellib/analyze.php:646 panellib/analyze.php:695 panellib/analyze.php:721
+#: panellib/analyze.php:747 panellib/analyze.php:772 panellib/analyze.php:796
+#: panellib/analyze.php:818 panellib/analyze.php:1033 panellib/analyze.php:1069
+#: panellib/analyze.php:1114 panellib/analyze.php:1139
+#: panellib/analyze.php:1171 panellib/analyze.php:1216
+#: panellib/analyze.php:1245 panellib/analyze.php:1294
+#: panellib/analyze.php:1320 panellib/analyze.php:1345
+#: panellib/analyze.php:1369 panellib/poller.php:91 panellib/poller.php:273
+#: panellib/system.php:356 panellib/system.php:362 panellib/system.php:661
+msgid "N/A"
+msgstr "N/A"
+
+#: panellib/analyze.php:535
+#, fuzzy, php-format
+msgid "Devices with the same IP and port: %s"
+msgstr "Aynı IP ve bağlantı noktasına sahip cihazlar: %s"
+
+#: panellib/analyze.php:562
+#, fuzzy, php-format
+msgid "Devices with the same description: %s"
+msgstr "Aynı açıklamaya sahip cihazlar: %s"
+
+#: panellib/analyze.php:599
+#, fuzzy, php-format
+msgid "Orphaned Data Sources: %s"
+msgstr "Orphaned Veri Kaynakları: %s"
+
+#: panellib/analyze.php:619
+#, fuzzy, php-format
+msgid "Poller Output Items: %s"
+msgstr "Poller Çıktı Öğeleri: %s"
+
+#: panellib/analyze.php:649
+#, fuzzy, php-format
+msgid "Datasource - bad indexes: %s"
+msgstr "Veri kaynağı - hatalı dizinler: %s"
+
+#: panellib/analyze.php:698
+#, fuzzy, php-format
+msgid "Thold logonly alert/warning: %s"
+msgstr "Yalnızca oturum açma uyarısını/uyarısını tutun: %s"
+
+#: panellib/analyze.php:732
+#, fuzzy, php-format
+msgid "Devices in more than one tree: %s"
+msgstr "Birden fazla ağaçtaki cihazlar: %s"
+
+#: panellib/analyze.php:758
+#, fuzzy, php-format
+msgid "Hosts without graphs: %s"
+msgstr "Grafik içermeyen ana bilgisayarlar: %s"
+
+#: panellib/analyze.php:783
+#, fuzzy, php-format
+msgid "Hosts without tree: %s"
+msgstr "Ağaçsız ana bilgisayarlar: %s"
+
+#: panellib/analyze.php:807
+#, fuzzy, php-format
+msgid "Hosts with default public/private community: %s"
+msgstr "Varsayılan genel / özel topluluğu olan toplantı sahipleri: %s"
+
+#: panellib/analyze.php:829
+#, fuzzy, php-format
+msgid "Plugin Monitor - Unmonitored hosts: %s"
+msgstr "Eklenti Monitörü - İzlenmeyen ana bilgisayarlar: %s"
+
+#: panellib/analyze.php:837 panellib/analyze.php:1389
+#, fuzzy, php-format
+msgid "Found %s problems"
+msgstr "%s problemi bulundu"
+
+#: panellib/analyze.php:843 panellib/analyze.php:1391
+#, fuzzy
+msgid "Everything OK"
+msgstr "Her şey yolunda"
+
+#: panellib/analyze.php:856
+#, fuzzy
+msgid "Analyze Cacti Log Details [ Warnings/Errors ]"
+msgstr "Kaktüs Günlüğü Ayrıntılarını Analiz Edin [ Uyarılar/Hatalar ]"
+
+#: panellib/analyze.php:893
+msgid "Errors"
+msgstr "Hatalar"
+
+#: panellib/analyze.php:898
+msgid "Warnings"
+msgstr "Uyarı"
+
+#: panellib/analyze.php:903
+#, fuzzy
+msgid "WARNING: File is Larger than 2GB"
+msgstr "dosya 2GB'tan büyük"
+
+#: panellib/analyze.php:914
+#, fuzzy
+msgid "Log Size"
+msgstr "Günlük boyutu"
+
+#: panellib/analyze.php:945
+#, fuzzy
+msgid "Analyze Logins Detail"
+msgstr "Analiz günlüğü - satır sayısı"
+
+#: panellib/analyze.php:962
+msgid "User"
+msgstr "Kullanıcı"
+
+#: panellib/analyze.php:963 panellib/misc.php:289
+msgid "Result"
+msgstr "Sonuç"
+
+#: panellib/analyze.php:992
+#, fuzzy
+msgid "Active Users in Last 2 Hours:"
+msgstr "Son 2 Saatte Aktif Kullanıcılar:"
+
+#: panellib/analyze.php:1003
+#, fuzzy
+msgid "No Active Users"
+msgstr "Aktif Kullanıcılar"
+
+#: panellib/analyze.php:1009
+#, fuzzy
+msgid "View Full User Log"
+msgstr "Tam Kullanıcı Günlüğünü Görüntüle"
+
+#: panellib/analyze.php:1020
+#, fuzzy
+msgid "Analyze Tree, Graphs, Hosts"
+msgstr "Ağacı / ana bilgisayarı / grafiği analiz et"
+
+#: panellib/analyze.php:1035
+#, fuzzy, php-format
+msgid "Devices with the same IP and port - %s"
+msgstr "Aynı IP ve %s bağlantı noktasına sahip cihazlar"
+
+#: panellib/analyze.php:1071
+#, fuzzy, php-format
+msgid "Devices with the same description - %s"
+msgstr "%s açıklamasına sahip cihazlar"
+
+#: panellib/analyze.php:1116
+#, fuzzy, php-format
+msgid "Orphaned Data Sources - %s"
+msgstr "Orphaned Veri Kaynakları %s"
+
+#: panellib/analyze.php:1141
+#, fuzzy, php-format
+msgid "Poller output items - %s:"
+msgstr "Poller çıktı öğeleri %s:"
+
+#: panellib/analyze.php:1173
+#, fuzzy, php-format
+msgid "Datasources with bad indexes - %s:"
+msgstr "Veri kaynağı - hatalı dizinler %s:"
+
+#: panellib/analyze.php:1218
+#, fuzzy, php-format
+msgid "Thold logonly alert/warning - %s:"
+msgstr "Yalnızca oturum açma uyarısı/uyarısı - %s:"
+
+#: panellib/analyze.php:1247
+#, fuzzy, php-format
+msgid "Devices in more than one tree - %s"
+msgstr "Birden fazla ağaçtaki cihazlar %s"
+
+#: panellib/analyze.php:1296
+#, fuzzy, php-format
+msgid "Hosts without graphs - %s"
+msgstr "Grafik içermeyen ana bilgisayarlar %s"
+
+#: panellib/analyze.php:1322
+#, fuzzy, php-format
+msgid "Hosts without tree - %s"
+msgstr "%s ağacı olmayan ana makineler"
+
+#: panellib/analyze.php:1347
+#, fuzzy, php-format
+msgid "Hosts with default public/private community - %s"
+msgstr "Varsayılan %s / genel topluluğuna sahip ana bilgisayarlar %s"
+
+#: panellib/analyze.php:1371
+#, fuzzy, php-format
+msgid "Plugin Monitor - Unmonitored hosts - %s"
+msgstr "Eklenti İzleme - Unmonitored host %s"
+
+#: panellib/graphs.php:30
+#, fuzzy
+msgid "Graphical Panels"
+msgstr "Intropage panelleri"
+
+#: panellib/graphs.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti and it's plugins in a Graphical way."
+msgstr "Kaktüsler ve eklentileri hakkında Grafiksel olarak bilgi veren paneller."
+
+#: panellib/graphs.php:36 panellib/graphs.php:271
+msgid "Data Sources"
+msgstr "Veri Kaynakları"
+
+#: panellib/graphs.php:37
+#, fuzzy
+msgid "Graph of Data Sources"
+msgstr "Panel Grafik Veri Kaydı'na izin ver"
+
+#: panellib/graphs.php:51 panellib/graphs.php:395
+#, fuzzy
+msgid "Device Templates"
+msgstr "Cihaz Şablonları"
+
+#: panellib/graphs.php:52
+#, fuzzy
+msgid "Graph of Device Templates"
+msgstr "Cihaz Şablonları"
+
+#: panellib/graphs.php:66
+#, fuzzy
+msgid "Devices by Status"
+msgstr "Cihaz Şablonları"
+
+#: panellib/graphs.php:67
+#, fuzzy
+msgid "Graph of Devices by Status (up,down,...)"
+msgstr "Duruma Göre Cihazların Grafiği (yukarı, aşağı,...)"
+
+#: panellib/graphs.php:94
+#, fuzzy
+msgid "Datasources: "
+msgstr "Veri kaynakları:"
+
+#: panellib/graphs.php:127 panellib/graphs.php:172 panellib/graphs.php:260
+#: panellib/top5.php:159 panellib/top5.php:220 panellib/top5.php:281
+#: panellib/top5.php:345
+#, fuzzy
+msgid "You don't have permissions to any hosts"
+msgstr "Bunun için yetkiniz yok"
+
+#: panellib/graphs.php:142
+#, fuzzy
+msgid "Device Templates: "
+msgstr "Cihaz Şablonları"
+
+#: panellib/graphs.php:189
+#, fuzzy
+msgid "Hosts: "
+msgstr "Ana makineler"
+
+#: panellib/graphs.php:228 panellib/graphs.php:342 panellib/thold.php:170
+msgid "All"
+msgstr "Tümü"
+
+#: panellib/graphs.php:229 panellib/graphs.php:238 panellib/graphs.php:343
+#: panellib/mactrack.php:104
+msgid "Up"
+msgstr "Yukarı"
+
+#: panellib/graphs.php:230 panellib/graphs.php:239 panellib/graphs.php:344
+#: panellib/mactrack.php:105
+msgid "Down"
+msgstr "Aşağı"
+
+#: panellib/graphs.php:231 panellib/graphs.php:241 panellib/graphs.php:345
+#: panellib/mactrack.php:108 panellib/poller.php:118 panellib/poller.php:297
+#: panellib/system.php:341 panellib/thold.php:173 panellib/thold.php:182
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: panellib/graphs.php:232 panellib/graphs.php:240 panellib/graphs.php:346
+#: panellib/poller.php:120 panellib/poller.php:299
+#, fuzzy
+msgid "Recovering"
+msgstr "kurtarma"
+
+#: panellib/graphs.php:236 panellib/graphs.php:311
+msgid "Hosts"
+msgstr "Ana makineler"
+
+#: panellib/graphs.php:300
+#, fuzzy
+msgid "No untemplated datasources found"
+msgstr "İşlenmemiş veri kaynağı bulunamadı"
+
+#: panellib/graphs.php:357
+#, fuzzy
+msgid "Recovering:"
+msgstr "kurtarma"
+
+#: panellib/graphs.php:376
+#, fuzzy
+msgid "Down:"
+msgstr "Aşağı"
+
+#: panellib/graphs.php:419
+#, fuzzy
+msgid "No device templates found"
+msgstr "Hiçbir cihaz şablonu bulunamadı"
+
+#: panellib/mactrack.php:30
+#, fuzzy
+msgid "MacTrack Panels"
+msgstr "Mactrack siteleri"
+
+#: panellib/mactrack.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti's MacTrack plugins."
+msgstr "Cacti'nin MacTrack eklentileri hakkında bilgi sağlayan paneller."
+
+#: panellib/mactrack.php:36
+#, fuzzy
+msgid "MacTrack Plugin"
+msgstr "Panel MacTrack Eklentisine izin ver"
+
+#: panellib/mactrack.php:37
+#, fuzzy
+msgid "Various MacTrack collection and site statistics."
+msgstr "Çeşitli MacTrack koleksiyonu ve site istatistikleri."
+
+#: panellib/mactrack.php:51 panellib/mactrack.php:179
+#, fuzzy
+msgid "MacTrack Sites"
+msgstr "Mactrack siteleri"
+
+#: panellib/mactrack.php:52
+#, fuzzy
+msgid "Various MacTrack Site statistics."
+msgstr "Çeşitli MacTrack Site istatistikleri."
+
+#: panellib/mactrack.php:78 panellib/mactrack.php:129
+#, fuzzy
+msgid "MacTrack Plugin not Installed/Running"
+msgstr "Mactrack eklentisi yüklü değil / çalışıyor"
+
+#: panellib/mactrack.php:94
+#, fuzzy, php-format
+msgid "All: %s"
+msgstr "Hepsi: %s"
+
+#: panellib/mactrack.php:95
+#, fuzzy, php-format
+msgid "Up: %s"
+msgstr "Güç kaynağı"
+
+#: panellib/mactrack.php:96
+#, fuzzy, php-format
+msgid "Down: %s"
+msgstr "Aşağı: %s"
+
+#: panellib/mactrack.php:97
+#, php-format
+msgid "Error: %s"
+msgstr "Hata: %s"
+
+#: panellib/mactrack.php:98
+#, fuzzy, php-format
+msgid "Unknown: %s"
+msgstr "Bilinmeyen: %s"
+
+#: panellib/mactrack.php:99
+#, php-format
+msgid "Disabled: %s"
+msgstr "Devre dışı: <ph id=\"mtc_1\" equiv-text=\"base64:JXM=\"/>"
+
+#: panellib/mactrack.php:102
+#, fuzzy
+msgid "MacTrack"
+msgstr "Mactrack"
+
+#: panellib/mactrack.php:106 panellib/misc.php:291
+msgid "Error"
+msgstr "Hata"
+
+#: panellib/mactrack.php:107
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: panellib/mactrack.php:115 panellib/mactrack.php:168 panellib/thold.php:199
+#, fuzzy
+msgid "You don't have plugin permission"
+msgstr "Bunun için yetkiniz yok"
+
+#: panellib/mactrack.php:133 panellib/mactrack.php:186
+msgid "Site"
+msgstr "Site"
+
+#: panellib/mactrack.php:134 panellib/mactrack.php:187
+msgid "Devices"
+msgstr "Cihazlar"
+
+#: panellib/mactrack.php:135 panellib/mactrack.php:188
+msgid "IPs"
+msgstr "IP Adresleri"
+
+#: panellib/mactrack.php:136 panellib/mactrack.php:189
+msgid "Ports"
+msgstr "Limanlar"
+
+#: panellib/mactrack.php:137 panellib/mactrack.php:190
+#, fuzzy
+msgid "Ports up"
+msgstr "Limanlar"
+
+#: panellib/mactrack.php:138 panellib/mactrack.php:191
+#, fuzzy
+msgid "MACs"
+msgstr "MAC"
+
+#: panellib/mactrack.php:139 panellib/mactrack.php:192
+#, fuzzy
+msgid "Device Errors"
+msgstr "Cihaz hataları"
+
+#: panellib/mactrack.php:165 panellib/mactrack.php:216
+#, fuzzy
+msgid "No mactrack sites found"
+msgstr "Mactrack sitesi bulunamadı"
+
+#: panellib/misc.php:30
+#, fuzzy
+msgid "Miscelaneous Panels"
+msgstr "Muhtelif Paneller"
+
+#: panellib/misc.php:31
+#, fuzzy
+msgid "Panels that general non-categorized data about Cacti's."
+msgstr "Kaktüsler hakkında kategorize edilmemiş genel verileri içeren paneller."
+
+#: panellib/misc.php:36
+#, fuzzy
+msgid "NTP Status"
+msgstr "NTP Durumu"
+
+#: panellib/misc.php:37
+#, fuzzy
+msgid "Checking your Cacti system clock for drift from a known baseline."
+msgstr "Bilinen bir taban çizgisinden sapma için Cacti sistem saatinizi kontrol etme."
+
+#: panellib/misc.php:51
+#, fuzzy
+msgid "Maint Plugin Details"
+msgstr "Detayları göster"
+
+#: panellib/misc.php:52
+#, fuzzy
+msgid "Maint Plugin details on upcoming schedules"
+msgstr "Yaklaşan programlarla ilgili Maint Plugin ayrıntıları"
+
+#: panellib/misc.php:66
+#, fuzzy
+msgid "Webseer Details"
+msgstr "Detayları göster"
+
+#: panellib/misc.php:67
+#, fuzzy
+msgid "Plugin webseer URL Service Check Details"
+msgstr "Eklenti webseer URL Hizmeti Kontrol Ayrıntıları"
+
+#: panellib/misc.php:97
+#, fuzzy
+msgid "No NTP server configured"
+msgstr "Yapılandırılmış NTP sunucusu yok"
+
+#: panellib/misc.php:100
+#, fuzzy, php-format
+msgid "Wrong NTP server configured - %s<br/>Please fix it in settings"
+msgstr "Yapılandırılmış NTP sunucusu yok"
+
+#: panellib/misc.php:111
+#, fuzzy, php-format
+msgid "Failed to get NTP time from %s"
+msgstr "$ Ntp_server konumundan NTP saati alınamadı"
+
+#: panellib/misc.php:119
+#, fuzzy
+msgid "Please check time as it is off by more"
+msgstr "Lütfen daha fazla kapalı olduğu için zamanı kontrol edin"
+
+#: panellib/misc.php:120
+#, fuzzy, php-format
+msgid "than %s seconds from NTP server %s."
+msgstr "%s NTP sunucusundan %s saniyeden fazla."
+
+#: panellib/misc.php:122
+#, fuzzy
+msgid "Localtime is equal to NTP server"
+msgstr "Yerel ayar NTP sunucusuna eşittir"
+
+#: panellib/misc.php:127
+#, fuzzy
+msgid "Unable to contact the NTP server indicated."
+msgstr "Belirtilen NTP sunucusuyla bağlantı kurulamıyor. <br/> Lütfen yapılandırmanızı kontrol edin. <br/>"
+
+#: panellib/misc.php:128
+#, fuzzy
+msgid "Please check your configuration."
+msgstr "Lütfen yapılandırmanızı kontrol edin."
+
+#: panellib/misc.php:212
+#, fuzzy
+msgid "Maint plugin is not installed/enabled"
+msgstr "Mactrack eklentisi yüklü değil / çalışıyor"
+
+#: panellib/misc.php:226
+#, fuzzy
+msgid "Plugin Webseer isn't installed or started"
+msgstr "Eklenti Thold kurulmamış veya başlatılmamış"
+
+#: panellib/misc.php:234
+#, fuzzy
+msgid "Number of checks: "
+msgstr "Kontrol sayısı:"
+
+#: panellib/misc.php:235 panellib/thold.php:248
+#, fuzzy
+msgid "Disabled: "
+msgstr "Devre dışı"
+
+#: panellib/misc.php:236
+#, fuzzy
+msgid "Status up: "
+msgstr "Durum yukarı:"
+
+#: panellib/misc.php:237
+#, fuzzy
+msgid "Status down: "
+msgstr "Ana bilgisayar"
+
+#: panellib/misc.php:244
+#, fuzzy
+msgid "First 3 failed sites"
+msgstr "İlk 3 başarısız site"
+
+#: panellib/misc.php:245
+msgid "url"
+msgstr "URL"
+
+#: panellib/misc.php:247 panellib/misc.php:290
+msgid "HTTP code"
+msgstr "HTTP kodu"
+
+#: panellib/misc.php:271
+#, fuzzy
+msgid "Webseer Plugin - Details"
+msgstr "Webseer Eklentisi - Ayrıntılar"
+
+#: panellib/misc.php:288
+msgid "URL"
+msgstr "URL"
+
+#: panellib/misc.php:300 panellib/thold.php:179
+msgid "OK"
+msgstr "Tamam"
+
+#: panellib/poller.php:30
+#, fuzzy
+msgid "Poller Panels"
+msgstr "Panel Poller İstatistikleri'ne izin ver"
+
+#: panellib/poller.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti's polling process."
+msgstr "Kaktüslerin yoklama süreci hakkında bilgi sağlayan paneller."
+
+#: panellib/poller.php:36
+#, fuzzy
+msgid "Poller Information"
+msgstr "Poller bilgisi"
+
+#: panellib/poller.php:37
+#, fuzzy
+msgid "Various information about your Cacti poller."
+msgstr "Kaktüs yoklayıcınız hakkında çeşitli bilgiler."
+
+#: panellib/poller.php:51
+#, fuzzy
+msgid "Poller Statistics"
+msgstr "Panel Poller İstatistikleri'ne izin ver"
+
+#: panellib/poller.php:52
+#, fuzzy
+msgid "Various Cacti poller statistics."
+msgstr "Çeşitli Kaktüsler anket istatistikleri."
+
+#: panellib/poller.php:78
+#, fuzzy
+msgid "ID/Name/Total Time/State"
+msgstr "Kimlik / İsim / toplam süre / eyalet"
+
+#: panellib/poller.php:98 panellib/poller.php:257
+msgid "ID"
+msgstr "ID"
+
+#: panellib/poller.php:99 panellib/poller.php:258
+msgid "Name"
+msgstr "İsim"
+
+#: panellib/poller.php:100 panellib/poller.php:259
+msgid "State"
+msgstr "Şehir"
+
+#: panellib/poller.php:101 panellib/poller.php:260
+msgid "Total Time"
+msgstr "Toplam zaman"
+
+#: panellib/poller.php:110 panellib/poller.php:289
+#, fuzzy
+msgid "New/Idle"
+msgstr "Yeni / Boşta"
+
+#: panellib/poller.php:112 panellib/poller.php:291 panellib/system.php:292
+msgid "Running"
+msgstr "Çalışıyor"
+
+#: panellib/poller.php:114 panellib/poller.php:293 panellib/system.php:290
+msgid "Idle"
+msgstr "Boşta"
+
+#: panellib/poller.php:116 panellib/poller.php:295
+#, fuzzy
+msgid "Unkn/down"
+msgstr "Unkn / aşağı"
+
+#: panellib/poller.php:127 panellib/top5.php:268 panellib/top5.php:270
+#: panellib/top5.php:524 panellib/top5.php:526
+#, fuzzy, php-format
+msgid "%s Secs"
+msgstr "%s Saniye"
+
+#: panellib/poller.php:135 panellib/poller.php:310
+#, fuzzy
+msgid "(ok)"
+msgstr "(tamam)"
+
+#: panellib/poller.php:136 panellib/poller.php:310
+msgid "(all)"
+msgstr "(herşey)"
+
+#: panellib/poller.php:218 panellib/poller.php:220
+#, fuzzy
+msgid " Poller ID: "
+msgstr "Poller ID:"
+
+#: panellib/poller.php:227
+msgid "ID: "
+msgstr "Kimlik: "
+
+#: panellib/poller.php:250
+#, fuzzy
+msgid "Poller Details"
+msgstr "Panel Poller İstatistikleri'ne izin ver"
+
+#: panellib/poller.php:261
+#, fuzzy
+msgid "Average Time"
+msgstr "Ortalama süre"
+
+#: panellib/poller.php:262
+#, fuzzy
+msgid "Max Time"
+msgstr "Maksimum Süre"
+
+#: panellib/syslog.php:30
+#, fuzzy
+msgid "Syslog Panels"
+msgstr "Paneli yeniden yükle"
+
+#: panellib/syslog.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti's Syslog message processing."
+msgstr "Cacti'nin Syslog mesaj işlemesi hakkında bilgi sağlayan paneller."
+
+#: panellib/syslog.php:36
+#, fuzzy
+msgid "Syslog Details"
+msgstr "Detayları göster"
+
+#: panellib/syslog.php:37
+#, fuzzy
+msgid "Various Syslog Plugin statistics."
+msgstr "Çeşitli Syslog Eklenti istatistikleri."
+
+#: panellib/syslog.php:117 panellib/top5.php:314 panellib/top5.php:565
+msgid "Total"
+msgstr "Toplam"
+
+#: panellib/syslog.php:137
+msgid "Incoming"
+msgstr "Gelen"
+
+#: panellib/syslog.php:157
+msgid "Alerts"
+msgstr "Uyarılar"
+
+#: panellib/syslog.php:188
+#, fuzzy
+msgid "Syslog plugin not installed/running"
+msgstr "Thold eklentisi yüklü değil / çalışıyor"
+
+#: panellib/system.php:30
+#, fuzzy
+msgid "System Panels"
+msgstr "Intropage panelleri"
+
+#: panellib/system.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti system performance."
+msgstr "Cacti sistem performansı hakkında bilgi veren paneller."
+
+#: panellib/system.php:36
+msgid "Information"
+msgstr "Bilgi"
+
+#: panellib/system.php:37
+#, fuzzy
+msgid "Various system information about the Cacti system itself."
+msgstr "Kaktüsler sisteminin kendisi hakkında çeşitli sistem bilgileri."
+
+#: panellib/system.php:51
+#, fuzzy
+msgid "Administrative Alerts"
+msgstr "İdari Uyarılar"
+
+#: panellib/system.php:52
+#, fuzzy
+msgid "Extra admin notify panel for all users"
+msgstr "Tüm kullanıcılar için ekstra yönetici bildirim paneli"
+
+#: panellib/system.php:66
+#, fuzzy
+msgid "Boost Statistics"
+msgstr "İstatistikleri artırmak"
+
+#: panellib/system.php:67
+#, fuzzy
+msgid "Information about Cacti's performance boost process."
+msgstr "Kaktüslerin performans artırma süreci hakkında bilgi."
+
+#: panellib/system.php:81
+#, fuzzy
+msgid "24 Hour Extremes"
+msgstr "24 saat aşırı"
+
+#: panellib/system.php:82
+#, fuzzy
+msgid "Table with 24 hours of Polling Extremes (longest poller run, down hosts)"
+msgstr "24 saatlik Aşırı Yoklama içeren tablo (en uzun anket çalıştırması, ana bilgisayarların kapanması)"
+
+#: panellib/system.php:96
+msgid "CPU Utilization"
+msgstr "CPU Kullanımı"
+
+#: panellib/system.php:97
+#, fuzzy
+msgid "CPU utilization Graph (only Linux)."
+msgstr "CPU kullanımı"
+
+#: panellib/system.php:135
+#, fuzzy
+msgid "CPU load: "
+msgstr "CPU yükü:"
+
+#: panellib/system.php:142
+#, fuzzy
+msgid "This function is not implemented on Windows platforms"
+msgstr "Bu işlev Windows platformlarında uygulanmadı"
+
+#: panellib/system.php:152
+msgid "Load"
+msgstr "Yükle"
+
+#: panellib/system.php:183
+#, fuzzy
+msgid "Cacti Version: "
+msgstr "Kaktüsler sürümü:"
+
+#: panellib/system.php:196
+#, fuzzy
+msgid "Poller Type:"
+msgstr "Poller türü:"
+
+#: panellib/system.php:196
+#, fuzzy
+msgid "Spine"
+msgstr "Omurga"
+
+#: panellib/system.php:200
+#, fuzzy
+msgid "Spine version: "
+msgstr "Omurga versiyonu:"
+
+#: panellib/system.php:203
+#, fuzzy
+msgid "You are using incorrect spine version!"
+msgstr "Omurga versiyonunu yanlış kullanıyorsunuz!"
+
+#: panellib/system.php:209
+#, fuzzy
+msgid "Poller Type: "
+msgstr "Poller türü:"
+
+#: panellib/system.php:212
+#, fuzzy
+msgid "Running on: "
+msgstr "Çalıştırılıyor:"
+
+#: panellib/system.php:294
+#, fuzzy
+msgid "Overrun Warning"
+msgstr "Taşma Uyarısı"
+
+#: panellib/system.php:297
+#, fuzzy
+msgid "Timed Out"
+msgstr "Zaman aşımına uğradı"
+
+#: panellib/system.php:300
+msgid "Other"
+msgstr "Diğer"
+
+#: panellib/system.php:303
+msgid "Never Run"
+msgstr "Asla Çalışma"
+
+#: panellib/system.php:309
+#, fuzzy, php-format
+msgid "Parallel Processes: %s"
+msgstr "Paralel İşlemler: %s"
+
+#: panellib/system.php:312
+#, fuzzy, php-format
+msgid "Pending Boost Records: %s"
+msgstr "Bekleyen Yükseltme Kayıtları: %s"
+
+#: panellib/system.php:313
+#, fuzzy, php-format
+msgid "Archived Boost Records: %s"
+msgstr "Arşivlenmiş Yükseltme Kayıtları: %s"
+
+#: panellib/system.php:317 panellib/system.php:320 panellib/system.php:322
+#, fuzzy, php-format
+msgid "Total Boost Records: %s"
+msgstr "Toplam Takviye Kayıtları: %s"
+
+#: panellib/system.php:341
+#, fuzzy, php-format
+msgid "Boost On-demand Updating: %s"
+msgstr "İsteğe Bağlı Güncellemeyi Artırma: %s"
+
+#: panellib/system.php:348
+#, fuzzy, php-format
+msgid "Current Boost Table(s) Size: %s"
+msgstr "Geçerli Yükseltme Tabloları Boyut: %s"
+
+#: panellib/system.php:351
+#, fuzzy, php-format
+msgid "Avg Bytes/Record: %s"
+msgstr "Ort. Bayt / Kayıt: %s"
+
+#: panellib/system.php:359
+#, fuzzy, php-format
+msgid "Last run duration: %s"
+msgstr "Son çalıştırma süresi: %s"
+
+#: panellib/system.php:361
+#, fuzzy, php-format
+msgid "RRD Updates / Max: %s / %s"
+msgstr "RRD Güncellemeleri / Maks: %s / %s"
+
+#: panellib/system.php:362
+#, fuzzy, php-format
+msgid "Update Frequency: %s"
+msgstr "Güncelleme Sıklığı: %s"
+
+#: panellib/system.php:363
+#, fuzzy, php-format
+msgid "Next Start Time: %s"
+msgstr "Sonraki Başlangıç Saati: %s"
+
+#: panellib/system.php:411
+#, fuzzy
+msgid "Poller Run"
+msgstr "Poller bilgisi"
+
+#: panellib/system.php:429
+#, fuzzy
+msgid "Down Hosts"
+msgstr "Sunucular"
+
+#: panellib/system.php:449 panellib/thold.php:180
+msgid "Triggered"
+msgstr "Tetikleyici"
+
+#: panellib/system.php:468
+#, fuzzy
+msgid "Poller"
+msgstr "Poller bilgisi"
+
+#: panellib/system.php:531
+#, fuzzy
+msgid "48 Hour Extreme Polling"
+msgstr "24 saat aşırı"
+
+#: panellib/system.php:554
+#, fuzzy
+msgid "Long Running Poller"
+msgstr "Uzun koşu <br/> Anketlerimizi"
+
+#: panellib/system.php:577
+#, fuzzy
+msgid "Max Device Down"
+msgstr "Maksimum Cihaz Aşağı"
+
+#: panellib/system.php:598
+#, fuzzy
+msgid "Max Thold Triggered"
+msgstr "Tholds tetiklendi"
+
+#: panellib/system.php:620
+#, fuzzy
+msgid "Poller Output Item"
+msgstr "Poller Çıktı Öğeleri: %s"
+
+#: panellib/system.php:642
+#, fuzzy
+msgid "Failed Polls"
+msgstr "Giriş Başarısız"
+
+#: panellib/thold.php:30
+#, fuzzy
+msgid "Threshold Panels"
+msgstr "Eşik"
+
+#: panellib/thold.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti Thresholding Plugin."
+msgstr "Cacti Thresholding Plugin hakkında bilgi veren paneller."
+
+#: panellib/thold.php:36 panellib/thold.php:285
+#, fuzzy
+msgid "Last Threshold Events"
+msgstr "Eşik"
+
+#: panellib/thold.php:37
+#, fuzzy
+msgid "Threshold Plugin Latest Events"
+msgstr "Eşik"
+
+#: panellib/thold.php:51
+msgid "Threshold"
+msgstr "Eşik"
+
+#: panellib/thold.php:52
+#, fuzzy
+msgid "Threshold Plugin Graph (all, trigerred, ...)"
+msgstr "Eşik Eklenti Grafiği (tümü, tetiklenmiş, ...)"
+
+#: panellib/thold.php:78 panellib/thold.php:292
+#, fuzzy
+msgid "Plugin Thold isn't installed or started"
+msgstr "Eklenti Thold kurulmamış veya başlatılmamış"
+
+#: panellib/thold.php:128 panellib/thold.php:335
+#, fuzzy
+msgid "Without events yet"
+msgstr "Henüz olay olmadan"
+
+#: panellib/thold.php:145 panellib/thold.php:219
+#, fuzzy
+msgid "Thold plugin not installed/running"
+msgstr "Thold eklentisi yüklü değil / çalışıyor"
+
+#: panellib/thold.php:171 panellib/thold.php:181
+#, fuzzy
+msgid "Breached"
+msgstr "ihlal"
+
+#: panellib/thold.php:172
+#, fuzzy
+msgid "Trigged"
+msgstr "trigged"
+
+#: panellib/thold.php:212
+#, fuzzy
+msgid "Threshold Details"
+msgstr "Eşik"
+
+#: panellib/thold.php:245
+msgid "All: "
+msgstr "Tümü: "
+
+#: panellib/thold.php:246 panellib/thold.php:253
+#, fuzzy
+msgid "Breached: "
+msgstr "ihlal"
+
+#: panellib/thold.php:247
+#, fuzzy
+msgid "Trigged: "
+msgstr "trigged"
+
+#: panellib/thold.php:264
+#, fuzzy
+msgid "Triggered: "
+msgstr "Tetikleyici"
+
+#: panellib/thold.php:272
+#, fuzzy
+msgid "You don't have permission to Thresholds"
+msgstr "Bunun için yetkiniz yok"
+
+#: panellib/top5.php:30
+#, fuzzy
+msgid "Top 5 Panels"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: panellib/top5.php:31
+#, fuzzy
+msgid "Panels that provide information trending information about Cacti data collection."
+msgstr "Kaktüsler veri toplama hakkında bilgi trend bilgileri sağlayan paneller."
+
+#: panellib/top5.php:36
+#, fuzzy
+msgid "Top 5 Ping"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: panellib/top5.php:37
+#, fuzzy
+msgid "Devices with the worst ping response"
+msgstr "Aynı açıklamaya sahip cihazlar: %s"
+
+#: panellib/top5.php:51
+#, fuzzy
+msgid "Top 5 Worst Availability"
+msgstr "En iyi 5 en kötü durum"
+
+#: panellib/top5.php:52
+#, fuzzy
+msgid "Devices with the worst availability/reachability"
+msgstr "En iyi 5 en kötü durum"
+
+#: panellib/top5.php:66
+#, fuzzy
+msgid "Top 5 Worst Polling Time"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: panellib/top5.php:67
+#, fuzzy
+msgid "Devices with the worst polling time"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: panellib/top5.php:81
+#, fuzzy
+msgid "Top 5 Worst Polling Ratio"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: panellib/top5.php:82
+#, fuzzy
+msgid "Devices with the worst polling ratio"
+msgstr "Aynı IP ve bağlantı noktasına sahip cihazlar: %s"
+
+#: panellib/top5.php:124 panellib/top5.php:250 panellib/top5.php:312
+#: panellib/top5.php:380 panellib/top5.php:440 panellib/top5.php:505
+#: panellib/top5.php:563
+msgid "Host"
+msgstr "Host"
+
+#: panellib/top5.php:125 panellib/top5.php:381
+msgid "Average"
+msgstr "Ortalama"
+
+#: panellib/top5.php:126 panellib/top5.php:382
+msgid "Current"
+msgstr "Şimdiki"
+
+#: panellib/top5.php:189
+msgid "Hostname"
+msgstr "Sunucu Adı"
+
+#: panellib/top5.php:190
+#, fuzzy
+msgid "Availability/Reachability"
+msgstr "Kullanılabilirlik/Ulaşılabilirlik"
+
+#: panellib/top5.php:251 panellib/top5.php:506
+#, fuzzy
+msgid "Polling Time"
+msgstr "Poller bilgisi"
+
+#: panellib/top5.php:315 panellib/top5.php:566
+msgid "Ratio"
+msgstr "Oran"
+
+#: panellib/top5.php:356
+#, fuzzy
+msgid "Top 20 Hosts with Worst Ping"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: panellib/top5.php:423
+#, fuzzy
+msgid "Top 20 Hosts with the Worst Availability"
+msgstr "En iyi 5 en kötü durum"
+
+#: panellib/top5.php:441
+msgid "Availability"
+msgstr "Kullanılabilirlik"
+
+#: panellib/top5.php:481
+#, fuzzy
+msgid "Top 20 Hosts Worst Polling Time"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: panellib/top5.php:545
+#, fuzzy
+msgid "Top 20 Hosts with the Worst Polling Ratio"
+msgstr "Top5 en kötü oy kullanma zamanı"
+
+#: setup.php:59
+#, fuzzy
+msgid "Intropage Viewer"
+msgstr "Intropage panelleri"
+
+#: setup.php:60
+#, fuzzy
+msgid "Intropage Administration"
+msgstr "Giriş Sayfası Seçenekleri"
+
+#: setup.php:76
+msgid "System Administration"
+msgstr "Sistem Yönetimi"
+
+#, fuzzy
+#~ msgid "Add %s"
+#~ msgstr "%s panelini ekle"
+
+#, fuzzy
+#~ msgid "Add %s %s"
+#~ msgstr "%s %s panelini ekle"
+
+#, fuzzy
+#~ msgid "Please check time.<br/>It is different (more than %s seconds) from NTP server %s"
+#~ msgstr "Lütfen zamanı kontrol et. <br/> Farklı ( %s saniyeden fazla) NTP sunucusundan %s"
+
+#, fuzzy
+#~ msgid "Errors and Warnings"
+#~ msgstr "Hatalar ve Uyarılar"
+
+#, fuzzy
+#~ msgid "Only Errors"
+#~ msgstr "Sadece hatalar"
+
+#, fuzzy
+#~ msgid "What will you see"
+#~ msgstr "Ne göreceksin"
+
+#~ msgid "Display"
+#~ msgstr "Görüntüle"
+
+#, fuzzy
+#~ msgid "Allow panel Favourite Graphs"
+#~ msgstr "Panelin Sık Kullanılan Grafiklerine İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Boost"
+#~ msgstr "Panel Yükseltmeye İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Top 5 worst polling failed/total ratio"
+#~ msgstr "Panele izin ver En kötü 5 yoklama başarısız / toplam oran"
+
+#, fuzzy
+#~ msgid "Allow panel Top 5 Availability"
+#~ msgstr "Panelin En İyi 5 Uygunluğuna İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Top 5 Ping"
+#~ msgstr "Panele izin ver En İyi 5 Ping"
+
+#, fuzzy
+#~ msgid "Allow panel MacTrack Sites"
+#~ msgstr "Panel MacTrack Sitelerine İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel CPU Utilization"
+#~ msgstr "Panel CPU Kullanımına İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Graph Device Template"
+#~ msgstr "Panel Grafik Aygıt Şablonuna İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Graph Thresholds"
+#~ msgstr "Panel Grafik Eşiklerine İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Poller Info"
+#~ msgstr "Panel Poller Bilgisine İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel NTP"
+#~ msgstr "Panel NTP’ye izin ver"
+
+#, fuzzy
+#~ msgid "Allow panel 24h Extrems"
+#~ msgstr "Panel 24 saat Ekstremlere izin ver"
+
+#, fuzzy
+#~ msgid "Allow panel Trends"
+#~ msgstr "Panel Trendlerine İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Analayse Tree, Devices, Graphs"
+#~ msgstr "Panel Analayse Ağacı'na, Cihazlara, Grafiklere izin ver"
+
+#, fuzzy
+#~ msgid "Allow panel Threshold Events"
+#~ msgstr "Panel Eşik Olaylarına İzin Ver"
+
+#, fuzzy
+#~ msgid "Allow panel Analayse Log"
+#~ msgstr "Panel Analayse Log'una izin ver"
+
+#, fuzzy
+#~ msgid "Show the Intropage plugin screen in separated tab"
+#~ msgstr "Intropage eklenti ekranını ayrı sekmede gösterme"
+
+#, fuzzy
+#~ msgid "Show the Intropage plugin screen in console screen (you need console access permission!)"
+#~ msgstr "Konsol içi eklenti ekranını konsol ekranında göster (konsol erişim iznine ihtiyacın var!)"
+
+#, fuzzy
+#~ msgid "How we should display the intropage. <strong>For users without console access you must choose separated tab!</strong>"
+#~ msgstr "Giriş bilgisini nasıl göstermeliyiz? <strong>Konsol erişimi olmayan kullanıcılar için ayrı sekme seçmelisiniz!</strong>"
+
+#, fuzzy
+#~ msgid "Plugin Thold - Global notify only: %s"
+#~ msgstr "Eklenti Thold - Global sadece bildir: %s"
+
+#, fuzzy
+#~ msgid "Plugin Thold - Global notify only %s"
+#~ msgstr "Eklenti Thold - Global sadece %s bildir"
+
+#, fuzzy
+#~ msgid "Checked Every 15 minutes"
+#~ msgstr "Her 15 dakikada bir kontrol edilir"
+
+#, fuzzy
+#~ msgid "Reset panel Order to Default"
+#~ msgstr "Panel Siparişini Varsayılana Sıfırla"
+
+#, fuzzy
+#~ msgid "Display All"
+#~ msgstr "Tümünü Göster"
+
+#, fuzzy
+#~ msgid "Display Errors and Warnings"
+#~ msgstr "Hataları ve Uyarıları Göster"
+
+#, fuzzy
+#~ msgid "Display only Errors"
+#~ msgstr "Sadece Hataları Göster"
+
+#, fuzzy
+#~ msgid "Show Intropage in Tab (not selected = intropage in console)"
+#~ msgstr "Intropage'i göster (Konsolda veya Sekmede farketmez)"
+
+#, fuzzy
+#~ msgid "Favourite Graphs"
+#~ msgstr "Favori grafik"
+
+#, fuzzy
+#~ msgid "Top 5 Worst Failed Ratio"
+#~ msgstr "En iyi 5 en kötü durum"
+
+#, fuzzy
+#~ msgid "Graph Thresholds"
+#~ msgstr "Eşik"
+
+#, fuzzy
+#~ msgid "Graph Device"
+#~ msgstr "Panel Grafik Aygıtına İzin Ver"
+
+#, fuzzy
+#~ msgid "24h Extremes"
+#~ msgstr "24 saat aşırı"
+
+#, fuzzy
+#~ msgid "Analyze Database"
+#~ msgstr "Panel Analayse Veritabanına İzin Ver"
+
+#, fuzzy
+#~ msgid "You cannot disable this panel"
+#~ msgstr "Bu paneli devre dışı bırakamazsınız"
+
+#, fuzzy
+#~ msgid "Top 20 hosts with the  worst polling ratio (failed, total, ratio)"
+#~ msgstr "İlk 5 en kötü oy kullanma oranı (başarısız, toplam, oran)"
+
+#, fuzzy
+#~ msgid "Top 20 hosts with the worst ping (avg, current)"
+#~ msgstr "Top5 ping (ortalama, geçerli)"
+
+#, fuzzy
+#~ msgid "TRIGGERED"
+#~ msgstr "TETİĞİNE"
+
+#, fuzzy
+#~ msgid "BREACHED"
+#~ msgstr "İHLAL"
+
+#, fuzzy
+#~ msgid "DOWN"
+#~ msgstr "Aşağı"
+
+#, fuzzy
+#~ msgid "RECOVERING"
+#~ msgstr "KURTARMA"
+
+#, fuzzy
+#~ msgid "success"
+#~ msgstr "Başarılı"
+
+#, fuzzy
+#~ msgid "Analyze cacti log - detail"
+#~ msgstr "Kaktüs günlüğünü analiz et"
+
+#, fuzzy
+#~ msgid "Database check - detail"
+#~ msgstr "Veri tabanı kontrolü"
+
+#, fuzzy
+#~ msgid "Trends"
+#~ msgstr "Trendler"
+
+#, fuzzy
+#~ msgid "Top5 worst polling ratio (failed, total, ratio)"
+#~ msgstr "İlk 5 en kötü oy kullanma oranı (başarısız, toplam, oran)"
+
+#, fuzzy
+#~ msgid "Top5 worst polling time"
+#~ msgstr "Top5 en kötü oy kullanma zamanı"
+
+#, fuzzy
+#~ msgid "Top5 ping (avg, current)"
+#~ msgstr "Top5 ping (ortalama, geçerli)"
+
+#, fuzzy
+#~ msgid "Last thold events"
+#~ msgstr "Son thold olayları"
+
+#, fuzzy
+#~ msgid "Poller stats (interval %ss)"
+#~ msgstr "Poller istatistikleri ( %ss aralığı)"
+
+#, fuzzy
+#~ msgid "Last check: "
+#~ msgstr "Son kontrol:"
+
+#, fuzzy
+#~ msgid "Time synchronization"
+#~ msgstr "Zaman senkronizasyonu"
+
+#, fuzzy
+#~ msgid "Mactrack sites"
+#~ msgstr "Mactrack siteleri"
+
+#, fuzzy
+#~ msgid "Failed<br/>polls:"
+#~ msgstr "Başarısız oldu <br/> anketler:"
+
+#, fuzzy
+#~ msgid "Poller<br/>output item:"
+#~ msgstr "İskele babası <br/> çıktı kalemi:"
+
+#, fuzzy
+#~ msgid "Max thold<br/>triggered:"
+#~ msgstr "Max thold <br/> tetiklenir:"
+
+#, fuzzy
+#~ msgid "Waiting<br/>for data"
+#~ msgstr "bekleme <br/> veri için"
+
+#, fuzzy
+#~ msgid "Information only (no warn/error)"
+#~ msgstr "Sadece bilgi (uyarı / hata yok)"
+
+#, fuzzy
+#~ msgid "Analyze logins"
+#~ msgstr "Giriş Başarısız"
+
+#, fuzzy
+#~ msgid "Analyze cacti log"
+#~ msgstr "Kaktüs günlüğünü analiz et"
+
+#, fuzzy
+#~ msgid "Checked monthly"
+#~ msgstr "Saatlik Kontrol"
+
+#, fuzzy
+#~ msgid "Checked weekly"
+#~ msgstr "Günlük kontrol"
+
+#, fuzzy
+#~ msgid "Checked daily"
+#~ msgstr "Günlük kontrol edilir"
+
+#, fuzzy
+#~ msgid "Checked hourly"
+#~ msgstr "Saatlik kontrol"
+
+#, fuzzy
+#~ msgid "Checked every 15 minutes"
+#~ msgstr "Her 15 dakikada bir kontrol edilir"
+
+#~ msgid "Last check"
+#~ msgstr "Son kontrol"
+
+#~ msgid "Go"
+#~ msgstr "Git"
+
+#, fuzzy
+#~ msgid "Reset All to Default"
+#~ msgstr "Tümünü Varsayılana Sıfırla"
+
+#, fuzzy
+#~ msgid "Sort by panel Priority"
+#~ msgstr "Panel Önceliğine Göre Sırala"
+
+#, fuzzy
+#~ msgid "Sort by - red-yellow-green-grey"
+#~ msgstr "Sırala - Kırmızı-Sarı-Yeşil-Gri"

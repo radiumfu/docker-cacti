@@ -1,8 +1,8 @@
-FROM rockylinux:9.0
+FROM rockylinux:9.2
 
-LABEL org.opencontainers.image.authors="Sean Cline <smcline06@gmail.com>"
+LABEL kr.home.image.builder="Radium Fu<radiumfu@gmail.com>"
 
-EXPOSE 80 443
+EXPOSE 80 443 514/tcp 514/udp 162/udp 161/udp
 
 ## --- ENV ---
 ENV \
@@ -53,8 +53,6 @@ RUN \
     chmod +x /upgrade.sh && \
     chmod +x /restore.sh && \
     chmod +x /backup.sh && \
-    chmod u+s /bin/ping && \
-    chmod g+s /bin/ping && \
     mkdir /backups && \
     mkdir /cacti && \
     mkdir /spine && \
@@ -71,9 +69,12 @@ RUN \
     rrdtool net-snmp net-snmp-utils cronie mariadb autoconf \
     bison openssl openldap mod_ssl net-snmp-libs automake \
     gcc gzip libtool make net-snmp-devel dos2unix m4 which \
-    openssl-devel mariadb-devel sendmail curl wget help2man perl-libwww-perl && \
+    openssl-devel mariadb-devel sendmail wget tftp-server help2man perl-libwww-perl iputils && \
     yum clean all && \
     rm -rf /var/cache/yum/* && \
+    chmod u+s /bin/ping && \
+    chmod g+s /bin/ping && \
     chmod 0644 /etc/crontab && \
     echo "ServerName localhost" > /etc/httpd/conf.d/fqdn.conf && \
+    cp /usr/lib/systemd/system/tftp.service /etc/systemd/system/tftp-server.service && \
     /usr/libexec/httpd-ssl-gencerts

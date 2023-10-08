@@ -1,0 +1,33 @@
+<interface>
+
+        <name>Voice Port Usage</name>
+        <description>Queries a cisco router for voice port usage statistics.  Requires login access to router.</description>
+        <script_path>perl |path_cacti|/scripts/voice-port-usage.pl</script_path>
+        <arg_index>index</arg_index>
+        <arg_query>query</arg_query>
+        <arg_get>get</arg_get>
+        <arg_prepend>|host_hostname|</arg_prepend>
+        <output_delimeter>:</output_delimeter>
+        <index_order>ports</index_order>
+        <index_order_type>alphabetic</index_order_type>
+        <index_title_format>|chosen_order_field|</index_title_format>
+
+        <fields>
+		<ports>
+			<name>Port Name</name>
+			<direction>input</direction>
+			<query_name>ports</query_name>
+                </ports>
+                <inuse>
+                        <name>Voice Channels In Use</name>
+                        <direction>output</direction>
+			<query_name>inuse</query_name>
+		</inuse>
+		<description>
+			<name>Description</name>
+			<direction>input</direction>
+			<query_name>description</query_name>
+		</description>
+        </fields>
+
+</interface>

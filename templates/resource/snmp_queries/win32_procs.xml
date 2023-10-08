@@ -1,0 +1,55 @@
+<query>
+   <name>Get running processes</name>
+   <description>Queries a host for a list of running processes</description>
+   <oid_index>.1.3.6.1.2.1.25.4.2.1.1</oid_index>
+   <oid_num_indexes>.1.3.6.1.2.1.25.1.6.0</oid_num_indexes>
+   <index_order>hrSWRunName:hrSWRunIndex</index_order>
+   <index_order_type>numeric</index_order_type>
+   <index_title_format>|chosen_order_field|</index_title_format>
+
+   <fields>
+      <hrSWRunIndex>
+         <name>Index</name>
+         <method>walk</method>
+         <source>value</source>
+         <direction>input</direction>
+         <oid>.1.3.6.1.2.1.25.4.2.1.1</oid>
+      </hrSWRunIndex>
+      <hrSWRunName>
+         <name>Name</name>
+         <method>walk</method>
+         <source>value</source>
+         <direction>input</direction>
+         <oid>.1.3.6.1.2.1.25.4.2.1.2</oid>
+      </hrSWRunName>
+      <hrSWRunPath>
+         <name>FilePath</name>
+         <method>walk</method>
+         <source>value</source>
+         <direction>input</direction>
+         <oid>.1.3.6.1.2.1.25.4.2.1.4</oid>
+      </hrSWRunPath>
+      <hrSWRunParameters>
+         <name>Parameters</name>
+         <method>walk</method>
+         <source>value</source>
+         <direction>input</direction>
+         <oid>.1.3.6.1.2.1.25.4.2.1.5</oid>
+      </hrSWRunParameters>
+
+      <hrSWRunPerfCPU>
+         <name>CPU</name>
+         <method>walk</method>
+         <source>value</source>
+         <direction>output</direction>
+         <oid>.1.3.6.1.2.1.25.5.1.1.1</oid>
+      </hrSWRunPerfCPU>
+      <hrSWRunPerfMem>
+         <name>Memory</name>
+         <method>walk</method>
+         <source>value</source>
+         <direction>output</direction>
+         <oid>.1.3.6.1.2.1.25.5.1.1.2</oid>
+      </hrSWRunPerfMem>
+   </fields>
+</query>

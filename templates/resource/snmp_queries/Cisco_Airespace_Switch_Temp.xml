@@ -1,0 +1,47 @@
+<interface>
+	<name>Cisco Airespace Switch Temperature</name>
+	<description>Get Cisco AIRESPACE-WIRELESS-MIB Temperature Info</description>
+	<oid_index>.1.3.6.1.4.1.14179.2.3.1.13</oid_index>	
+	<index_order>bsnRFMobilityDomainName</index_order>
+	<index_order_type>alphabetic</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+
+	<fields>
+		<bsnRFMobilityDomainName>
+			<name>RFMobility Domain</name>
+			<method>walk</method>
+			<source>value</source>	
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.3.1.17</oid>
+		</bsnRFMobilityDomainName>	
+		<bsnOperatingTemperatureEnvironment>
+			<name>Operating Environment</name>
+			<method>walk</method>
+			<source>value</source>	
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.14179.2.3.1.12</oid>
+		</bsnOperatingTemperatureEnvironment>			
+		
+		<bsnSensorTemperature>
+			<name>Temperature</name>
+			<method>walk</method>
+			<source>value</source>	
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.3.1.13</oid>
+		</bsnSensorTemperature>
+		<bsnTemperatureAlarmLowLimit>
+			<name>Temp AlarmLowLimit</name>
+			<method>walk</method>
+			<source>value</source>	
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.3.1.14</oid>
+		</bsnTemperatureAlarmLowLimit>
+		<bsnTemperatureAlarmHighLimit>
+			<name>Temp AlarmHighLimit</name>
+			<method>walk</method>
+			<source>value</source>	
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.14179.2.3.1.15</oid>
+		</bsnTemperatureAlarmHighLimit>				
+	</fields>
+</interface>

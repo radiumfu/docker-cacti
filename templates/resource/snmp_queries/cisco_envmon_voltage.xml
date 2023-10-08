@@ -1,0 +1,51 @@
+<interface>
+	<name>Cisco EnvMon Voltage</name>
+	<description>Get Cisco Environmental Monitoring Voltage Data</description>
+	<oid_index>.1.3.6.1.4.1.9.9.13.1.2.1.2</oid_index>
+	
+	<fields>
+                <VoltageStatusDescr>
+                        <name>Status Description</name>
+                        <method>walk</method>
+                        <source>value</source>
+                        <direction>input</direction>
+                        <oid>.1.3.6.1.4.1.9.9.13.1.2.1.2</oid>
+                </VoltageStatusDescr>
+		<VoltState>
+			<name>State</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>input</direction>
+			<oid>.1.3.6.1.4.1.9.9.13.1.2.1.7</oid>
+		</VoltState>
+
+		<VoltStatVal>
+			<name>Value</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.9.9.13.1.2.1.3</oid>
+		</VoltStatVal>
+		<VoltStatMin>
+			<name>Min Threshold</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.9.9.13.1.2.1.4</oid>
+		</VoltStatMin>
+		<VoltStatMax>
+			<name>Max Threshold</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.9.9.13.1.2.1.5</oid>
+		</VoltStatMax>
+		<VoltStateOut>
+			<name>State</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.9.9.13.1.2.1.7</oid>
+		</VoltStateOut>
+	</fields>
+</interface>

@@ -1,0 +1,36 @@
+<interface>
+	<name>Get Cisco WLC Interfaces</name>
+	<script_path>|path_php_binary| -q |path_cacti|/scripts/Cisco_WLC_Interfaces_Assoc.php</script_path>
+	<arg_prepend>|host_hostname| |host_snmp_community| |host_snmp_version|</arg_prepend>
+	<arg_index>index</arg_index>
+	<arg_query>query</arg_query>
+	<arg_get>get</arg_get>
+	<output_delimeter>!</output_delimeter>
+	<index_order>agentInterfaceName</index_order>
+	<index_order_type>numeric</index_order_type>
+	<index_title_format>|chosen_order_field|</index_title_format>
+
+	<fields>
+		<agentInterfaceName>
+			<name>Interface Name</name>
+			<direction>input</direction>
+			<query_name>index</query_name>
+		</agentInterfaceName>
+		<agentInterfaceVlanId>
+			<name>Interface VLAN ID</name>
+			<direction>input</direction>
+			<query_name>agentInterfaceVlanId</query_name>
+		</agentInterfaceVlanId>
+		<agentInterfaceIPAddress>
+			<name>Interface IP Address</name>
+			<direction>input</direction>
+			<query_name>agentInterfaceIPAddress</query_name>
+		</agentInterfaceIPAddress>
+		<intassoc>
+			<name>interface associations</name>
+			<direction>output</direction>
+			<query_name>intassoc</query_name>
+		</intassoc>
+		
+	</fields>
+</interface>

@@ -1,0 +1,2431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: developers@cacti.net\n"
+"POT-Creation-Date: 2021-03-10 19:25-0500\n"
+"PO-Revision-Date: 2022-02-15 15:50-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: display.php:39
+#, fuzzy
+msgid "Intropage - Permission Denied"
+msgstr "Intropage - απόρριψη άδειας"
+
+#: display.php:157
+#, fuzzy
+msgid "You can disable rows above in <b>Configure > Settings > General > Hide Cacti Dashboard</b> and use the whole page for Intropage "
+msgstr "Μπορείτε να απενεργοποιήσετε τις σειρές παραπάνω στις <b>Ρυθμίσεις -> Γενικά -> Απόκρυψη του Πίνακα Ελέγχου Cacti</b> και να χρησιμοποιήσετε ολόκληρη τη σελίδα για Intropage <br/><br/>"
+
+#: display.php:172 include/functions.php:1301
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: display.php:209
+#, fuzzy
+msgid "Disable panel move/enable copy text from panel"
+msgstr "Απενεργοποίηση μετακίνησης / ενεργοποίησης πλαισίου αντιγραφής από πίνακα"
+
+#: display.php:217
+#, fuzzy
+msgid "Panels ..."
+msgstr "Πάνελ..."
+
+#: display.php:253 display.php:261
+#, fuzzy, php-format
+msgid "%s (no permission)"
+msgstr "Δεν έχετε άδεια"
+
+#: display.php:272
+#, fuzzy
+msgid "Actions ..."
+msgstr "Ενέργειες"
+
+#: display.php:275
+#, fuzzy
+msgid "Add New Dashboard"
+msgstr "Προσθήκη στον πίνακα εργαλείων"
+
+#: display.php:279
+#, fuzzy
+msgid "Remove current dashboard"
+msgstr "Κατάργηση από τον πίνακα ελέγχου"
+
+#: display.php:283
+#, fuzzy
+msgid "Refresh Now"
+msgstr "Ανανέωση τώρα"
+
+#: display.php:286 display.php:288
+#, fuzzy
+msgid "Autorefresh Disabled"
+msgstr "Autorefresh Disabled"
+
+#: display.php:292
+#, fuzzy
+msgid "Autorefresh ly Poller"
+msgstr "Autorefresh 1 ώρα"
+
+#: display.php:294
+#, fuzzy
+msgid "Autorefresh by Poller"
+msgstr "Autorefresh Disabled"
+
+#: display.php:298 display.php:300
+#, fuzzy
+msgid "Autorefresh 1 Minute"
+msgstr "Autorefresh 1 λεπτό"
+
+#: display.php:304 display.php:306
+#, fuzzy
+msgid "Autorefresh 5 Minutes"
+msgstr "Autorefresh 5 Λεπτά"
+
+#: display.php:310 display.php:312
+#, fuzzy
+msgid "Autorefresh 1 Hour"
+msgstr "Autorefresh 1 ώρα"
+
+#: display.php:316 display.php:319
+#, fuzzy
+msgid "Sort by Severity"
+msgstr "Ταξινόμηση κατά προτεραιότητα πίνακα"
+
+#: display.php:317 display.php:320
+#, fuzzy
+msgid "Sort by User Preference"
+msgstr "Ταξινόμηση κατά προτίμηση χρήστη"
+
+#: display.php:326
+#, fuzzy
+msgid "Set Intropage as Default Login Page"
+msgstr "Ορισμός intropage ως προεπιλεγμένης σελίδας"
+
+#: display.php:328
+#, fuzzy
+msgid "Set graph as Default Login Page"
+msgstr "Ορίστε το γράφημα ως προεπιλεγμένη σελίδα"
+
+#: display.php:334
+#, fuzzy
+msgid "Display Intropage in Console"
+msgstr "Ορισμός intropage ως προεπιλεγμένης σελίδας"
+
+#: display.php:336
+#, fuzzy
+msgid "Display Intropage in Tab as Default Page"
+msgstr "Ορισμός intropage ως προεπιλεγμένης σελίδας"
+
+#: display.php:354
+#, fuzzy
+msgid "Welcome to Intropage!"
+msgstr "Πίνακες Intropage"
+
+#: display.php:358
+#, fuzzy
+msgid "You can Add Dashboard Panels in two ways:"
+msgstr "Μπορείτε να προσθέσετε πίνακες πίνακα ελέγχου με δύο τρόπους:"
+
+#: display.php:360
+#, fuzzy
+msgid "Select prepared Dashboard Panels from the menu to the right."
+msgstr "Επιλέξτε έτοιμους πίνακες πίνακα ελέγχου από το μενού στα δεξιά."
+
+#: display.php:361
+#, fuzzy
+msgid "Add any Cacti Graph by Clicking the 'Eye Icon' which is next to each Cacti Graph. Graph with actual timespan will be added to current dashboard"
+msgstr "Προσθέστε οποιοδήποτε Γράφημα Κάκτων κάνοντας κλικ στο «Εικονίδιο ματιών» που βρίσκεται δίπλα σε κάθε Γράφημα Κάκτων. Το γράφημα με το πραγματικό χρονικό διάστημα θα προστεθεί στον τρέχοντα πίνακα ελέγχου"
+
+#: display.php:634
+#, fuzzy
+msgid "Disable panel move/Enable copy text from panel"
+msgstr "Απενεργοποίηση μετακίνησης πίνακα / Ενεργοποίηση αντιγραφής κειμένου από πίνακα"
+
+#: display.php:639
+#, fuzzy
+msgid "Enable panel move/Disable copy text from panel"
+msgstr "Ενεργοποίηση μετακίνησης πίνακα / Απενεργοποίηση αντιγραφής κειμένου από πίνακα"
+
+#: display.php:689
+#, fuzzy
+msgid "Error reading new data"
+msgstr "Σφάλμα κατά την ανάγνωση νέων δεδομένων"
+
+#: display.php:722
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: display.php:733
+#, fuzzy
+msgid "Panel Details"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: include/functions.php:211
+#, fuzzy
+msgid "Dashboard has been removed"
+msgstr "Ο πίνακας ελέγχου έχει αφαιρεθεί"
+
+#: include/functions.php:233
+#, fuzzy
+msgid "New Dashboard"
+msgstr "Προσθήκη στον πίνακα εργαλείων"
+
+#: include/functions.php:235
+#, fuzzy
+msgid "Dashboard has been added"
+msgstr "Ο πίνακας ελέγχου προστέθηκε"
+
+#: include/functions.php:266
+#, fuzzy
+msgid "Cannot add zoomed or custom timespaned graph, changing timespan to Last half hour"
+msgstr "Δεν είναι δυνατή η προσθήκη γραφήματος μεγεθυσμένου ή προσαρμοσμένου χρονικού διαστήματος, αλλάζοντας το χρονικό διάστημα σε Τελευταία μισή ώρα"
+
+#: include/functions.php:432
+#, fuzzy
+msgid "The Panel includes a render function but it does not exist."
+msgstr "Ο πίνακας περιλαμβάνει μια συνάρτηση απόδοσης αλλά δεν υπάρχει."
+
+#: include/functions.php:435
+#, fuzzy
+msgid "The Panel does not have a render function."
+msgstr "Ο πίνακας δεν έχει λειτουργία απόδοσης."
+
+#: include/functions.php:441
+msgid "Not Found"
+msgstr "Δεν βρέθηκε"
+
+#: include/functions.php:468
+#, fuzzy
+msgid "Panel not found"
+msgstr "Το πλαίσιο δεν βρέθηκε"
+
+#: include/functions.php:501
+#, fuzzy
+msgid "Details Function does not exist."
+msgstr "Λεπτομέρειες Η λειτουργία δεν υπάρχει."
+
+#: include/functions.php:508
+#, fuzzy
+msgid "Panel Not Found"
+msgstr "Ο πίνακας δεν βρέθηκε"
+
+#: include/functions.php:576 include/functions.php:594
+#, fuzzy, php-format
+msgid " [ Updates in %s ]"
+msgstr " [ Ενημερώσεις σε %s ]"
+
+#: include/functions.php:618
+#, fuzzy, php-format
+msgid "%s Sec"
+msgstr "%s Δευτ"
+
+#: include/functions.php:618
+#, php-format
+msgid "%s Seconds"
+msgstr "%s δευτερόλεπτα"
+
+#: include/functions.php:625
+#, fuzzy, php-format
+msgid "%s Min"
+msgstr "Κάθε %d λεπτά"
+
+#: include/functions.php:625
+#, php-format
+msgid "%s Minutes"
+msgstr "%s λεπτά"
+
+#: include/functions.php:632
+#, fuzzy, php-format
+msgid "%s Hours"
+msgstr "%s Ώρες"
+
+#: include/functions.php:632
+#, fuzzy, php-format
+msgid "%s Hrs"
+msgstr "%s Ώρες"
+
+#: include/functions.php:636
+#, php-format
+msgid "%s Days"
+msgstr "%s ΜΕΡΕΣ"
+
+#: include/functions.php:682
+#, fuzzy
+msgid "No Data Present.  Either Force Update, or wait for next Cacti Polling cycle."
+msgstr "Δεν υπάρχουν δεδομένα. Είτε αναγκαστική ενημέρωση, είτε περιμένετε τον επόμενο κύκλο δημοσκόπησης κάκτων."
+
+#: include/functions.php:684
+#, fuzzy
+msgid "No Data Present.  This Panel does not allow for Forced Updates.  You will have to wait until the Cacti's Poller to perform the check."
+msgstr "Δεν υπάρχουν δεδομένα. Αυτό το πλαίσιο δεν επιτρέπει αναγκαστικές ενημερώσεις. Θα πρέπει να περιμένετε μέχρι το Poller των Κάκτων για να εκτελέσετε τον έλεγχο."
+
+#: include/functions.php:824
+#, fuzzy
+msgid "Favourite graph"
+msgstr "Αγαπημένο γράφημα"
+
+#: include/functions.php:1086
+#, fuzzy
+msgid "Disable panel"
+msgstr "Απενεργοποιήστε τον πίνακα"
+
+#: include/functions.php:1089
+#, fuzzy
+msgid "Reload Panel"
+msgstr "Ανανέωση πίνακα"
+
+#: include/functions.php:1092
+msgid "Show Details"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: include/functions.php:1099
+#, fuzzy
+msgid "Loading data ..."
+msgstr "Τα δεδομένα φορτώνονται ..."
+
+#: include/functions.php:1110
+#, fuzzy
+msgid "No Data Found.  Either wait for next check, <br/>or use the Force Reload if available."
+msgstr "Δε βρέθηκαν δεδομένα. Είτε περιμένετε τον επόμενο έλεγχο,<br/> ή χρησιμοποιήστε το Force Reload εάν είναι διαθέσιμο."
+
+#: include/functions.php:1154
+#, fuzzy
+msgid "Cannot add to Dashboard. Custom timespan."
+msgstr "Δεν είναι δυνατή η προσθήκη στον Πίνακα ελέγχου. Προσαρμοσμένο χρονικό διάστημα."
+
+#: include/functions.php:1164
+#, fuzzy
+msgid "Remove from Dashboard"
+msgstr "Κατάργηση από τον πίνακα ελέγχου"
+
+#: include/functions.php:1166
+msgid "Add to Dashboard"
+msgstr "Προσθήκη στον πίνακα ελέγχου"
+
+#: include/functions.php:1214
+#, fuzzy
+msgid "Dashboard Names"
+msgstr "Ονόματα ταμπλό"
+
+#: include/functions.php:1223
+#, fuzzy, php-format
+msgid "Dashboard %s"
+msgstr "Προσθήκη στον πίνακα εργαλείων"
+
+#: include/functions.php:1236 include/variables.php:62
+#, fuzzy, php-format
+msgid "%d Minute"
+msgstr "Κάθε %d λεπτά"
+
+#: include/functions.php:1237 include/functions.php:1238
+#: include/functions.php:1239 include/functions.php:1240
+#: include/functions.php:1241 include/functions.php:1242
+#: include/functions.php:1243 include/variables.php:63 include/variables.php:64
+#: include/variables.php:65 include/variables.php:66 include/variables.php:67
+#: include/variables.php:68
+#, fuzzy, php-format
+msgid "%d Minutes"
+msgstr "%d λεπτά"
+
+#: include/functions.php:1244 include/variables.php:69
+#, fuzzy, php-format
+msgid "%d Hour"
+msgstr "%d ώρα"
+
+#: include/functions.php:1245 include/functions.php:1246
+#: include/functions.php:1247 include/functions.php:1248
+#, fuzzy, php-format
+msgid "%d Hours"
+msgstr "%d ώρες"
+
+#: include/functions.php:1249
+#, fuzzy, php-format
+msgid "%d Day"
+msgstr "% d Ημέρα πριν"
+
+#: include/functions.php:1266
+#, fuzzy
+msgid "Panel Refresh Intervals"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: include/functions.php:1281
+#, fuzzy
+msgid "Global Refresh (Identical for All Users)"
+msgstr "Καθολική ανανέωση (Παρόμοιο για όλους τους χρήστες)"
+
+#: include/functions.php:1283
+#, fuzzy
+msgid "User Refresh (Applicable to Your Account Only)"
+msgstr "Ανανέωση χρήστη (Ισχύει μόνο για τον λογαριασμό σας)"
+
+#: include/settings.php:30 include/settings.php:88
+#, fuzzy
+msgid "Intropage"
+msgstr "Πίνακες Intropage"
+
+#: include/settings.php:35 setup.php:75
+msgid "Normal User"
+msgstr "Απλός Χρήστης"
+
+#: include/settings.php:142
+#, fuzzy
+msgid "System Level Panels"
+msgstr "Πίνακες επιπέδου συστήματος"
+
+#: include/settings.php:143
+#, fuzzy
+msgid "Panels that are appropriate for administrative or power users to access and not typically applicable for general users.  Panels are generally about overall system utilization."
+msgstr "Πίνακες που είναι κατάλληλοι για πρόσβαση διαχειριστές ή ισχυρούς χρήστες και δεν ισχύουν συνήθως για γενικούς χρήστες. Οι πίνακες αφορούν γενικά τη συνολική χρήση του συστήματος."
+
+#: include/settings.php:146
+#, fuzzy
+msgid "User Level Panels"
+msgstr "Πίνακες επιπέδου χρήστη"
+
+#: include/settings.php:147
+#, fuzzy
+msgid "Panels that are appropriate for general users to access.  Permissions are limited to what the current user can view."
+msgstr "Πίνακες που είναι κατάλληλοι για πρόσβαση γενικών χρηστών. Τα δικαιώματα περιορίζονται σε αυτά που μπορεί να δει ο τρέχων χρήστης."
+
+#: include/settings.php:189
+#, fuzzy
+msgid "You can Allow/Disallow Panels for User"
+msgstr "Μπορείτε να επιτρέπετε/απαγορεύετε πάνελ για χρήστη"
+
+#: include/variables.php:28
+msgid "Display Settings"
+msgstr "Ρυθμίσεις Προβολής"
+
+#: include/variables.php:32
+#, fuzzy
+msgid "Important things will be at the top"
+msgstr "Σημαντικά πράγματα θα είναι στην κορυφή"
+
+#: include/variables.php:33
+#, fuzzy
+msgid "If checked Intropage displays important (errors, warnings) information first"
+msgstr "Εάν είναι επιλεγμένο, το Intropage εμφανίζει πρώτα σημαντικές πληροφορίες (σφάλματα, προειδοποιήσεις)"
+
+#: include/variables.php:38
+#, fuzzy
+msgid "Automatically Uninstall Panels"
+msgstr "Αυτόματη απεγκατάσταση πάνελ"
+
+#: include/variables.php:39
+#, fuzzy
+msgid "If a Panel is installed and requried plugin is removed, automatically uninstall the panel too"
+msgstr "Εάν έχει εγκατασταθεί ένα Πίνακας και καταργηθεί η απαιτούμενη προσθήκη, απεγκαταστήστε αυτόματα και τον πίνακα"
+
+#: include/variables.php:44
+#, fuzzy
+msgid "Automatic refresh page"
+msgstr "Αυτόματη σελίδα ανανέωσης"
+
+#: include/variables.php:45
+#, fuzzy
+msgid "How often"
+msgstr "Πόσο συχνά"
+
+#: include/variables.php:48
+#, fuzzy
+msgid "Automatically by poller"
+msgstr "Αυτόματα από poler"
+
+#: include/variables.php:49 include/variables.php:85
+msgid "Never"
+msgstr "Ποτέ"
+
+#: include/variables.php:50
+msgid "Every Minute"
+msgstr "Κάθε Λεπτό"
+
+#: include/variables.php:51 include/variables.php:120
+#, php-format
+msgid "Every %d Minutes"
+msgstr "Κάθε %d λεπτά"
+
+#: include/variables.php:52 include/variables.php:86 include/variables.php:121
+#, fuzzy
+msgid "Every Hour"
+msgstr "Κάθε ώρα"
+
+#: include/variables.php:57
+#, fuzzy
+msgid "Poller Timeout"
+msgstr "Λεπτομερείς πληροφορίες"
+
+#: include/variables.php:58
+#, fuzzy
+msgid "The amount of time, in minutes, that the Intropage background poller can run before being interrupted and killed by Cacti."
+msgstr "Ο χρόνος, σε λεπτά, που μπορεί να τρέξει ο δημοσκόπτης φόντου Intropage πριν διακοπεί και σκοτωθεί από Κάκτους."
+
+#: include/variables.php:73
+#, fuzzy
+msgid "Analyze log -  number of lines"
+msgstr "Ανάλυση καταγραφής - αριθμός γραμμών"
+
+#: include/variables.php:74
+#, fuzzy
+msgid "How many lines of log will be analysed. Lines = in panel, 2x lines = in detail. Big number may causes slow page load"
+msgstr "Πόσες γραμμές καταγραφής θα αναλυθούν. Μεγάλος αριθμός ενδέχεται να προκαλέσει αργή φόρτωση σελίδας"
+
+#: include/variables.php:81
+#, fuzzy
+msgid "How often analyze DB"
+msgstr "Πόσο συχνά αναλύεται το DB"
+
+#: include/variables.php:82
+#, fuzzy
+msgid "Poller runs this task. It could cause long poller run."
+msgstr "Ο Poller τρέχει αυτό το έργο. Θα μπορούσε να προκαλέσει μακρόχρονη πορεία."
+
+#: include/variables.php:87 include/variables.php:122
+msgid "Every Day"
+msgstr "Καθημερινά"
+
+#: include/variables.php:88
+msgid "Every Week"
+msgstr "Κάθε Εβδομάδα"
+
+#: include/variables.php:89
+msgid "Every Month"
+msgstr "Κάθε Μήνα"
+
+#: include/variables.php:94
+#, fuzzy
+msgid "Analyze DB - Level of db check"
+msgstr "Ανάλυση DB - Επίπεδο ελέγχου db"
+
+#: include/variables.php:95
+#, fuzzy
+msgid "Quick - No Check rows for inforccert links<br/>Fast - check only not properly closed tables<br/>Changed - check tables changed from last check<br/>Medium - with rows scan<br/>Extended - full rows and keys<br/><strong>Medium and extended may causes slow page load!</strong>"
+msgstr "Γρήγορη - Όχι Έλεγχος γραμμών για συνδέσμους πληροφοριών <br/> Γρήγορη - ελέγξτε μόνο τους σωστά κλειστούς πίνακες <br/> Αλλαγή - οι πίνακες ελέγχου άλλαξαν από τον τελευταίο έλεγχο <br/> Μεσαίο - με σάρωση σειρών <br/> Εκτεταμένες - πλήρεις σειρές και πλήκτρα <br/> <strong>Μεσαίο και εκτεταμένο μπορεί να προκαλέσει αργή φόρτωση σελίδας!</strong>"
+
+#: include/variables.php:98
+msgid "Quick"
+msgstr "Προεπισκόπηση"
+
+#: include/variables.php:99
+msgid "Fast"
+msgstr "Γρήγορα"
+
+#: include/variables.php:100
+msgid "Changed"
+msgstr "Τροποποιήθηκε"
+
+#: include/variables.php:101
+msgid "Medium"
+msgstr "Μεσαίο"
+
+#: include/variables.php:102
+msgid "Extended"
+msgstr "Εκτεταμένος"
+
+#: include/variables.php:108
+#, fuzzy
+msgid "NTP (time) check - IP or DNS name of NTP server"
+msgstr "Έλεγχος NTP (Time) - Όνομα IP ή DNS του διακομιστή NTP"
+
+#: include/variables.php:109
+#, fuzzy
+msgid "Insert IP or DNS name of NTP server"
+msgstr "Εισαγάγετε το όνομα IP ή DNS του διακομιστή NTP"
+
+#: include/variables.php:116
+#, fuzzy
+msgid "How often check NTP"
+msgstr "Πόσο συχνά ελέγχετε το NTP"
+
+#: include/variables.php:117
+#, fuzzy
+msgid "<strong>Poller runs this task. It could cause long poller run.</strong>"
+msgstr "<strong>Ο Poller τρέχει αυτό το έργο. Θα μπορούσε να προκαλέσει μακρόχρονη πορεία.</strong>"
+
+#: include/variables.php:128
+#, fuzzy
+msgid "Admin information panel about maintenance tasks, down Devices, .."
+msgstr "Πίνακας πληροφοριών διαχειριστή σχετικά με εργασίες συντήρησης, συσκευές κάτω, .."
+
+#: include/variables.php:129
+#, fuzzy
+msgid "If isn't empty, panel will be displayed on the top. You can use html tags (b, i, ...)."
+msgstr "Εάν δεν είναι άδειο, ο πίνακας θα εμφανιστεί στην κορυφή. Μπορείτε να χρησιμοποιήσετε ετικέτες html (b, i, ...)."
+
+#: include/variables.php:138
+#, fuzzy
+msgid "Maint plugin - how many days before display alert"
+msgstr "Προσθήκη plugin - πόσες ημέρες πριν από την εμφάνιση της ειδοποίησης"
+
+#: include/variables.php:139
+#, fuzzy
+msgid "How many days?</strong>"
+msgstr "Πόσες μέρες?"
+
+#: include/variables.php:142
+#, fuzzy
+msgid "When maintenance starts"
+msgstr "Κατά την έναρξη της συντήρησης"
+
+#: include/variables.php:143
+#, fuzzy, php-format
+msgid "%d Day Before"
+msgstr "% d Ημέρα πριν"
+
+#: include/variables.php:144 include/variables.php:145
+#, fuzzy, php-format
+msgid "%d Days Before"
+msgstr "% d ημέρες πριν"
+
+#: include/variables.php:150
+#, fuzzy
+msgid "Alarm Settings"
+msgstr "Ρυθμίσεις οθόνης"
+
+#: include/variables.php:154
+#, fuzzy
+msgid "Alarm DB check aborted clients"
+msgstr "Πελάτες ματαίωσης ελέγχου DB συναγερμού"
+
+#: include/variables.php:155 include/variables.php:166
+#: include/variables.php:177 include/variables.php:188
+#: include/variables.php:199 include/variables.php:210
+#: include/variables.php:221 include/variables.php:232
+#: include/variables.php:243 include/variables.php:254
+#: include/variables.php:265 include/variables.php:276
+#: include/variables.php:288 include/variables.php:299
+#: include/variables.php:310 include/variables.php:321
+#, fuzzy
+msgid "<strong>How to be notified?</strong>"
+msgstr "<strong>Πώς να ειδοποιηθείτε;</strong>"
+
+#: include/variables.php:158 include/variables.php:169
+#: include/variables.php:180 include/variables.php:191
+#: include/variables.php:202 include/variables.php:213
+#: include/variables.php:224 include/variables.php:235
+#: include/variables.php:246 include/variables.php:257
+#: include/variables.php:268 include/variables.php:279
+#, fuzzy
+msgid "Red alarm"
+msgstr "Κόκκινος συναγερμός"
+
+#: include/variables.php:159 include/variables.php:170
+#: include/variables.php:181 include/variables.php:192
+#: include/variables.php:203 include/variables.php:214
+#: include/variables.php:225 include/variables.php:236
+#: include/variables.php:247 include/variables.php:258
+#: include/variables.php:269 include/variables.php:280
+#, fuzzy
+msgid "Yellow alarm"
+msgstr "Κίτρινος συναγερμός"
+
+#: include/variables.php:160 include/variables.php:171
+#: include/variables.php:182 include/variables.php:193
+#: include/variables.php:204 include/variables.php:215
+#: include/variables.php:226 include/variables.php:237
+#: include/variables.php:248 include/variables.php:259
+#: include/variables.php:270 include/variables.php:281
+#, fuzzy
+msgid "Green alarm"
+msgstr "Πράσινος συναγερμός"
+
+#: include/variables.php:165
+#, fuzzy
+msgid "Alarm Host with the same description"
+msgstr "Συσκευές με την ίδια περιγραφή: %s"
+
+#: include/variables.php:176
+#, fuzzy
+msgid "Alarm orphaned data source"
+msgstr "Ορφανά δεδομένα: %s"
+
+#: include/variables.php:187
+#, fuzzy
+msgid "Alarm non-empty poller output"
+msgstr "Συναγερμός μη κενή έξοδος poler"
+
+#: include/variables.php:198
+#, fuzzy
+msgid "Alarm Bad indexes data source"
+msgstr "Συναγερμός Κακό ευρετήρια πηγή δεδομένων"
+
+#: include/variables.php:209
+#, fuzzy
+msgid "Alarm Thershold logonly action"
+msgstr "Συναγερμός Thershold ενέργεια σύνδεσης"
+
+#: include/variables.php:220
+#, fuzzy
+msgid "Alarm Device with the same IP/port"
+msgstr "Συσκευές με την ίδια διεύθυνση IP και θύρα: %s"
+
+#: include/variables.php:231
+#, fuzzy
+msgid "Alarm Device in more Trees"
+msgstr "Συσκευές σε περισσότερα από ένα δέντρα: %s"
+
+#: include/variables.php:242
+#, fuzzy
+msgid "Alarm Device without Tree"
+msgstr "Συσκευές σε περισσότερα από ένα δέντρα: %s"
+
+#: include/variables.php:253
+#, fuzzy
+msgid "Alarm Device with default public/private community"
+msgstr "Υποδοχές με προεπιλεγμένη δημόσια / ιδιωτική κοινότητα: %s"
+
+#: include/variables.php:264
+#, fuzzy
+msgid "Alarm Device without monitoring"
+msgstr "Συσκευές με την ίδια διεύθυνση IP και θύρα: %s"
+
+#: include/variables.php:275
+#, fuzzy
+msgid "Alarm Device without Graph"
+msgstr "Συσκευές με την ίδια διεύθυνση IP και θύρα: %s"
+
+#: include/variables.php:287
+#, fuzzy
+msgid "Alarm red/yellow polling time"
+msgstr "Επιτρέψτε στον πίνακα Top 5 το χειρότερο χρόνο ψηφοφορίας"
+
+#: include/variables.php:291
+#, fuzzy
+msgid "10s/5s red/yellow"
+msgstr "10s/5s κόκκινο/κίτρινο"
+
+#: include/variables.php:292 include/variables.php:303
+#, fuzzy
+msgid "20s/10s red/yellow"
+msgstr "20s/10s κόκκινο/κίτρινο"
+
+#: include/variables.php:293
+#, fuzzy
+msgid "40s/20s red/yellow"
+msgstr "40s/20s κόκκινο/κίτρινο"
+
+#: include/variables.php:298
+#, fuzzy
+msgid "Alarm red/yellow failed/all ratio"
+msgstr "Συναγερμός κόκκινο/κίτρινο απέτυχε/αναλογία όλων"
+
+#: include/variables.php:302
+#, fuzzy
+msgid "0.1/0.2 red/yellow"
+msgstr "0,1/0,2 κόκκινο/κίτρινο"
+
+#: include/variables.php:304
+#, fuzzy
+msgid "more red/yellow"
+msgstr "περισσότερο κόκκινο/κίτρινο"
+
+#: include/variables.php:309
+#, fuzzy
+msgid "Alarm red/yellow ping"
+msgstr "Συναγερμός κόκκινο/κίτρινο ping"
+
+#: include/variables.php:313
+#, fuzzy
+msgid "20/10ms red/yellow"
+msgstr "20/10ms κόκκινο/κίτρινο"
+
+#: include/variables.php:314
+#, fuzzy
+msgid "50/20ms red/yellow"
+msgstr "50/20ms κόκκινο/κίτρινο"
+
+#: include/variables.php:315
+#, fuzzy
+msgid "100/200+ms red/yellow"
+msgstr "100/200+ms κόκκινο/κίτρινο"
+
+#: include/variables.php:320
+#, fuzzy
+msgid "Alarm red/yellow worst availability"
+msgstr "Top5 χειρότερη διαθεσιμότητα"
+
+#: include/variables.php:324 include/variables.php:325
+#: include/variables.php:326
+#, fuzzy
+msgid "red/yellow"
+msgstr "κόκκινο κίτρινο"
+
+#: panellib/analyze.php:30
+#, fuzzy
+msgid "Analysis Panels"
+msgstr "Ενεργοποίηση / απενεργοποίηση πλαισίων"
+
+#: panellib/analyze.php:31
+#, fuzzy
+msgid "Panels that analyze the current behavior of Cacti and it's plugins."
+msgstr "Πίνακες που αναλύουν την τρέχουσα συμπεριφορά των Cacti και των πρόσθετων αυτών."
+
+#: panellib/analyze.php:36
+#, fuzzy
+msgid "Analyze Logins"
+msgstr "Να επιτρέπεται η καταχώριση αναλυτικών πλαισίων"
+
+#: panellib/analyze.php:37
+#, fuzzy
+msgid "Analyze the last several Cacti logins for trends and errors."
+msgstr "Αναλύστε τις τελευταίες πολλές συνδέσεις Cacti για τάσεις και λάθη."
+
+#: panellib/analyze.php:51
+#, fuzzy
+msgid "Analyze Logs"
+msgstr "Αναλύστε το ημερολόγιο κάκτων"
+
+#: panellib/analyze.php:52
+#, fuzzy
+msgid "Look for common errors in Cacti's log file that should be a cause for concern."
+msgstr "Αναζητήστε κοινά σφάλματα στο αρχείο καταγραφής του Cacti που θα πρέπει να προκαλούν ανησυχία."
+
+#: panellib/analyze.php:66
+#, fuzzy
+msgid "Database Checks"
+msgstr "Έλεγχος βάσης δεδομένων"
+
+#: panellib/analyze.php:67
+#, fuzzy
+msgid "Analyze MySQL/MariaDB database for common errors.  Note that this process may take a long time on very large systems."
+msgstr "Αναλύστε τη βάση δεδομένων MySQL/MariaDB για κοινά σφάλματα. Σημειώστε ότι αυτή η διαδικασία μπορεί να διαρκέσει πολύ σε πολύ μεγάλα συστήματα."
+
+#: panellib/analyze.php:81
+#, fuzzy
+msgid "Trend Details"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: panellib/analyze.php:82
+#, fuzzy
+msgid "Few trends (down hosts, trigged tholds,...)"
+msgstr "Λίγες τάσεις (down hosts, trigged tholds,...)"
+
+#: panellib/analyze.php:96
+#, fuzzy
+msgid "Analyze Cacti Objects"
+msgstr "Αναλύστε το ημερολόγιο κάκτων"
+
+#: panellib/analyze.php:97
+#, fuzzy
+msgid "Analyze Trees, Graphs, Hosts, ..."
+msgstr "Αναλύστε δέντρα, γραφήματα, κεντρικούς υπολογιστές, ..."
+
+#: panellib/analyze.php:131
+#, fuzzy
+msgid "Total Failed Logins:"
+msgstr "Αποτυχία σύνδεσης"
+
+#: panellib/analyze.php:133
+#, fuzzy
+msgid "Active Users in Last Hour:"
+msgstr "Ενεργοί χρήστες την τελευταία ώρα:"
+
+#: panellib/analyze.php:152
+#, fuzzy
+msgid "Last 5 Logins:"
+msgstr "Τελευταίες 10 συνδέσεις"
+
+#: panellib/analyze.php:165 panellib/analyze.php:960 panellib/misc.php:287
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: panellib/analyze.php:166
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+#: panellib/analyze.php:167 panellib/analyze.php:961
+msgid "IP Address"
+msgstr "IP Address"
+
+#: panellib/analyze.php:168 panellib/misc.php:246
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: panellib/analyze.php:173 panellib/analyze.php:972 panellib/misc.php:302
+#: panellib/system.php:486 panellib/top5.php:313 panellib/top5.php:564
+msgid "Failed"
+msgstr "Απέτυχε"
+
+#: panellib/analyze.php:175 panellib/analyze.php:974
+#, fuzzy
+msgid "Success - Login"
+msgstr "Επιτυχία - Είσοδος"
+
+#: panellib/analyze.php:177 panellib/analyze.php:976
+#, fuzzy
+msgid "Success - Token"
+msgstr "Επιτυχία - Token"
+
+#: panellib/analyze.php:211 panellib/analyze.php:873
+#, fuzzy
+msgid "Log file not accessible or empty"
+msgstr "Το αρχείο καταγραφής δεν είναι προσβάσιμο ή άδειο"
+
+#: panellib/analyze.php:231
+#, fuzzy
+msgid "Errors: "
+msgstr "Σφάλματα"
+
+#: panellib/analyze.php:236
+#, fuzzy
+msgid "Warnings: "
+msgstr "Προειδοποιήσεις"
+
+#: panellib/analyze.php:243
+#, fuzzy
+msgid "Log Size: Larger than 2GB"
+msgstr "αρχείο είναι μεγαλύτερο από 2 GB"
+
+#: panellib/analyze.php:247 panellib/analyze.php:907
+#, fuzzy
+msgid "Log Size: OK"
+msgstr "Το μέγεθος καταγραφής είναι ΟΚ"
+
+#: panellib/analyze.php:251 panellib/analyze.php:911
+#, fuzzy
+msgid "Log Size: Quite Large"
+msgstr "Το μέγεθος του αρχείου καταγραφής είναι αρκετά μεγάλο"
+
+#: panellib/analyze.php:254
+#, fuzzy
+msgid "Log Size: "
+msgstr "Μέγεθος αρχείου καταγραφής"
+
+#: panellib/analyze.php:260
+#, fuzzy, php-format
+msgid "Errors and Warnings from last %s lines)"
+msgstr "(Σφάλματα και προειδοποίηση στις τελευταίες γραμμές %s)"
+
+#: panellib/analyze.php:301
+#, fuzzy, php-format
+msgid "Table %s status %s"
+msgstr "Κατάσταση πίνακα %s %s"
+
+#: panellib/analyze.php:309
+#, fuzzy
+msgid "DB Problem"
+msgstr "DB πρόβλημα"
+
+#: panellib/analyze.php:317
+#, fuzzy
+msgid "DB OK"
+msgstr "DB OK"
+
+#: panellib/analyze.php:335
+#, fuzzy, php-format
+msgid "Connection errors: %s - try to restart SQL service, check SQL log, ..."
+msgstr "Σφάλματα σύνδεσης - προσπαθήστε να κάνετε επανεκκίνηση της υπηρεσίας SQL."
+
+#: panellib/analyze.php:353
+#, fuzzy, php-format
+msgid "Aborted clients/connects: %s - check logs."
+msgstr "Ματαιωμένα προγράμματα-πελάτες/συνδέσεις: %s - έλεγχοι αρχείων καταγραφής."
+
+#: panellib/analyze.php:362
+#, fuzzy, php-format
+msgid "Connection errors: %s"
+msgstr "Σφάλματα σύνδεσης: %s"
+
+#: panellib/analyze.php:364
+#, fuzzy, php-format
+msgid "Damaged tables: %s"
+msgstr "Κατεστραμμένοι πίνακες: %s"
+
+#: panellib/analyze.php:365
+#, fuzzy, php-format
+msgid "Memory tables: %s"
+msgstr "Πίνακες μνήμης: %s"
+
+#: panellib/analyze.php:366
+#, fuzzy, php-format
+msgid "All tables: %s"
+msgstr "Όλοι οι πίνακες: %s"
+
+#: panellib/analyze.php:378
+#, fuzzy
+msgid "Scheduled db check disabled"
+msgstr "Ο προγραμματισμένος έλεγχος db απενεργοποιήθηκε"
+
+#: panellib/analyze.php:380
+msgid "hour"
+msgstr "ώρα"
+
+#: panellib/analyze.php:382
+msgid "day"
+msgstr "ημέρα"
+
+#: panellib/analyze.php:384
+msgid "week"
+msgstr "εβδομάδα"
+
+#: panellib/analyze.php:386
+msgid "month"
+msgstr "μήνας"
+
+#: panellib/analyze.php:470
+#, fuzzy
+msgid "Tholds triggered"
+msgstr "Το Tholds πυροδότησε"
+
+#: panellib/analyze.php:488
+#, fuzzy
+msgid "Hosts down"
+msgstr "Φιλοξενεί"
+
+#: panellib/analyze.php:497 panellib/poller.php:235 panellib/system.php:166
+#: panellib/top5.php:156 panellib/top5.php:217 panellib/top5.php:278
+#: panellib/top5.php:342 panellib/top5.php:412 panellib/top5.php:470
+#: panellib/top5.php:534 panellib/top5.php:591
+#, fuzzy
+msgid "Waiting for data"
+msgstr "Αναμονή για δεδομένα"
+
+#: panellib/analyze.php:529 panellib/analyze.php:556 panellib/analyze.php:595
+#: panellib/analyze.php:646 panellib/analyze.php:695 panellib/analyze.php:721
+#: panellib/analyze.php:747 panellib/analyze.php:772 panellib/analyze.php:796
+#: panellib/analyze.php:818 panellib/analyze.php:1033 panellib/analyze.php:1069
+#: panellib/analyze.php:1114 panellib/analyze.php:1139
+#: panellib/analyze.php:1171 panellib/analyze.php:1216
+#: panellib/analyze.php:1245 panellib/analyze.php:1294
+#: panellib/analyze.php:1320 panellib/analyze.php:1345
+#: panellib/analyze.php:1369 panellib/poller.php:91 panellib/poller.php:273
+#: panellib/system.php:356 panellib/system.php:362 panellib/system.php:661
+msgid "N/A"
+msgstr "Μη Διαθέσιμο"
+
+#: panellib/analyze.php:535
+#, fuzzy, php-format
+msgid "Devices with the same IP and port: %s"
+msgstr "Συσκευές με την ίδια διεύθυνση IP και θύρα: %s"
+
+#: panellib/analyze.php:562
+#, fuzzy, php-format
+msgid "Devices with the same description: %s"
+msgstr "Συσκευές με την ίδια περιγραφή: %s"
+
+#: panellib/analyze.php:599
+#, fuzzy, php-format
+msgid "Orphaned Data Sources: %s"
+msgstr "Ορφανά δεδομένα: %s"
+
+#: panellib/analyze.php:619
+#, fuzzy, php-format
+msgid "Poller Output Items: %s"
+msgstr "Στοιχεία εξόδου πολλών στοιχείων: %s"
+
+#: panellib/analyze.php:649
+#, fuzzy, php-format
+msgid "Datasource - bad indexes: %s"
+msgstr "Πηγή δεδομένων - κακή ευρετήρια: %s"
+
+#: panellib/analyze.php:698
+#, fuzzy, php-format
+msgid "Thold logonly alert/warning: %s"
+msgstr "Κρατήστε ειδοποίηση/προειδοποίηση σύνδεσης: %s"
+
+#: panellib/analyze.php:732
+#, fuzzy, php-format
+msgid "Devices in more than one tree: %s"
+msgstr "Συσκευές σε περισσότερα από ένα δέντρα: %s"
+
+#: panellib/analyze.php:758
+#, fuzzy, php-format
+msgid "Hosts without graphs: %s"
+msgstr "Χωρίσματα χωρίς γραφήματα: %s"
+
+#: panellib/analyze.php:783
+#, fuzzy, php-format
+msgid "Hosts without tree: %s"
+msgstr "Χωριστές χωρίς δέντρο: %s"
+
+#: panellib/analyze.php:807
+#, fuzzy, php-format
+msgid "Hosts with default public/private community: %s"
+msgstr "Υποδοχές με προεπιλεγμένη δημόσια / ιδιωτική κοινότητα: %s"
+
+#: panellib/analyze.php:829
+#, fuzzy, php-format
+msgid "Plugin Monitor - Unmonitored hosts: %s"
+msgstr "Παρακολούθηση Plugin - Μη ελεγχόμενοι κεντρικοί υπολογιστές: %s"
+
+#: panellib/analyze.php:837 panellib/analyze.php:1389
+#, fuzzy, php-format
+msgid "Found %s problems"
+msgstr "Βρέθηκαν προβλήματα %s"
+
+#: panellib/analyze.php:843 panellib/analyze.php:1391
+#, fuzzy
+msgid "Everything OK"
+msgstr "Ολα καλά"
+
+#: panellib/analyze.php:856
+#, fuzzy
+msgid "Analyze Cacti Log Details [ Warnings/Errors ]"
+msgstr "Ανάλυση λεπτομερειών καταγραφής κάκτων [ Προειδοποιήσεις/Σφάλματα ]"
+
+#: panellib/analyze.php:893
+msgid "Errors"
+msgstr "Σφάλματα"
+
+#: panellib/analyze.php:898
+msgid "Warnings"
+msgstr "Προειδοποιήσεις"
+
+#: panellib/analyze.php:903
+#, fuzzy
+msgid "WARNING: File is Larger than 2GB"
+msgstr "αρχείο είναι μεγαλύτερο από 2 GB"
+
+#: panellib/analyze.php:914
+#, fuzzy
+msgid "Log Size"
+msgstr "Μέγεθος αρχείου καταγραφής"
+
+#: panellib/analyze.php:945
+#, fuzzy
+msgid "Analyze Logins Detail"
+msgstr "Ανάλυση καταγραφής - αριθμός γραμμών"
+
+#: panellib/analyze.php:962
+msgid "User"
+msgstr "Χρήστης"
+
+#: panellib/analyze.php:963 panellib/misc.php:289
+msgid "Result"
+msgstr "Αποτέλεσμα"
+
+#: panellib/analyze.php:992
+#, fuzzy
+msgid "Active Users in Last 2 Hours:"
+msgstr "Ενεργοί χρήστες τις τελευταίες 2 ώρες:"
+
+#: panellib/analyze.php:1003
+#, fuzzy
+msgid "No Active Users"
+msgstr "Ενεργοί Χρήστες"
+
+#: panellib/analyze.php:1009
+#, fuzzy
+msgid "View Full User Log"
+msgstr "Προβολή πλήρους αρχείου καταγραφής χρηστών"
+
+#: panellib/analyze.php:1020
+#, fuzzy
+msgid "Analyze Tree, Graphs, Hosts"
+msgstr "Αναλύστε το δέντρο / κεντρικό υπολογιστή / γράφημα"
+
+#: panellib/analyze.php:1035
+#, fuzzy, php-format
+msgid "Devices with the same IP and port - %s"
+msgstr "Συσκευές με ίδια IP και θύρα %s"
+
+#: panellib/analyze.php:1071
+#, fuzzy, php-format
+msgid "Devices with the same description - %s"
+msgstr "Συσκευές με την ίδια περιγραφή %s"
+
+#: panellib/analyze.php:1116
+#, fuzzy, php-format
+msgid "Orphaned Data Sources - %s"
+msgstr "Ορφανές πηγές δεδομένων %s"
+
+#: panellib/analyze.php:1141
+#, fuzzy, php-format
+msgid "Poller output items - %s:"
+msgstr "Πολλαπλά στοιχεία εξόδου %s:"
+
+#: panellib/analyze.php:1173
+#, fuzzy, php-format
+msgid "Datasources with bad indexes - %s:"
+msgstr "Πηγή δεδομένων - κακά ευρετήρια %s:"
+
+#: panellib/analyze.php:1218
+#, fuzzy, php-format
+msgid "Thold logonly alert/warning - %s:"
+msgstr "Κρατήστε ειδοποίηση/προειδοποίηση σύνδεσης - %s:"
+
+#: panellib/analyze.php:1247
+#, fuzzy, php-format
+msgid "Devices in more than one tree - %s"
+msgstr "Συσκευές σε περισσότερα από ένα δέντρο %s"
+
+#: panellib/analyze.php:1296
+#, fuzzy, php-format
+msgid "Hosts without graphs - %s"
+msgstr "Υποδοχές χωρίς γραφήματα %s"
+
+#: panellib/analyze.php:1322
+#, fuzzy, php-format
+msgid "Hosts without tree - %s"
+msgstr "Υποδοχές χωρίς δέντρο %s"
+
+#: panellib/analyze.php:1347
+#, fuzzy, php-format
+msgid "Hosts with default public/private community - %s"
+msgstr "Υποδοχές με προεπιλεγμένη δημόσια / ιδιωτική κοινότητα %s"
+
+#: panellib/analyze.php:1371
+#, fuzzy, php-format
+msgid "Plugin Monitor - Unmonitored hosts - %s"
+msgstr "Παρακολούθηση προσθηκών - Μη παρακολουθημένος κεντρικός υπολογιστής %s"
+
+#: panellib/graphs.php:30
+#, fuzzy
+msgid "Graphical Panels"
+msgstr "Πίνακες Intropage"
+
+#: panellib/graphs.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti and it's plugins in a Graphical way."
+msgstr "Πίνακες που παρέχουν πληροφορίες για τους Κάκτους και τα πρόσθετά τους με γραφικό τρόπο."
+
+#: panellib/graphs.php:36 panellib/graphs.php:271
+#, fuzzy
+msgid "Data Sources"
+msgstr "Πηγές δεδομένων:"
+
+#: panellib/graphs.php:37
+#, fuzzy
+msgid "Graph of Data Sources"
+msgstr "Να επιτρέπεται η παράμετρος Δεδομένα δεδομένων γραφικών"
+
+#: panellib/graphs.php:51 panellib/graphs.php:395
+#, fuzzy
+msgid "Device Templates"
+msgstr "Πρότυπα συσκευών"
+
+#: panellib/graphs.php:52
+#, fuzzy
+msgid "Graph of Device Templates"
+msgstr "Πρότυπα συσκευών"
+
+#: panellib/graphs.php:66
+#, fuzzy
+msgid "Devices by Status"
+msgstr "Πρότυπα συσκευών"
+
+#: panellib/graphs.php:67
+#, fuzzy
+msgid "Graph of Devices by Status (up,down,...)"
+msgstr "Γράφημα συσκευών κατά κατάσταση (πάνω, κάτω,...)"
+
+#: panellib/graphs.php:94
+#, fuzzy
+msgid "Datasources: "
+msgstr "Πηγές δεδομένων:"
+
+#: panellib/graphs.php:127 panellib/graphs.php:172 panellib/graphs.php:260
+#: panellib/top5.php:159 panellib/top5.php:220 panellib/top5.php:281
+#: panellib/top5.php:345
+#, fuzzy
+msgid "You don't have permissions to any hosts"
+msgstr "Δεν έχετε άδεια"
+
+#: panellib/graphs.php:142
+#, fuzzy
+msgid "Device Templates: "
+msgstr "Πρότυπα συσκευών"
+
+#: panellib/graphs.php:189
+#, fuzzy
+msgid "Hosts: "
+msgstr "Διακομιστές"
+
+#: panellib/graphs.php:228 panellib/graphs.php:342 panellib/thold.php:170
+msgid "All"
+msgstr "Όλα"
+
+#: panellib/graphs.php:229 panellib/graphs.php:238 panellib/graphs.php:343
+#: panellib/mactrack.php:104
+msgid "Up"
+msgstr "Πάνω"
+
+#: panellib/graphs.php:230 panellib/graphs.php:239 panellib/graphs.php:344
+#: panellib/mactrack.php:105
+msgid "Down"
+msgstr "Πεσμένος"
+
+#: panellib/graphs.php:231 panellib/graphs.php:241 panellib/graphs.php:345
+#: panellib/mactrack.php:108 panellib/poller.php:118 panellib/poller.php:297
+#: panellib/system.php:341 panellib/thold.php:173 panellib/thold.php:182
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: panellib/graphs.php:232 panellib/graphs.php:240 panellib/graphs.php:346
+#: panellib/poller.php:120 panellib/poller.php:299
+msgid "Recovering"
+msgstr "αναληπτικό"
+
+#: panellib/graphs.php:236 panellib/graphs.php:311
+msgid "Hosts"
+msgstr "Διακομιστές"
+
+#: panellib/graphs.php:300
+#, fuzzy
+msgid "No untemplated datasources found"
+msgstr "Δεν βρέθηκαν αναπάντεχες πηγές δεδομένων"
+
+#: panellib/graphs.php:357
+#, fuzzy
+msgid "Recovering:"
+msgstr "αναληπτικό"
+
+#: panellib/graphs.php:376
+#, fuzzy
+msgid "Down:"
+msgstr "Πεσμένος"
+
+#: panellib/graphs.php:419
+#, fuzzy
+msgid "No device templates found"
+msgstr "Δεν βρέθηκαν πρότυπα συσκευών"
+
+#: panellib/mactrack.php:30
+#, fuzzy
+msgid "MacTrack Panels"
+msgstr "Τοποθεσίες Mactrack"
+
+#: panellib/mactrack.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti's MacTrack plugins."
+msgstr "Πίνακες που παρέχουν πληροφορίες σχετικά με τις προσθήκες MacTrack της Cacti."
+
+#: panellib/mactrack.php:36
+#, fuzzy
+msgid "MacTrack Plugin"
+msgstr "Να επιτρέπεται η προσθήκη πρόσθετου πίνακα MacTrack"
+
+#: panellib/mactrack.php:37
+#, fuzzy
+msgid "Various MacTrack collection and site statistics."
+msgstr "Διάφορα στατιστικά στοιχεία συλλογής και τοποθεσίας MacTrack."
+
+#: panellib/mactrack.php:51 panellib/mactrack.php:179
+#, fuzzy
+msgid "MacTrack Sites"
+msgstr "Τοποθεσίες Mactrack"
+
+#: panellib/mactrack.php:52
+#, fuzzy
+msgid "Various MacTrack Site statistics."
+msgstr "Διάφορα στατιστικά στοιχεία ιστότοπου MacTrack."
+
+#: panellib/mactrack.php:78 panellib/mactrack.php:129
+#, fuzzy
+msgid "MacTrack Plugin not Installed/Running"
+msgstr "Το plugin Mactrack δεν είναι εγκατεστημένο / τρέξιμο"
+
+#: panellib/mactrack.php:94
+#, fuzzy, php-format
+msgid "All: %s"
+msgstr "Όλα: %s"
+
+#: panellib/mactrack.php:95
+#, fuzzy, php-format
+msgid "Up: %s"
+msgstr "Μέχρι: %s"
+
+#: panellib/mactrack.php:96
+#, fuzzy, php-format
+msgid "Down: %s"
+msgstr "Κάτω: %s"
+
+#: panellib/mactrack.php:97
+#, php-format
+msgid "Error: %s"
+msgstr "Σφάλμα: <ph id=\"mtc_1\" equiv-text=\"base64:JXM=\"/>"
+
+#: panellib/mactrack.php:98
+#, fuzzy, php-format
+msgid "Unknown: %s"
+msgstr "Άγνωστο: %s"
+
+#: panellib/mactrack.php:99
+#, php-format
+msgid "Disabled: %s"
+msgstr "Απενεργοποιημένο: %s"
+
+#: panellib/mactrack.php:102
+#, fuzzy
+msgid "MacTrack"
+msgstr "Mactrack"
+
+#: panellib/mactrack.php:106 panellib/misc.php:291
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: panellib/mactrack.php:107
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: panellib/mactrack.php:115 panellib/mactrack.php:168 panellib/thold.php:199
+#, fuzzy
+msgid "You don't have plugin permission"
+msgstr "Δεν έχετε άδεια"
+
+#: panellib/mactrack.php:133 panellib/mactrack.php:186
+msgid "Site"
+msgstr "Ιστοσελίδα"
+
+#: panellib/mactrack.php:134 panellib/mactrack.php:187
+msgid "Devices"
+msgstr "Τύπος Συσκευής"
+
+#: panellib/mactrack.php:135 panellib/mactrack.php:188
+#, fuzzy
+msgid "IPs"
+msgstr "IPs"
+
+#: panellib/mactrack.php:136 panellib/mactrack.php:189
+msgid "Ports"
+msgstr "Λιμένες"
+
+#: panellib/mactrack.php:137 panellib/mactrack.php:190
+#, fuzzy
+msgid "Ports up"
+msgstr "Λιμάνια επάνω"
+
+#: panellib/mactrack.php:138 panellib/mactrack.php:191
+#, fuzzy
+msgid "MACs"
+msgstr "MACs"
+
+#: panellib/mactrack.php:139 panellib/mactrack.php:192
+#, fuzzy
+msgid "Device Errors"
+msgstr "Σφάλματα συσκευής"
+
+#: panellib/mactrack.php:165 panellib/mactrack.php:216
+#, fuzzy
+msgid "No mactrack sites found"
+msgstr "Δεν βρέθηκαν τοποθεσίες mactrack"
+
+#: panellib/misc.php:30
+#, fuzzy
+msgid "Miscelaneous Panels"
+msgstr "Διάφορα Πάνελ"
+
+#: panellib/misc.php:31
+#, fuzzy
+msgid "Panels that general non-categorized data about Cacti's."
+msgstr "Πίνακες που γενικά μη κατηγοριοποιημένα δεδομένα σχετικά με τους κάκτους."
+
+#: panellib/misc.php:36
+#, fuzzy
+msgid "NTP Status"
+msgstr "Κατάσταση NTP"
+
+#: panellib/misc.php:37
+#, fuzzy
+msgid "Checking your Cacti system clock for drift from a known baseline."
+msgstr "Έλεγχος του ρολογιού του συστήματος Cacti για απόκλιση από μια γνωστή γραμμή βάσης."
+
+#: panellib/misc.php:51
+#, fuzzy
+msgid "Maint Plugin Details"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: panellib/misc.php:52
+#, fuzzy
+msgid "Maint Plugin details on upcoming schedules"
+msgstr "Λεπτομέρειες Maint Plugin για τα επερχόμενα χρονοδιαγράμματα"
+
+#: panellib/misc.php:66
+#, fuzzy
+msgid "Webseer Details"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: panellib/misc.php:67
+#, fuzzy
+msgid "Plugin webseer URL Service Check Details"
+msgstr "Στοιχεία ελέγχου υπηρεσίας διεύθυνσης URL προσθηκών webseer"
+
+#: panellib/misc.php:97
+#, fuzzy
+msgid "No NTP server configured"
+msgstr "Δεν έχει ρυθμιστεί ο διακομιστής NTP"
+
+#: panellib/misc.php:100
+#, fuzzy, php-format
+msgid "Wrong NTP server configured - %s<br/>Please fix it in settings"
+msgstr "Δεν έχει ρυθμιστεί ο διακομιστής NTP"
+
+#: panellib/misc.php:111
+#, fuzzy, php-format
+msgid "Failed to get NTP time from %s"
+msgstr "Αποτυχία λήψης χρόνου NTP FROM $ ntp_server"
+
+#: panellib/misc.php:119
+#, fuzzy
+msgid "Please check time as it is off by more"
+msgstr "Παρακαλούμε ελέγξτε την ώρα καθώς είναι απενεργοποιημένη κατά περισσότερο"
+
+#: panellib/misc.php:120
+#, fuzzy, php-format
+msgid "than %s seconds from NTP server %s."
+msgstr "από %s δευτερόλεπτα από τον διακομιστή NTP %s."
+
+#: panellib/misc.php:122
+#, fuzzy
+msgid "Localtime is equal to NTP server"
+msgstr "Το Localtime ισούται με το διακομιστή NTP"
+
+#: panellib/misc.php:127
+#, fuzzy
+msgid "Unable to contact the NTP server indicated."
+msgstr "Δεν είναι δυνατή η επικοινωνία με τον διακομιστή NTP που υποδεικνύεται. <br/> Ελέγξτε τη διαμόρφωσή σας. <br/>"
+
+#: panellib/misc.php:128
+#, fuzzy
+msgid "Please check your configuration."
+msgstr "Ελέγξτε τη διαμόρφωσή σας."
+
+#: panellib/misc.php:212
+#, fuzzy
+msgid "Maint plugin is not installed/enabled"
+msgstr "Το plugin Mactrack δεν είναι εγκατεστημένο / τρέξιμο"
+
+#: panellib/misc.php:226
+#, fuzzy
+msgid "Plugin Webseer isn't installed or started"
+msgstr "Το Plugin Thold δεν έχει εγκατασταθεί ή δεν έχει ξεκινήσει"
+
+#: panellib/misc.php:234
+#, fuzzy
+msgid "Number of checks: "
+msgstr "Αριθμός ελέγχων:"
+
+#: panellib/misc.php:235 panellib/thold.php:248
+#, fuzzy
+msgid "Disabled: "
+msgstr "Απενεργοποιημένο"
+
+#: panellib/misc.php:236
+#, fuzzy
+msgid "Status up: "
+msgstr "Κατάσταση επάνω:"
+
+#: panellib/misc.php:237
+#, fuzzy
+msgid "Status down: "
+msgstr "Φιλοξενεί"
+
+#: panellib/misc.php:244
+#, fuzzy
+msgid "First 3 failed sites"
+msgstr "Οι πρώτοι 3 αποτυχημένοι ιστότοποι"
+
+#: panellib/misc.php:245
+msgid "url"
+msgstr "url"
+
+#: panellib/misc.php:247 panellib/misc.php:290
+#, fuzzy
+msgid "HTTP code"
+msgstr "Κωδικός HTTP"
+
+#: panellib/misc.php:271
+#, fuzzy
+msgid "Webseer Plugin - Details"
+msgstr "Πρόσθετο Webseer - Λεπτομέρειες"
+
+#: panellib/misc.php:288
+msgid "URL"
+msgstr "URL"
+
+#: panellib/misc.php:300 panellib/thold.php:179
+msgid "OK"
+msgstr "καλά"
+
+#: panellib/poller.php:30
+#, fuzzy
+msgid "Poller Panels"
+msgstr "Να επιτρέπεται η χρήση του πίνακα Poller Stats"
+
+#: panellib/poller.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti's polling process."
+msgstr "Πίνακες που παρέχουν πληροφορίες σχετικά με τη διαδικασία ψηφοφορίας των Κάκτων."
+
+#: panellib/poller.php:36
+#, fuzzy
+msgid "Poller Information"
+msgstr "Λεπτομερείς πληροφορίες"
+
+#: panellib/poller.php:37
+#, fuzzy
+msgid "Various information about your Cacti poller."
+msgstr "Διάφορες πληροφορίες για το poler Cacti."
+
+#: panellib/poller.php:51
+#, fuzzy
+msgid "Poller Statistics"
+msgstr "Να επιτρέπεται η χρήση του πίνακα Poller Stats"
+
+#: panellib/poller.php:52
+#, fuzzy
+msgid "Various Cacti poller statistics."
+msgstr "Διάφορα στατιστικά στοιχεία δημοσκόπησης κάκτων."
+
+#: panellib/poller.php:78
+#, fuzzy
+msgid "ID/Name/Total Time/State"
+msgstr "ID / Όνομα / συνολική ώρα / κατάσταση"
+
+#: panellib/poller.php:98 panellib/poller.php:257
+msgid "ID"
+msgstr "ID"
+
+#: panellib/poller.php:99 panellib/poller.php:258
+msgid "Name"
+msgstr "Όνομα"
+
+#: panellib/poller.php:100 panellib/poller.php:259
+msgid "State"
+msgstr "Νομός"
+
+#: panellib/poller.php:101 panellib/poller.php:260
+msgid "Total Time"
+msgstr "Συνολικός χρόνος"
+
+#: panellib/poller.php:110 panellib/poller.php:289
+#, fuzzy
+msgid "New/Idle"
+msgstr "Νέα / Αναμονή"
+
+#: panellib/poller.php:112 panellib/poller.php:291 panellib/system.php:292
+msgid "Running"
+msgstr "Τρέχουσες"
+
+#: panellib/poller.php:114 panellib/poller.php:293 panellib/system.php:290
+msgid "Idle"
+msgstr "Στροφές βραδυπορίας"
+
+#: panellib/poller.php:116 panellib/poller.php:295
+#, fuzzy
+msgid "Unkn/down"
+msgstr "Απενεργοποίηση / απενεργοποίηση"
+
+#: panellib/poller.php:127 panellib/top5.php:268 panellib/top5.php:270
+#: panellib/top5.php:524 panellib/top5.php:526
+#, fuzzy, php-format
+msgid "%s Secs"
+msgstr "%s Δευτ"
+
+#: panellib/poller.php:135 panellib/poller.php:310
+#, fuzzy
+msgid "(ok)"
+msgstr "(Εντάξει)"
+
+#: panellib/poller.php:136 panellib/poller.php:310
+#, fuzzy
+msgid "(all)"
+msgstr "(όλα)"
+
+#: panellib/poller.php:218 panellib/poller.php:220
+#, fuzzy
+msgid " Poller ID: "
+msgstr "Poller ID:"
+
+#: panellib/poller.php:227
+msgid "ID: "
+msgstr "Αναγνωριστικό:"
+
+#: panellib/poller.php:250
+#, fuzzy
+msgid "Poller Details"
+msgstr "Να επιτρέπεται η χρήση του πίνακα Poller Stats"
+
+#: panellib/poller.php:261
+#, fuzzy
+msgid "Average Time"
+msgstr "Μέσος χρόνος"
+
+#: panellib/poller.php:262
+msgid "Max Time"
+msgstr "Μέγιστη ώρα"
+
+#: panellib/syslog.php:30
+#, fuzzy
+msgid "Syslog Panels"
+msgstr "Ανανέωση πίνακα"
+
+#: panellib/syslog.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti's Syslog message processing."
+msgstr "Πίνακες που παρέχουν πληροφορίες σχετικά με την επεξεργασία μηνυμάτων Syslog του Cacti."
+
+#: panellib/syslog.php:36
+#, fuzzy
+msgid "Syslog Details"
+msgstr "Εμφάνιση Λεπτομερειών"
+
+#: panellib/syslog.php:37
+#, fuzzy
+msgid "Various Syslog Plugin statistics."
+msgstr "Διάφορα στατιστικά στοιχεία προσθηκών Syslog."
+
+#: panellib/syslog.php:117 panellib/top5.php:314 panellib/top5.php:565
+msgid "Total"
+msgstr "Σύνολο"
+
+#: panellib/syslog.php:137
+msgid "Incoming"
+msgstr "Εισερχόμενος"
+
+#: panellib/syslog.php:157
+msgid "Alerts"
+msgstr "Προειδοποιήσεις"
+
+#: panellib/syslog.php:188
+#, fuzzy
+msgid "Syslog plugin not installed/running"
+msgstr "Το Thold plugin δεν είναι εγκατεστημένο / τρέξιμο"
+
+#: panellib/system.php:30
+#, fuzzy
+msgid "System Panels"
+msgstr "Πίνακες Intropage"
+
+#: panellib/system.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti system performance."
+msgstr "Πίνακες που παρέχουν πληροφορίες σχετικά με την απόδοση του συστήματος Cacti."
+
+#: panellib/system.php:36
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: panellib/system.php:37
+#, fuzzy
+msgid "Various system information about the Cacti system itself."
+msgstr "Διάφορες πληροφορίες συστήματος σχετικά με το ίδιο το σύστημα Cacti."
+
+#: panellib/system.php:51
+#, fuzzy
+msgid "Administrative Alerts"
+msgstr "Διοικητικές Ειδοποιήσεις"
+
+#: panellib/system.php:52
+#, fuzzy
+msgid "Extra admin notify panel for all users"
+msgstr "Επιπλέον πίνακας ειδοποιήσεων διαχειριστή για όλους τους χρήστες"
+
+#: panellib/system.php:66
+#, fuzzy
+msgid "Boost Statistics"
+msgstr "Στατιστικά ενίσχυσης"
+
+#: panellib/system.php:67
+#, fuzzy
+msgid "Information about Cacti's performance boost process."
+msgstr "Πληροφορίες σχετικά με τη διαδικασία ενίσχυσης της απόδοσης των Cacti."
+
+#: panellib/system.php:81
+#, fuzzy
+msgid "24 Hour Extremes"
+msgstr "Εξαιρετικά 24 ώρες"
+
+#: panellib/system.php:82
+#, fuzzy
+msgid "Table with 24 hours of Polling Extremes (longest poller run, down hosts)"
+msgstr "Πίνακας με 24 ώρες ακραίων ψηφοφοριών (μεγαλύτερη εκτέλεση δημοσκόπησης, χαμηλοί οικοδεσπότες)"
+
+#: panellib/system.php:96
+#, fuzzy
+msgid "CPU Utilization"
+msgstr "Χρήση CPU"
+
+#: panellib/system.php:97
+#, fuzzy
+msgid "CPU utilization Graph (only Linux)."
+msgstr "Χρήση CPU"
+
+#: panellib/system.php:135
+#, fuzzy
+msgid "CPU load: "
+msgstr "CPU φορτίο:"
+
+#: panellib/system.php:142
+#, fuzzy
+msgid "This function is not implemented on Windows platforms"
+msgstr "Αυτή η λειτουργία δεν εφαρμόζεται σε πλατφόρμες Windows"
+
+#: panellib/system.php:152
+msgid "Load"
+msgstr "Φόρτωση"
+
+#: panellib/system.php:183
+#, fuzzy
+msgid "Cacti Version: "
+msgstr "Έκδοση Cacti:"
+
+#: panellib/system.php:196
+#, fuzzy
+msgid "Poller Type:"
+msgstr "Τύπος στίλβωσης:"
+
+#: panellib/system.php:196
+#, fuzzy
+msgid "Spine"
+msgstr "ΣΠΟΝΔΥΛΙΚΗ ΣΤΗΛΗ"
+
+#: panellib/system.php:200
+#, fuzzy
+msgid "Spine version: "
+msgstr "Έκδοση σπονδυλικής στήλης:"
+
+#: panellib/system.php:203
+#, fuzzy
+msgid "You are using incorrect spine version!"
+msgstr "Χρησιμοποιείτε εσφαλμένη έκδοση σπονδυλικής στήλης!"
+
+#: panellib/system.php:209
+#, fuzzy
+msgid "Poller Type: "
+msgstr "Τύπος στίλβωσης:"
+
+#: panellib/system.php:212
+#, fuzzy
+msgid "Running on: "
+msgstr "Εκτέλεση:"
+
+#: panellib/system.php:294
+#, fuzzy
+msgid "Overrun Warning"
+msgstr "Προειδοποίηση υπέρβασης"
+
+#: panellib/system.php:297
+msgid "Timed Out"
+msgstr "Λήξη χρόνου"
+
+#: panellib/system.php:300
+msgid "Other"
+msgstr "Άλλο"
+
+#: panellib/system.php:303
+#, fuzzy
+msgid "Never Run"
+msgstr "Ποτέ μην τρέχεις"
+
+#: panellib/system.php:309
+#, fuzzy, php-format
+msgid "Parallel Processes: %s"
+msgstr "Παράλληλες διεργασίες: %s"
+
+#: panellib/system.php:312
+#, fuzzy, php-format
+msgid "Pending Boost Records: %s"
+msgstr "Εκκρεμείς εγγραφές ώθησης: %s"
+
+#: panellib/system.php:313
+#, fuzzy, php-format
+msgid "Archived Boost Records: %s"
+msgstr "Αρχειοθετημένες εγγραφές ώθησης: %s"
+
+#: panellib/system.php:317 panellib/system.php:320 panellib/system.php:322
+#, fuzzy, php-format
+msgid "Total Boost Records: %s"
+msgstr "Συνολικές εγγραφές ώθησης: %s"
+
+#: panellib/system.php:341
+#, fuzzy, php-format
+msgid "Boost On-demand Updating: %s"
+msgstr "Ενίσχυση Ενημέρωση κατ 'απαίτηση: %s"
+
+#: panellib/system.php:348
+#, fuzzy, php-format
+msgid "Current Boost Table(s) Size: %s"
+msgstr "Πίνακας (ες) τρέχουσας ενίσχυσης: Μέγεθος: %s"
+
+#: panellib/system.php:351
+#, fuzzy, php-format
+msgid "Avg Bytes/Record: %s"
+msgstr "Μέσος όρος μέσος όρος / εγγραφή: %s"
+
+#: panellib/system.php:359
+#, fuzzy, php-format
+msgid "Last run duration: %s"
+msgstr "Διάρκεια τελευταίας εκτέλεσης: %s"
+
+#: panellib/system.php:361
+#, fuzzy, php-format
+msgid "RRD Updates / Max: %s / %s"
+msgstr "Ενημερώσεις RRD / Max: %s / %s"
+
+#: panellib/system.php:362
+#, fuzzy, php-format
+msgid "Update Frequency: %s"
+msgstr "Συχνότητα ενημέρωσης: %s"
+
+#: panellib/system.php:363
+#, fuzzy, php-format
+msgid "Next Start Time: %s"
+msgstr "Επόμενη ώρα έναρξης: %s"
+
+#: panellib/system.php:411
+#, fuzzy
+msgid "Poller Run"
+msgstr "Λεπτομερείς πληροφορίες"
+
+#: panellib/system.php:429
+#, fuzzy
+msgid "Down Hosts"
+msgstr "Διακομιστές"
+
+#: panellib/system.php:449 panellib/thold.php:180
+#, fuzzy
+msgid "Triggered"
+msgstr "Τριγώνισε"
+
+#: panellib/system.php:468
+#, fuzzy
+msgid "Poller"
+msgstr "Λεπτομερείς πληροφορίες"
+
+#: panellib/system.php:531
+#, fuzzy
+msgid "48 Hour Extreme Polling"
+msgstr "Εξαιρετικά 24 ώρες"
+
+#: panellib/system.php:554
+#, fuzzy
+msgid "Long Running Poller"
+msgstr "Μακροπρόθεσμα <br/> poller"
+
+#: panellib/system.php:577
+#, fuzzy
+msgid "Max Device Down"
+msgstr "Max Device Down"
+
+#: panellib/system.php:598
+#, fuzzy
+msgid "Max Thold Triggered"
+msgstr "Το Tholds πυροδότησε"
+
+#: panellib/system.php:620
+#, fuzzy
+msgid "Poller Output Item"
+msgstr "Στοιχεία εξόδου πολλών στοιχείων: %s"
+
+#: panellib/system.php:642
+#, fuzzy
+msgid "Failed Polls"
+msgstr "Αποτυχία σύνδεσης"
+
+#: panellib/thold.php:30
+#, fuzzy
+msgid "Threshold Panels"
+msgstr "Κατώτατα όρια"
+
+#: panellib/thold.php:31
+#, fuzzy
+msgid "Panels that provide information about Cacti Thresholding Plugin."
+msgstr "Πίνακες που παρέχουν πληροφορίες σχετικά με το πρόσθετο κατωφλίου Cacti."
+
+#: panellib/thold.php:36 panellib/thold.php:285
+#, fuzzy
+msgid "Last Threshold Events"
+msgstr "Κατώτατα όρια"
+
+#: panellib/thold.php:37
+#, fuzzy
+msgid "Threshold Plugin Latest Events"
+msgstr "Κατώτατα όρια"
+
+#: panellib/thold.php:51
+msgid "Threshold"
+msgstr "Όριο"
+
+#: panellib/thold.php:52
+#, fuzzy
+msgid "Threshold Plugin Graph (all, trigerred, ...)"
+msgstr "Γράφημα προσθήκης κατωφλίου (όλα, ενεργοποιημένα, ...)"
+
+#: panellib/thold.php:78 panellib/thold.php:292
+#, fuzzy
+msgid "Plugin Thold isn't installed or started"
+msgstr "Το Plugin Thold δεν έχει εγκατασταθεί ή δεν έχει ξεκινήσει"
+
+#: panellib/thold.php:128 panellib/thold.php:335
+#, fuzzy
+msgid "Without events yet"
+msgstr "Χωρίς συμβάντα ακόμα"
+
+#: panellib/thold.php:145 panellib/thold.php:219
+#, fuzzy
+msgid "Thold plugin not installed/running"
+msgstr "Το Thold plugin δεν είναι εγκατεστημένο / τρέξιμο"
+
+#: panellib/thold.php:171 panellib/thold.php:181
+#, fuzzy
+msgid "Breached"
+msgstr "Παραβιάστηκε"
+
+#: panellib/thold.php:172
+#, fuzzy
+msgid "Trigged"
+msgstr "Ενεργοποιήθηκε"
+
+#: panellib/thold.php:212
+#, fuzzy
+msgid "Threshold Details"
+msgstr "Κατώτατα όρια"
+
+#: panellib/thold.php:245
+#, fuzzy
+msgid "All: "
+msgstr "Όλα: %s"
+
+#: panellib/thold.php:246 panellib/thold.php:253
+#, fuzzy
+msgid "Breached: "
+msgstr "Παραβιάστηκε"
+
+#: panellib/thold.php:247
+#, fuzzy
+msgid "Trigged: "
+msgstr "Ενεργοποιήθηκε"
+
+#: panellib/thold.php:264
+#, fuzzy
+msgid "Triggered: "
+msgstr "Τριγώνισε"
+
+#: panellib/thold.php:272
+#, fuzzy
+msgid "You don't have permission to Thresholds"
+msgstr "Δεν έχετε άδεια"
+
+#: panellib/top5.php:30
+#, fuzzy
+msgid "Top 5 Panels"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: panellib/top5.php:31
+#, fuzzy
+msgid "Panels that provide information trending information about Cacti data collection."
+msgstr "Πίνακες που παρέχουν πληροφορίες σχετικά με τη συλλογή δεδομένων κάκτων."
+
+#: panellib/top5.php:36
+#, fuzzy
+msgid "Top 5 Ping"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: panellib/top5.php:37
+#, fuzzy
+msgid "Devices with the worst ping response"
+msgstr "Συσκευές με την ίδια περιγραφή: %s"
+
+#: panellib/top5.php:51
+#, fuzzy
+msgid "Top 5 Worst Availability"
+msgstr "Top5 χειρότερη διαθεσιμότητα"
+
+#: panellib/top5.php:52
+#, fuzzy
+msgid "Devices with the worst availability/reachability"
+msgstr "Top5 χειρότερη διαθεσιμότητα"
+
+#: panellib/top5.php:66
+#, fuzzy
+msgid "Top 5 Worst Polling Time"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: panellib/top5.php:67
+#, fuzzy
+msgid "Devices with the worst polling time"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: panellib/top5.php:81
+#, fuzzy
+msgid "Top 5 Worst Polling Ratio"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: panellib/top5.php:82
+#, fuzzy
+msgid "Devices with the worst polling ratio"
+msgstr "Συσκευές με την ίδια διεύθυνση IP και θύρα: %s"
+
+#: panellib/top5.php:124 panellib/top5.php:250 panellib/top5.php:312
+#: panellib/top5.php:380 panellib/top5.php:440 panellib/top5.php:505
+#: panellib/top5.php:563
+msgid "Host"
+msgstr "Διακομιστής"
+
+#: panellib/top5.php:125 panellib/top5.php:381
+msgid "Average"
+msgstr "Μέτριο"
+
+#: panellib/top5.php:126 panellib/top5.php:382
+msgid "Current"
+msgstr "Τρέχων"
+
+#: panellib/top5.php:189
+msgid "Hostname"
+msgstr "Νέο όνομα φιλοξενίας"
+
+#: panellib/top5.php:190
+#, fuzzy
+msgid "Availability/Reachability"
+msgstr "Διαθεσιμότητα/Δυνατότητα πρόσβασης"
+
+#: panellib/top5.php:251 panellib/top5.php:506
+#, fuzzy
+msgid "Polling Time"
+msgstr "Λεπτομερείς πληροφορίες"
+
+#: panellib/top5.php:315 panellib/top5.php:566
+#, fuzzy
+msgid "Ratio"
+msgstr "Αναλογία"
+
+#: panellib/top5.php:356
+#, fuzzy
+msgid "Top 20 Hosts with Worst Ping"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: panellib/top5.php:423
+#, fuzzy
+msgid "Top 20 Hosts with the Worst Availability"
+msgstr "Top5 χειρότερη διαθεσιμότητα"
+
+#: panellib/top5.php:441
+msgid "Availability"
+msgstr "Διαθεσιμότητα"
+
+#: panellib/top5.php:481
+#, fuzzy
+msgid "Top 20 Hosts Worst Polling Time"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: panellib/top5.php:545
+#, fuzzy
+msgid "Top 20 Hosts with the Worst Polling Ratio"
+msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#: setup.php:59
+#, fuzzy
+msgid "Intropage Viewer"
+msgstr "Πίνακες Intropage"
+
+#: setup.php:60
+#, fuzzy
+msgid "Intropage Administration"
+msgstr "Επιλογές εισαγωγής σελίδας"
+
+#: setup.php:76
+msgid "System Administration"
+msgstr "Διαχείριση συστήματος"
+
+#, fuzzy
+#~ msgid "Add %s"
+#~ msgstr "Προσθήκη πλαισίου %s"
+
+#, fuzzy
+#~ msgid "Add %s %s"
+#~ msgstr "Προσθήκη πλαισίου %s %s"
+
+#, fuzzy
+#~ msgid "Please check time.<br/>It is different (more than %s seconds) from NTP server %s"
+#~ msgstr "Ελέγξτε την ώρα. <br/> Είναι διαφορετικό (περισσότερο από %s δευτερόλεπτα) από διακομιστή NTP %s"
+
+#, fuzzy
+#~ msgid "Errors and Warnings"
+#~ msgstr "Σφάλματα και προειδοποιήσεις"
+
+#, fuzzy
+#~ msgid "Only Errors"
+#~ msgstr "Μόνο σφάλματα"
+
+#, fuzzy
+#~ msgid "What will you see"
+#~ msgstr "Τι θα δείτε"
+
+#~ msgid "Display"
+#~ msgstr "Εμφάνιση"
+
+#, fuzzy
+#~ msgid "Allow panel Favourite Graphs"
+#~ msgstr "Να επιτρέπεται η επιλογή Αγαπημένα γραφήματα"
+
+#, fuzzy
+#~ msgid "Allow panel Boost"
+#~ msgstr "Να επιτρέπεται η ενίσχυση του πίνακα"
+
+#, fuzzy
+#~ msgid "Allow panel Top 5 worst polling failed/total ratio"
+#~ msgstr "Επιτρέψτε στον πίνακα Top 5 το χειρότερο ποσοστό δημοσκόπησης αποτυχία / συνολική αναλογία"
+
+#, fuzzy
+#~ msgid "Allow panel Top 5 Availability"
+#~ msgstr "Να επιτρέπεται η διαθεσιμότητα του Top 5 διαλόγου"
+
+#, fuzzy
+#~ msgid "Allow panel Top 5 Ping"
+#~ msgstr "Αφήστε το πάνελ Top 5 Ping"
+
+#, fuzzy
+#~ msgid "Allow panel MacTrack Sites"
+#~ msgstr "Να επιτρέπονται οι πίνακες MacTrack"
+
+#, fuzzy
+#~ msgid "Allow panel CPU Utilization"
+#~ msgstr "Να επιτρέπεται η χρήση της CPU του πίνακα"
+
+#, fuzzy
+#~ msgid "Allow panel Graph Device Template"
+#~ msgstr "Να επιτρέπεται το πρότυπο διάταξης συσκευής γραφικών"
+
+#, fuzzy
+#~ msgid "Allow panel Graph Thresholds"
+#~ msgstr "Να επιτρέπονται τα κατώτατα όρια γραφικών"
+
+#, fuzzy
+#~ msgid "Allow panel Poller Info"
+#~ msgstr "Να επιτρέπεται η λειτουργία Πληρωμών πληκτρολογίου"
+
+#, fuzzy
+#~ msgid "Allow panel NTP"
+#~ msgstr "Αφήστε το πλαίσιο NTP"
+
+#, fuzzy
+#~ msgid "Allow panel 24h Extrems"
+#~ msgstr "Επιτρέψτε στο πάνελ 24 ώρες Extrems"
+
+#, fuzzy
+#~ msgid "Allow panel Trends"
+#~ msgstr "Να επιτρέπονται τα παράθυρα Τάσεις"
+
+#, fuzzy
+#~ msgid "Allow panel Analayse Tree, Devices, Graphs"
+#~ msgstr "Να επιτρέπεται η ανάλυση του πίνακα δέντρων, των συσκευών, των γραφημάτων"
+
+#, fuzzy
+#~ msgid "Allow panel Threshold Events"
+#~ msgstr "Να επιτρέπονται συμβάντα κατώτατου ορίου"
+
+#, fuzzy
+#~ msgid "Allow panel Analayse Log"
+#~ msgstr "Αφήστε το παράθυρο αναλύσεων πίνακα"
+
+#, fuzzy
+#~ msgid "Show the Intropage plugin screen in separated tab"
+#~ msgstr "Εμφάνιση της οθόνης του plugin Intropage σε ξεχωριστή καρτέλα"
+
+#, fuzzy
+#~ msgid "Show the Intropage plugin screen in console screen (you need console access permission!)"
+#~ msgstr "Εμφάνιση της οθόνης του plugin Intropage στην οθόνη κονσόλας (χρειάζεστε άδεια πρόσβασης κονσόλας!)"
+
+#, fuzzy
+#~ msgid "How we should display the intropage. <strong>For users without console access you must choose separated tab!</strong>"
+#~ msgstr "Πώς θα πρέπει να εμφανιστεί ο intropage. <strong>Για χρήστες χωρίς πρόσβαση στην κονσόλα, πρέπει να επιλέξετε ξεχωριστή καρτέλα!</strong>"
+
+#, fuzzy
+#~ msgid "Plugin Thold - Global notify only: %s"
+#~ msgstr "Plugin Thold - Παγκόσμια κοινοποίηση μόνο: %s"
+
+#, fuzzy
+#~ msgid "Plugin Thold - Global notify only %s"
+#~ msgstr "Plugin Thold - Παγκόσμια κοινοποίηση μόνο %s"
+
+#, fuzzy
+#~ msgid "Checked Every 15 minutes"
+#~ msgstr "Έλεγχος Κάθε 15 λεπτά"
+
+#, fuzzy
+#~ msgid "Reset panel Order to Default"
+#~ msgstr "Επαναφορά πίνακα Παραγγελία προς προεπιλογή"
+
+#, fuzzy
+#~ msgid "Display All"
+#~ msgstr "Εμφάνιση όλων"
+
+#, fuzzy
+#~ msgid "Display Errors and Warnings"
+#~ msgstr "Εμφάνιση σφαλμάτων και προειδοποιήσεων"
+
+#, fuzzy
+#~ msgid "Display only Errors"
+#~ msgstr "Εμφάνιση μόνο σφαλμάτων"
+
+#, fuzzy
+#~ msgid "Show Intropage in Tab (not selected = intropage in console)"
+#~ msgstr "Εμφάνιση Intropage (δεν έχει σημασία στην κονσόλα ή την καρτέλα)"
+
+#, fuzzy
+#~ msgid "Favourite Graphs"
+#~ msgstr "Αγαπημένο γράφημα"
+
+#, fuzzy
+#~ msgid "Top 5 Worst Failed Ratio"
+#~ msgstr "Top5 χειρότερη διαθεσιμότητα"
+
+#, fuzzy
+#~ msgid "Graph Thresholds"
+#~ msgstr "Κατώτατα όρια"
+
+#, fuzzy
+#~ msgid "Graph Device"
+#~ msgstr "Να επιτρέπεται η λειτουργία της διάταξης γραφικών"
+
+#, fuzzy
+#~ msgid "24h Extremes"
+#~ msgstr "Εξαιρετικά 24 ώρες"
+
+#, fuzzy
+#~ msgid "Analyze Database"
+#~ msgstr "Να επιτρέπεται η βάση δεδομένων Analayse"
+
+#, fuzzy
+#~ msgid "You cannot disable this panel"
+#~ msgstr "Δεν μπορείτε να απενεργοποιήσετε αυτόν τον πίνακα"
+
+#, fuzzy
+#~ msgid "Top 20 hosts with the  worst polling ratio (failed, total, ratio)"
+#~ msgstr "Top5 χειρότερη αναλογία δημοσκόπησης (αποτυχημένη, συνολική, αναλογία)"
+
+#, fuzzy
+#~ msgid "Top 20 hosts with the worst ping (avg, current)"
+#~ msgstr "Top5 ping (μέση τιμή, τρέχουσα)"
+
+#, fuzzy
+#~ msgid "TRIGGERED"
+#~ msgstr "ΠΕΡΙΕΧΟΜΕΝΑ"
+
+#, fuzzy
+#~ msgid "BREACHED"
+#~ msgstr "ΠΑΡΑΒΑΣΗ"
+
+#, fuzzy
+#~ msgid "DOWN"
+#~ msgstr "Πεσμένος"
+
+#, fuzzy
+#~ msgid "RECOVERING"
+#~ msgstr "ΑΝΑΚΑΛΥΨΗ"
+
+#, fuzzy
+#~ msgid "success"
+#~ msgstr "Επιτυχία"
+
+#, fuzzy
+#~ msgid "Analyze cacti log - detail"
+#~ msgstr "Αναλύστε το ημερολόγιο κάκτων"
+
+#, fuzzy
+#~ msgid "Database check - detail"
+#~ msgstr "Έλεγχος βάσης δεδομένων"
+
+#, fuzzy
+#~ msgid "Trends"
+#~ msgstr "Τάσεις"
+
+#, fuzzy
+#~ msgid "Top5 worst polling ratio (failed, total, ratio)"
+#~ msgstr "Top5 χειρότερη αναλογία δημοσκόπησης (αποτυχημένη, συνολική, αναλογία)"
+
+#, fuzzy
+#~ msgid "Top5 worst polling time"
+#~ msgstr "Top5 χειρότερος χρόνος ψηφοφορίας"
+
+#, fuzzy
+#~ msgid "Top5 ping (avg, current)"
+#~ msgstr "Top5 ping (μέση τιμή, τρέχουσα)"
+
+#, fuzzy
+#~ msgid "Last thold events"
+#~ msgstr "Τελευταία γεγονότα"
+
+#, fuzzy
+#~ msgid "Poller stats (interval %ss)"
+#~ msgstr "Τα στατιστικά στοιχεία (διάστημα %ss)"
+
+#, fuzzy
+#~ msgid "Last check: "
+#~ msgstr "Τελευταίος έλεγχος:"
+
+#, fuzzy
+#~ msgid "Time synchronization"
+#~ msgstr "Συγχρονισμός χρόνου"
+
+#, fuzzy
+#~ msgid "Mactrack sites"
+#~ msgstr "Τοποθεσίες Mactrack"
+
+#, fuzzy
+#~ msgid "Failed<br/>polls:"
+#~ msgstr "Απέτυχε <br/> δημοσκοπήσεις:"
+
+#, fuzzy
+#~ msgid "Poller<br/>output item:"
+#~ msgstr "Poller <br/> στοιχείο εξόδου:"
+
+#, fuzzy
+#~ msgid "Max thold<br/>triggered:"
+#~ msgstr "Μέγιστο <br/> ενεργοποιήθηκε:"
+
+#, fuzzy
+#~ msgid "Waiting<br/>for data"
+#~ msgstr "Αναμονή <br/> για τα δεδομένα"
+
+#, fuzzy
+#~ msgid "Information only (no warn/error)"
+#~ msgstr "Μόνο πληροφορίες (χωρίς προειδοποίηση / σφάλμα)"
+
+#, fuzzy
+#~ msgid "Analyze logins"
+#~ msgstr "Αποτυχία σύνδεσης"
+
+#, fuzzy
+#~ msgid "Analyze cacti log"
+#~ msgstr "Αναλύστε το ημερολόγιο κάκτων"
+
+#, fuzzy
+#~ msgid "Checked monthly"
+#~ msgstr "Έλεγχος ανά ώρα"
+
+#, fuzzy
+#~ msgid "Checked weekly"
+#~ msgstr "Έλεγχος καθημερινά"
+
+#, fuzzy
+#~ msgid "Checked daily"
+#~ msgstr "Έλεγχος καθημερινά"
+
+#, fuzzy
+#~ msgid "Checked hourly"
+#~ msgstr "Έλεγχος ανά ώρα"
+
+#, fuzzy
+#~ msgid "Checked every 15 minutes"
+#~ msgstr "Έλεγχος κάθε 15 λεπτά"
+
+#, fuzzy
+#~ msgid "Last check"
+#~ msgstr "Τελευταίος έλεγχος"
+
+#~ msgid "Go"
+#~ msgstr "Πήγαινε"
+
+#, fuzzy
+#~ msgid "Reset All to Default"
+#~ msgstr "Επαναφέρετε όλες τις προεπιλογές"
+
+#, fuzzy
+#~ msgid "Sort by panel Priority"
+#~ msgstr "Ταξινόμηση κατά προτεραιότητα πίνακα"
+
+#, fuzzy
+#~ msgid "Sort by - red-yellow-green-grey"
+#~ msgstr "Ταξινόμηση κατά - Κόκκινο-Κίτρινο-Πράσινο-Γκρι"

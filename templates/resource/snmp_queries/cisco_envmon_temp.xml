@@ -1,0 +1,44 @@
+<interface>
+	<name>Cisco EnvMon Temperature</name>
+	<description>Get Cisco Environmental Monitoring Temperature Data</description>
+	<oid_index>.1.3.6.1.4.1.9.9.13.1.3.1.2</oid_index>
+	
+	<fields>
+                <TempStatusDescr>
+                        <name>Description</name>
+                        <method>walk</method>
+                        <source>value</source>
+                        <direction>input</direction>
+                        <oid>.1.3.6.1.4.1.9.9.13.1.3.1.2</oid>
+                </TempStatusDescr>
+                <TemperatureState>
+                        <name>State</name>
+                        <method>walk</method>
+                        <source>value</source>
+                        <direction>input</direction>
+                        <oid>.1.3.6.1.4.1.9.9.13.1.3.1.6</oid>
+                </TemperatureState>
+
+		<TempStatVal>
+			<name>Temperature</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.9.9.13.1.3.1.3</oid>
+		</TempStatVal>
+		<TempStatThr>
+			<name>Threshold</name>
+			<method>walk</method>
+			<source>value</source>
+			<direction>output</direction>
+			<oid>.1.3.6.1.4.1.9.9.13.1.3.1.4</oid>
+		</TempStatThr>
+                <TemperatureStateOut>
+                        <name>State</name>
+                        <method>walk</method>
+                        <source>value</source>
+                        <direction>output</direction>
+                        <oid>.1.3.6.1.4.1.9.9.13.1.3.1.6</oid>
+                </TemperatureStateOut>
+	</fields>
+</interface>

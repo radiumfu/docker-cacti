@@ -203,7 +203,7 @@ REPLACE INTO `%DB_NAME%`.`settings` (`name`, `value`) VALUES('poller_type', '2')
 ```
 
 # Change Log
-#### 1.2.25 - 05/11/2021
+#### 1.2.25 - 10/08/2023
  * Update Cacti and Spine from 1.2.17 to 1.2.25
  * Update RockyLinux from 9.0 to 9.3
    * [changelog][CL1.2.25]
